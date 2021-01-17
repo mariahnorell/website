@@ -48,14 +48,14 @@ experience:
         Teaching Portfolio:
 
         * Fundamentals of Human Resource Management (BUS3 150)
-
+      |2-
             * Fall 2018 - Present
-  
+      
         * Human Resources Analytics (BUS3 152)
-  
+      |2-
             * Spring 2020 - Present
-  
+      
         * Industrial/Organizational Psychology (PSYC 170)
-  
+      |2- 
             * Spring 2019
 ---
