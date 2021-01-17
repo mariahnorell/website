@@ -23,28 +23,49 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2018-10-01"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
+- organization: "Anaplan"
+  organization_url: "https://community.anaplan.com/t5/Academy/ct-p/Training"
+  title = "Anaplan: Level 1 Model Builder"
   url: ""
-- certificate_url: https://www.edx.org
+  certificate_url: ""
+  date_start: "2020-04-15"
   date_end: ""
+  description: "Learned foundational Anaplan concepts and technical model building skills."
+
+- organization: "Coursera"
+  organization_url: "https://www.coursera.org"
+  title: "Databases and SQL for Data Scince by IBM"
+  url: ""
+  certificate_url: "https://www.coursera.org/account/accomplishments/verify/AWC6QWTUSHGG"
+  date_start: "2019-10-27"
+  date_end: ""
+  description: ""
+
+- organization: "Coursera"
+  organization_url: "https://www.coursera.org"
+  title: "Data Science Methodology by IBM"
+  url: "https://www.coursera.org"
+  certificate_url: "https://www.coursera.org/account/accomplishments/verify/QYUV582HGRN6"
+  date_start: "2019-08-15"
+  date_end: ""
+  description: ""
+  
+- organization: "Coursera"
+  organization_url: "https://www.coursera.org"
+  title: "Python for Data Science and AI by IBM"
+  url: "https://www.coursera.org"
+  certificate_url: "https://www.coursera.org/account/accomplishments/verify/DGCP5W3Y4EJQ"
+  date_start: "2019-08-29"
+  date_end: ""
+  description: ""
+
+- organization: "Qualtrics"
+  organization_url: "https://www.qualtrics.com/training/certification/"
+  title: "Qualtrics Research Core Expert"
+  url: "https://www.qualtrics.com/training/certification/"
+  certificate_url: ""
   date_start: "2018-03-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2017-12-21"
-  date_start: "2017-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R: S3 and R6 Course'
-  url: ""
+  date_end: ""
+  description: "Apply logic and survey flow elements, analyze text and data, and employee Qualtrics API."
+
 ---
