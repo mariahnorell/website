@@ -29,25 +29,25 @@ experience:
     date_start: '2017-06-01'
     date_end: ''
     description: |2-
-    Projects:
+      Projects:
         
-      - Pay Equity Analysis
-      - Organizational Risk
-      - Strategic Workforce Planning
-      - Psychometrics
-      - Conjoint Analysis
-      - Process Automation
+        - Pay Equity Analysis
+        - Organizational Risk
+        - Strategic Workforce Planning
+        - Psychometrics
+        - Conjoint Analysis
+        - Process Automation
         
-  - title: Lecturer
+  - title: Adjunct Lecturer
     company: San Jose State University
     company_url: ''
     location: California
     date_start: '2018-08-01'
     date_end: ''
     description: |2-
-    Teaching Portfolio:
+      Teaching Portfolio:
 
-      - Fundamentals of Human Resource Management (BUS3 150)
-      - Human Resources Analytics (BUS3 152)
-      - Industrial/Organizational Psychology (PSYC 170)
+        - Fundamentals of Human Resource Management (BUS3 150)
+        - Human Resources Analytics (BUS3 152)
+        - Industrial/Organizational Psychology (PSYC 170)
 ---
