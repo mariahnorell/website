@@ -70,8 +70,8 @@ email: "mariah.norell@sjsu.edu"
 highlight_name: false
 ---
 
-I'm a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. My favorite part of the job is working with clients to identify potential pay equity gaps within their organization and provide insight on the underlying causes. Some other projects I work on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
+I'm a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoy working with clients to identify and mitigate potential pay equity gaps within their organization. Some other projects I work on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
 
-You can also find me at San Jose State University teaching core HR classes. It's exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
+You can also find me at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
