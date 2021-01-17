@@ -25,7 +25,7 @@ date_format: Jan 2006
 item:
 - organization: "Anaplan"
   organization_url: "https://community.anaplan.com/t5/Academy/ct-p/Training"
-  title = "Anaplan: Level 1 Model Builder"
+  title: "Anaplan: Level 1 Model Builder"
   url: ""
   certificate_url: ""
   date_start: "2020-04-15"
