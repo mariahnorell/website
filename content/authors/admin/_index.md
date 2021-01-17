@@ -11,7 +11,7 @@ role: Data Scientist & Lecturer
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Aon
-  url: "https://humancapital.aon.com/?p=Uberflip&s=Nav"
+  url: "https://rewards.aon.com/en-us/solutions/analytics"
 - name: San Jose State University
   url: "https://www.sjsu.edu/mgmt/"
 
@@ -70,7 +70,7 @@ email: "mariah.norell@sjsu.edu"
 highlight_name: false
 ---
 
-I'm a Data Scientist on the People Analytics team at Aon doing some really cool stuff! My favorite part of the job is working with clients to identify potential pay equity gaps within their organization and provide insight on the underlying causes. Some other projects I work on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
+I'm a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. My favorite part of the job is working with clients to identify potential pay equity gaps within their organization and provide insight on the underlying causes. Some other projects I work on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
 
 You can also find me at San Jose State University teaching core HR classes. It's exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
 
