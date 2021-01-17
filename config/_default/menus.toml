@@ -15,17 +15,17 @@
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "projects"
   weight = 30
 
 [[main]]
   name = "Courses"
-  url = "#courses"
+  url = "courses"
   weight = 40
 
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "publications"
   weight = 50
 
 [[main]]
