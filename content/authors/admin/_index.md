@@ -74,4 +74,4 @@ I'm a Data Scientist on the People Analytics team at Aon doing some really cool 
 
 You can also find me at San Jose State University teaching core HR classes. It's exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
 
-# {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
