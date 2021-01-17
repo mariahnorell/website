@@ -1,9 +1,10 @@
 ---
 title: From Data to Actionable Insights
+
 event: SHRM Certification Course
 event_url: https://www.sjsu.edu/ipp/shrm-certification
 
-# location: Source Themes HQ
+# location: Wowchemy HQ
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford

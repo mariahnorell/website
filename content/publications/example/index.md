@@ -1,4 +1,7 @@
 ---
+# Activate this page? true/false
+active: false
+
 title: "An example conference paper"
 
 # Authors

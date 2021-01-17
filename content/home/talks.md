@@ -1,10 +1,11 @@
 ---
 # An instance of the Pages widget.
+# This widget can use 'events' and 'talks' content pages.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
