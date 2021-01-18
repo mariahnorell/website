@@ -1,32 +1,24 @@
 ---
 # Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: Human Resource Analytics
+summary: Examines how Human Resource (HR) professionals can use data analytics to inform HR decisions. Includes descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
 weight: 1
 
 # Page metadata.
-title: Overview
-date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
+title: Human Resource Analytics
+date: "2021-01-01T00:00:00Z"
+lastmod: "2021-01-01T00:00:00Z"
 draft: false  # Is this a draft? true/false
-toc: true  # Show table of contents? true/false
+toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
+  hr_analytics:
     name: Overview
     weight: 1
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: python
-
 ---
 
 ## Flexibility

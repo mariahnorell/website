@@ -19,39 +19,6 @@ Mariah Norell, MSIO
 
 ---
 
-## Agenda
-
-- What is Python?
-- Installing Anaconda
-- Getting Started with Jupyter Notebook
-
----
-
-## What is Python?
-
-- Python is a programming language
-- Written by Guido van Rossum in the 1990s
-- Great for beginners
-- Utilized in many different professions
-
----
-## Programming
-
-- Process of designing and building a computer program to accomplish something like:
-- Analyzing data
-- Generating algorithms
-- Implementing rules and validations
-- And much more!
-
----
-## Pandas Library
-
-- Python is a programming *language*
-- Pandas is a programming *library* that resides in Python
-- Open sourced data analysis tool that can do basic, intermediate, and advanced level manipulations
-
----
-
 ## Installing Anaconda
 
 Inline code: `variable`
