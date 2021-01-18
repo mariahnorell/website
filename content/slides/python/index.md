@@ -7,7 +7,7 @@ categories: []
 date: "2021-01-01T00:00:00Z"
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: league
+  theme: beige
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
@@ -27,21 +27,32 @@ Mariah Norell, MSIO
 
 ---
 
-## Controls
+## What is Python?
 
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+- Python is a programming language
+- Written by Guido van Rossum in the 1990s
+- Great for beginners
+- Utilized in many different professions
+
+---
+## Programming
+
+- Process of designing and building a computer program to accomplish something like:
+- Analyzing data
+- Generating algorithms
+- Implementing rules and validations
+- And much more!
+
+---
+## Pandas Library
+
+- Python is a programming *language*
+- Pandas is a programming *library* that resides in Python
+- Open sourced data analysis tool that can do basic, intermediate, and advanced level manipulations
 
 ---
 
-## Code Highlighting
+## Installing Anaconda
 
 Inline code: `variable`
 
@@ -114,9 +125,7 @@ Press the `S` key to view the speaker notes!
 ## Themes
 
 - white: White background, black text, blue links
-- league: Gray background, white text, blue links
 - beige: Beige background, dark text, brown links
-- night: Black background, thick white text, orange links
 - serif: Cappuccino background, gray text, brown links
 - simple: White background, black text, blue links
 - solarized: Cream-colored background, dark green text, blue links
