@@ -15,6 +15,11 @@ weight: 6
 
 In this tutorial, I'll share how to pull basic and complex statistics from a dataset:
 
+## NumPy Library
+
+NumPy supports processing large sets of data as well as complex mathematical functions.
+
+
 ## Descriptives
 Total number of observations
 Mean, median, mode
