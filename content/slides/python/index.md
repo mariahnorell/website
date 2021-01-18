@@ -1,10 +1,10 @@
 ---
 title: Python Basics
 summary: An introduction to Python using Anaconda and Jupyter Notebook.
-authors: []
-tags: []
+authors: [admin]
+tags: [python]
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: "2021-01-01T00:00:00Z"
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: league
@@ -13,18 +13,17 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Wowchemy
+# Data Analysis in Python: An Introduction
 
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
+Mariah Norell, MSIO
 
 ---
 
-## Features
+## Agenda
 
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
+- What is Python?
+- Installing Anaconda
+- Getting Started with Jupyter Notebook
 
 ---
 

@@ -19,6 +19,9 @@ menu:
   example:
     name: Overview
     weight: 1
+
+slides: python
+
 ---
 
 ## Flexibility

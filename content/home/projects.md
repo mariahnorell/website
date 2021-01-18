@@ -15,8 +15,6 @@ weight: 65
 title: Projects
 subtitle: ''
 
-slides: python
-
 content:
   # Page type to display. E.g. project.
   page_type: project
