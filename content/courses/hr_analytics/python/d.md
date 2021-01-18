@@ -1,6 +1,6 @@
 ---
-title: Python C
-linktitle: Python C
+title: Python D
+linktitle: Python D
 toc: true
 type: docs
 draft: false
@@ -16,3 +16,6 @@ weight: 7
 In this tutorial, I'll share my top 10 tips for getting started with Academic:
 
 ## Tip 1
+## NumPy Library
+
+NumPy supports processing large sets of data as well as complex mathematical functions.
