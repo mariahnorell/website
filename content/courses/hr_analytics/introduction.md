@@ -41,14 +41,6 @@ In this section, I'll provide an overview on Python.
   - You can’t simply install Python and start writing commands. You will need to do your research on which “libraries” you need for your analysis. In this class, we will mostly be using Pandas.
 
 
-### Pandas Library
-
-Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS. Pandas operates in a rows-to-columns fashion (2D dataset) which is called a "dataframe". Think of a Google spreadsheet, SPSS file, or Excel workbook.
-
-### NumPy Library
-
-NumPy supports processing large sets of data as well as complex mathematical functions.
-
 ---
 
 ## More Resources

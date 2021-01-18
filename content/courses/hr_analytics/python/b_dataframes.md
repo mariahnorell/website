@@ -1,18 +1,18 @@
 ---
-title: Python A
-linktitle: Python A
+title: DataFrames
+linktitle: DataFrames
 toc: true
 type: docs
 draft: false
 menu:
   hr_analytics:
     parent: Python
-    weight: 10
+    weight: 20
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+weight: 5
 ---
 
-In this tutorial, I'll share my top 10 tips for getting started with Academic:
+In this tutorial, I'll share how to view subsets and sort DataFrames:
 
 ## Tip 1
