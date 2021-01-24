@@ -26,7 +26,7 @@ publication_short: ""
 abstract: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
 
 # Summary. An optional shortened abstract.
-# summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
+summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
 
 # tags:
 # - Source Themes
@@ -64,6 +64,7 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
 ---
 
 <!-- {{% alert note %}}

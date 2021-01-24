@@ -21,11 +21,21 @@ menu:
     weight: 1
 ---
 
-## Flexibility
+## Welcome
 
-This feature can be used for publishing content such as:
+People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
+### Comments on this book
 
-* **Online courses**
+Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
+In the future, requests will be made through the issues section of Github.
+
+### Notes on the data in this book
+
+In this current version, the content of this book will be focused on Python and the Jupyter Notebook IDE.
+
+
+
+<!-- * **Online courses**
 * **Project or software documentation**
 * **Tutorials**
 
@@ -59,4 +69,4 @@ Or, if you are creating a software documentation site, you can rename the `cours
 
 ## Update the docs menu
 
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`. -->

@@ -33,6 +33,17 @@ In this section, I'll provide an overview on Python.
 - Great for beginners
 - Utilized in many different professions
 
+Facts:
+over 8 million users of python by end of 2018
+most on demand language to learn - will be powerful to have in your analytics tool belt
+lots of value in data science and analytics - helps do heavy lifting for machine learning algorithms
+very 'readable' because the syntax was designed to  remove unecessary codes and manage
+very popular because it is free and open source - anyone can use it
+
+where to get started? best way to start learning is to dive right in
+watch videos, find a project, use stack overflow for help, etc.
+
+
 ## Libraries
 
 - Programming languages have libraries
