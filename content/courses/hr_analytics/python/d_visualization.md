@@ -10,7 +10,7 @@ menu:
     weight: 60
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 7
+weight: 6
 ---
 
 In this tutorial, I'll share how to visualize data:

@@ -7,10 +7,10 @@ draft: false
 menu:
   hr_analytics:
     parent: Python
-    weight: 30
+    weight: 50
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 6
+weight: 5
 ---
 
 In this tutorial, I'll share how to pull basic and complex statistics from a dataset:
