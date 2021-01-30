@@ -20,25 +20,14 @@ In this section, I'll provide an overview on Python.
 
 ## Programming
 
-- Process of designing and building a computer program to accomplish something like:
-- Analyzing data
-- Generating algorithms
-- Implementing rules and validations
-- And much more!
+Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more!
 
 ## Python
 
-- Python is a programming language
-- Written by Guido van Rossum in the 1990s
-- Great for beginners
-- Utilized in many different professions
+Python is a programming language that was written by Guido van Rossum in the 1990s. This language became so popular because it was free and open sourced, meaning anyone can use it. This language quickly beame one of the most on demand languages to laern as it is very readable to the user. By 2018, over 8 million people were programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is used by many different professionals in many different professions and industries, so it will be powerful to have in your analytics tool belt.
 
-Facts:
-over 8 million users of python by end of 2018
-most on demand language to learn - will be powerful to have in your analytics tool belt
+
 lots of value in data science and analytics - helps do heavy lifting for machine learning algorithms
-very 'readable' because the syntax was designed to  remove unecessary codes and manage
-very popular because it is free and open source - anyone can use it
 
 where to get started? best way to start learning is to dive right in
 watch videos, find a project, use stack overflow for help, etc.
