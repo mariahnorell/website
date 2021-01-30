@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Human Resource Analytics
-summary: Examines how Human Resource (HR) professionals can use data analytics to inform HR decisions. Includes descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
+summary: Examine how Human Resource professionals can use data analytics to inform HR decisions. This course covers descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
 weight: 1
 
 # Page metadata.
@@ -23,16 +23,16 @@ menu:
 
 ## Welcome
 
-People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
+People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start. 
 
 ### Comments on this book
 
 Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
-In the future, requests will be made through the issues section of Github.
-
+<!-- In the future, requests will be made through the issues section of Github. -->
+<!-- 
 ### Notes on the data in this book
 
-In this current version, the content of this book will be focused on Python and the Jupyter Notebook IDE.
+In this current version, the content of this book will be focused on Python and the Jupyter Notebook IDE. -->
 
 
 
