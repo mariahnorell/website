@@ -7,14 +7,12 @@ date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   hr_analytics:
-    name: Getting Started
+    parent: Python
     weight: 20
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
+weight: 20
 ---
-
-In this section, I'll provide an overview on getting started with Jupyter Notebook in Anaconda. 
 
 ## Choosing an IDE
 
@@ -69,3 +67,7 @@ We can also write in **bold** and add links like [this one](https://youtu.be/dQw
 > Blockquotes look like this and help highlight a key point you're trying to make.
 
 Markdown is particularly helpful when we want to include notes about our code. 
+
+---
+
+Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
