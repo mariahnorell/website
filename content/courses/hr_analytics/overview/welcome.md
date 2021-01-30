@@ -17,13 +17,14 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   hr_analytics:
-    name: Overview
+    name: Welcome
     weight: 1
 ---
 
 ## Welcome
 
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
+
 ### Comments on this book
 
 Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
