@@ -28,19 +28,51 @@ Indexing means we want to select a specific row/column in a dataframe. To pull a
 hr_df[“Age”]
 ```
 
-To pull the 4th value in the “Education” column you can write the following:
+To pull the nth value in the “Education” column you can write the following:
 
 ```
 df.column_name[n]
 ```
-
-### Examples: 
+Here's another example: 
 
 ```
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.Education[3]
 ```
+
+#### What is slicing?
+
+Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at “a” and stop before “b”. 
+
+```
+# : = all rows
+# 0:1 = one column slice
+df_name.iloc[:, 0:1]
+```
+
+```
+# 0:1 = one row slice
+# : = all rows
+df_name.iloc[:, 0:1]
+```
+
+<!-- How does it look with some data?
+We are interested in looking at
+Employee ID
+Age
+Attrition
+
+For Employee IDs:
+ #2, 3, 4, 5, 6, 7, 8, & 9
+
+How do we start going about this?
+
+What row/column #s are of interest?
+
+Let's practice! -->
+
+### Example
 
 Let’s try with whole rows or columns. The syntax here is `iloc` and is followed by two sets of values in brackets like this `[a:b, c:d]`. In this example, `a:b` represents a row slice and `c:d` represents a column slice. These represent upper and lower bounds. Here is how we would write this:
 
@@ -58,66 +90,24 @@ df = pd.read_csv('filename.csv')
 df.iloc[0:2, 1:3]
 ```
 
-
-#### What is slicing?
-
-Think of it like chunking up the data into smaller pieces
-
-We start the index at “a” and stop before “b”
-
-Viewing Rows and Columns
-Want to see all the rows or all the columns? Simply place the colon in the brackets without any numbers!
+To see all the rows or all the columns? Simply place the colon in the brackets without any numbers:
 
 ```
-# : = all rows
-# 0:1 = one column slice
-df_name.iloc[:, 0:1]
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.iloc[:, :]
 ```
-
-```
-# 0:1 = one row slice
-# : = all rows
-df_name.iloc[:, 0:1]
-```
-
-
-How does it look with some data?
-We are interested in looking at
-Employee ID
-Age
-Attrition
-
-For Employee IDs:
- #2, 3, 4, 5, 6, 7, 8, & 9
-
-How do we start going about this?
-
-What row/column #s are of interest?
-
-Let's practice!
-
 
 ## Indexing with Booleans
 
-We just learned how to sort our data by selecting the appropriate numbers for the rows and columns 
-
-But what if you don’t know exactly what to look for? 
-
-Large DataFrame
-
-The dataframe could be so large we don’t know what column to search for
-
-Instead we can search through something called a “Boolean expression”
-
+We just learned how to sort our data by selecting the appropriate numbers for the rows and columns. What if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a “Boolean expression”.
 
 We can search within a specific column to return a specific row
 
-Example: 
-Let's serach the "MaritalStatus" column
+### Example
 
-Let's return data for the row(s) containing "Divorced"
+Let's search the "MaritalStatus" column and return data for the row(s) containing "Divorced".
 
-#### Boolean Expression Indexing
 An example of the syntax structure: 
 
 ```
@@ -127,34 +117,30 @@ example = df_name[df_name.MaritalStatus == 1]
 
 We can use the same general syntax to find data that meets some criteria. Essentially just need to choose:- An operator (e.g., <, <=, >, >=, ==, !=) – A value (a string or number).
 
-Return data from the df that: 
+<!-- Return data from the df that: 
 - matches a string like "female"
 
 Obtain greater than or less than a value:
 - Job Satisfaction score over 3
 
 Represents a minimum or maximum age value:
-- Lowest age in the dataset
+- Lowest age in the dataset -->
 
 ## Sorting Data
 
-Ascending:
-When you sort your data by a particular column, the default is to sort in ascending order
-
-For example, we could sort our data by the Age column
+Ascending: When you sort your data by a particular column, the default is to sort in ascending order. For example, we could sort our data by the Age column:
 
 ```
 Syntax = df_name.sort_values(by=col_name)
 example = df_name.sort_values(by="Age")
 ```
 
-Descending:
-To sort in descending order, you add one argument to the syntax 
+Descending: To sort in descending order, you add one argument to the syntax 
 
 ```
 Syntax = df_name.sort_values(by=col_name, ascending = False)
 hr_df.sort_values(by = “column name”, ascending = False)
 ```
 
-Viewing vs. Changing the DF
-It's very important to note that "sort_values()" does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
+### Viewing vs. Changing the DF
+It's important to note that "sort_values()" does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.

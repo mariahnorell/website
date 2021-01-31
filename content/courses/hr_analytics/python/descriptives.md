@@ -35,7 +35,7 @@ To write it out, use the syntax `.describe()`:
 df_name.describe()
 ```
 
-### Examples: 
+### Examples
 
 To obtain the high level statistics of the entire data set: 
 
@@ -63,7 +63,7 @@ Alternatively, we could pull the descriptive statistics with the following four 
 * df_name.column_name.std()
 
 
-### Examples: 
+### Examples
 
 To obtain the max value of one column in the data set: 
 
