@@ -19,7 +19,7 @@ weight: 50
 
 NumPy supports processing large sets of data as well as complex mathematical functions. -->
 
-### .describe()
+### Describing Data
 
 Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls: 
 
@@ -35,25 +35,59 @@ To write it out, use the syntax `.describe()`:
 df_name.describe()
 ```
 
+#### Example: 
+
+To obtain the high level statistics of the entire data set: 
+
+``` 
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.describe()
+```
+
+To obtain the high level statistics of one column in the data set:
+
+``` 
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.column_name.describe()
+```
+
 ### Other Methods
 
-Alternatively, we could ask for the descriptive statistics with the following four commands:
+Alternatively, we could pull the descriptive statistics with the following four commands:
 
-* df_name.col_name.mean()
-* df_name.col_name.median()
-* df_name.col_name.max()
-* df_name.col_name.std()
+* df_name.column_name.mean()
+* df_name.column_name.median()
+* df_name.column_name.max()
+* df_name.column_name.std()
 
+
+#### Example: 
+
+To obtain the max value of one column in the data set: 
+
+``` 
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.column_name.max()
+```
+
+To obtain the standard deviation of one column in the data set:
+
+``` 
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df_name.column_name.std()
+```
 
 ### Complex Statistics
 
-Pandas can do much more complex statistics than the mean or the sum. For more complex work though, we need to make sure we have the “scipy” library – therefore, when we begin our code we need to add: 
+Pandas can do much more complex statistics than the mean or the sum. For more complex work though, we need to make sure we have the `scipy` library – therefore, when we begin our code we need to add: 
 
 ```
 from scipy import stats
 ```
-
-### scipy and stats
 
 There’s a long list of functions you could use to get the statistics you need, but the syntax looks like this:
 
@@ -62,11 +96,7 @@ There’s a long list of functions you could use to get the statistics you need,
 stats.func_name()
 ```
 
-Notice how you don’t actually have to write ”scipy” here.
-
-Basic statistics using scipy
-Today we will learn about 
-Correlations (Pearson)
+> *Notice how you don’t actually have to write ”scipy” here.*
 
 #### Pearson’s Correlation
 
