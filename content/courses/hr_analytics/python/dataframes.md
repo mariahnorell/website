@@ -15,38 +15,49 @@ weight: 40
 
 <!-- In this tutorial, I'll share how to view subsets and sort DataFrames: -->
 
+## Dataframes 
+
+Recall that Pandas operates in a rows-to-columns fashion (2D dataset) called a "dataframe". Most commonly, this is shortened to `df` when writing code. 
+
+
 ## Indexing with Numbers
 
-Indexing means we want to select a specific row/column in a dataframe
+Indexing means we want to select a specific row/column in a dataframe. To pull a column of information you can write:
+
 ```
 hr_df[“Age”]
 ```
 
-Let’s say we want to see the 4th value in the “Education” column
+To pull the 4th value in the “Education” column you can write the following:
 
-To do that, use the following syntax: 
 ```
 df.column_name[n]
 ```
-Remember how we talked about the data starting at “0” instead of “1”? Keep that in mind when we say we want a value! 
-For example, if we want the “4th” value, that means we use “3” in our code
 
-How does that look with our data?
+### Examples: 
 
 ```
-In_[1]: hr_df.Education[3]
-Out[1]: 'Master'
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.Education[3]
 ```
 
-
-Let’s try with whole rows or columns
-Syntax = iloc
+Let’s try with whole rows or columns. The syntax here is `iloc` and is followed by two sets of values in brackets like this `[a:b, c:d]`. In this example, `a:b` represents a row slice and `c:d` represents a column slice. These represent upper and lower bounds. Here is how we would write this:
 
 ```
-# a:b = row slice
-# c:d = column slice
-Syntax: df_name.iloc[a:b, c:d]
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.iloc[0:1, 1:2]
 ```
+
+This would return rows 0 and column 1. The upper bounds in the syntax act as a stopper, so if you wanted to capture two rows and two columns, you would modify your code like this: 
+
+```
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df.iloc[0:2, 1:3]
+```
+
 
 #### What is slicing?
 

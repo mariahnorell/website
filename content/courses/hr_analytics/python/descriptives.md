@@ -19,7 +19,7 @@ weight: 50
 
 NumPy supports processing large sets of data as well as complex mathematical functions. -->
 
-### Describing Data
+## Describing Data
 
 Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls: 
 
@@ -35,7 +35,7 @@ To write it out, use the syntax `.describe()`:
 df_name.describe()
 ```
 
-#### Example: 
+### Examples: 
 
 To obtain the high level statistics of the entire data set: 
 
@@ -53,7 +53,7 @@ df = pd.read_csv('filename.csv')
 df.column_name.describe()
 ```
 
-### Other Methods
+## Other Methods
 
 Alternatively, we could pull the descriptive statistics with the following four commands:
 
@@ -63,7 +63,7 @@ Alternatively, we could pull the descriptive statistics with the following four 
 * df_name.column_name.std()
 
 
-#### Example: 
+### Examples: 
 
 To obtain the max value of one column in the data set: 
 
@@ -81,7 +81,7 @@ df = pd.read_csv('filename.csv')
 df_name.column_name.std()
 ```
 
-### Complex Statistics
+## Complex Statistics
 
 Pandas can do much more complex statistics than the mean or the sum. For more complex work though, we need to make sure we have the `scipy` library – therefore, when we begin our code we need to add: 
 
@@ -98,7 +98,7 @@ stats.func_name()
 
 > *Notice how you don’t actually have to write ”scipy” here.*
 
-#### Pearson’s Correlation
+### Pearson’s Correlation
 
 Used to evaluate linear relationship between two sets of continuous values. The function, “pearnsonr()” uses the below syntax and returns 2 values of r and p like so: (0.23, 0.03).
 
