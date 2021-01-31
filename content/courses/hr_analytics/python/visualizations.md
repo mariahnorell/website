@@ -10,10 +10,10 @@ menu:
     weight: 60
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 6
+weight: 60
 ---
 
-In this tutorial, I'll share how to visualize data:
+<!-- In this tutorial, I'll share how to visualize data: -->
 
 ## Data Visualization
 We are using the programming language of Python

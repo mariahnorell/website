@@ -23,7 +23,6 @@ Examples of IDEs include:
 - [Spyder](https://www.spyder-ide.org/)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Jupyter Notebook](https://jupyter.org/)
-    - *We will be using Jupyter Notebook for this course.*
 
 ## Installing Anaconda
 Anaconda is an open source environment for individuals to write code and is helpful to all data analysts. Go to [anaconda.com](https://www.anaconda.com/products/individual) to download Python 3.7 for your computer and follow all instruction prompts.
@@ -32,7 +31,7 @@ Anaconda is an open source environment for individuals to write code and is help
 
 Jupyter Notebook is a very user friendly IDE that allows you to chunk out your code and write in text in a clear way. The way we add in this text is through something called "Markdown". Open up this [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) to understand all necessary steps for running Jupyter and getting your first notebook ready.
 
-While getting everything set up, locate a place on your computer that will be easy to access all notebooks for this class. It's recommended to utilize cloud-based storage tools like iCloud, OneDrive, Dropbox, Google Drive, rather than your desktop to ensure you do not lose any work throughout the course.
+While getting everything set up, locate a place on your computer that will be easy to access all notebooks for this class. It's recommended to utilize cloud-based storage tools like iCloud, OneDrive, Dropbox, Google Drive, rather than your desktop to ensure you do not lose any work.
 
 ### What is markdown?
 

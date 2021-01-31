@@ -10,10 +10,10 @@ menu:
     weight: 40
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+weight: 40
 ---
 
-In this tutorial, I'll share how to view subsets and sort DataFrames:
+<!-- In this tutorial, I'll share how to view subsets and sort DataFrames: -->
 
 ## Indexing with Numbers
 

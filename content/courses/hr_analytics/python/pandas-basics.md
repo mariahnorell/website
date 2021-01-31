@@ -10,10 +10,10 @@ menu:
     weight: 30
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
+weight: 30
 ---
 
-In this tutorial, I'll share how to import pandas, read in a file, and verify the data:
+<!-- In this tutorial, I'll share how to import pandas, read in a file, and verify the data: -->
 
 ## Pandas Library
 

@@ -10,10 +10,10 @@ menu:
     weight: 50
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 5
+weight: 50
 ---
 
-In this tutorial, I'll share how to pull basic and complex statistics from a dataset:
+<!-- In this tutorial, I'll share how to pull basic and complex statistics from a dataset: -->
 
 ## NumPy Library
 

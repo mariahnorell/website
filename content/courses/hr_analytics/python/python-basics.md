@@ -1,6 +1,6 @@
 ---
-title: Python Basics
-linktitle: Python Basics
+title: An Introduction
+linktitle: An Introduction
 toc: true
 type: docs
 draft: false
