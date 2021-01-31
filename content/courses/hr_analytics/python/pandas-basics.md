@@ -25,27 +25,21 @@ You can create one from scratch or you can read in a data file. In this class we
 
 ### Step One: Importing Pandas
 
-Whenever you want to add a new library for your code, the 'import' command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell: 
+Whenever you want to add a new library for your code, the `import` command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell: 
 
 ```
 import pandas
 ```
 
-Often, programmers shorten the library to a couple letters to make it cleaner and easier to read. Here's how we can shorten our library name: 
+Often, programmers shorten libraries to a couple letters to make it cleaner and easier to read. Now when we write code, we can use `pd` instead of writing out the whole word, `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now. Here's how we can shorten the `pandas` library name: 
 
 ```
 import pandas as pd
 ```
 
-Now when we write code, we can use `pd` instead of writing out the whole word, `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now.
-
 ### Step Two: Reading in a File
 
-To read in a ".csv" file, we will use a command, "read_csv()" to view the file. First, we must assign it to a variable name and then we can read in the file. Sometimes writing notes in your code can help organize what is being called. See below for an example on writing a comment:
-
-```
-# This is an example of a comment, which can be used as a note for you to keep your code organized. When writing '#' followed by your notes, Python ignores what is written and does not try to compute anything.
-```
+It's good practice to assign the line of code you are trying to run to a variable. To read in a .csv file for example, first we assign it to a variable name and then we can read in the file. Doing so will help us later when we want to reference the file because we won't have to re-write the command, we will be able to reference the variable name used. 
 
 The syntax, or order in which the code should be written so that Python can understand what you're trying to accomplish, for reading in Excel (.xlsx) files look like this:
 
@@ -57,16 +51,23 @@ And for .csv files:
 
 ```
 variable = pandas.read_csv('filename.csv')
+```
 
-
-For this first example, let's define our variable as `my_df` which stands for 'my dataframe'. We will cover dataframes in more detail in the next section, but for now let's just see what it does: 
+Sometimes writing notes in your code can help organize what is being called. See below for an example on writing a comment:
 
 ```
-# my_df = variable name
-# pd = pandas library to convert data into dataframe
-# read_csv = command
-# 'filename.csv' = replace with appropriate data source
-my_df = pandas.read_csv('filename.csv')
+# This is an example of a comment, which can be used as a note for you to keep your code organized. 
+# When writing '#' followed by your notes, Python ignores what is written and does not try to compute anything.
+```
+
+Here is an example with how you can structure your comments and code so far:
+
+```
+# Import Pandas library
+import pandas as pd
+
+# Read in .csv file
+my_variable = pd.read_csv('filename.csv')
 ```
 
 ### Step Three: Verifying the Data 
