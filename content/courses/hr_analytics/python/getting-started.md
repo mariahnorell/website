@@ -8,10 +8,10 @@ draft: false
 menu:
   hr_analytics:
     parent: Python
-    weight: 20
+    weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 20
+weight: 2
 ---
 
 ## Choosing an IDE

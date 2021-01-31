@@ -21,14 +21,14 @@ Pandas is a data analysis tool that makes it easy to work with large data sets a
 
 ## Creating a DataFrame in Pandas
 
-You can create one from scratch or you can read in a data file. In this class we will be reading in csv and excel files to mimic real-world scenarios. 
+You can create one from scratch or you can read in a data file. In this class we will begin with reading in Excel files to mimic real-world scenarios and use cases.
 
 ### Step One: Importing Pandas
 
-Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell: 
+Whenever you want to add a new library for your code, the 'import' command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell: 
 
 ```
-import pandas as pd
+import pandas
 ```
 
 ### Step Two: Reading in a File
@@ -36,11 +36,12 @@ import pandas as pd
 To read in a ".csv" file, we will use a command, "read_csv()" to view the file. First, we must assign a variable and then we can reference our file. See below for some notes on how to do this.
 
 ```
+# This is an example of a comment, which can be used as a note for you to keep your code organized
 # my_df = variable name
 # pd = pandas library to convert data into dataframe
 # read_csv = command
 # 'filename.csv' = replace with appropriate data source
-my_df = pd.read_csv('filename.csv')
+my_df = pandas.read_csv('filename.csv')
 ```
 
 ### Step Three: Verifying the Data 
