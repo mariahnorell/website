@@ -15,43 +15,45 @@ weight: 50
 
 <!-- In this tutorial, I'll share how to pull basic and complex statistics from a dataset: -->
 
-## NumPy Library
+<!-- ## NumPy Library
 
-NumPy supports processing large sets of data as well as complex mathematical functions.
+NumPy supports processing large sets of data as well as complex mathematical functions. -->
 
+### .describe()
 
-## Descriptives
-Total number of observations
-Mean, median, mode
-Standard deviation
-Min and max
+Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls: 
+
+* Total number of observations
+* Mean, median, mode
+* Standard deviation
+* Min and max
+
+To write it out, use the syntax `.describe()`:
 
 ```
 # Combined syntax: 
 df_name.describe()
 ```
 
+### Other Methods
 
-Descriptives –Separated Out
+Alternatively, we could ask for the descriptive statistics with the following four commands:
 
-Instead of using the .describe() method, we could ask for the descriptive statistics individuals
-df_name.col_name.mean()
-df_name.col_name.median()
-df_name.col_name.max()
-df_name.col_name.std()
+* df_name.col_name.mean()
+* df_name.col_name.median()
+* df_name.col_name.max()
+* df_name.col_name.std()
 
 
-Complex Statistics
+### Complex Statistics
 
-Pandas can do much more complex statistics than the mean or the sum
-
-For more complex work though, we need to make sure we have the “scipy” library – therefore, when we begin our code we need to add: 
+Pandas can do much more complex statistics than the mean or the sum. For more complex work though, we need to make sure we have the “scipy” library – therefore, when we begin our code we need to add: 
 
 ```
 from scipy import stats
 ```
 
-scipy and stats
+### scipy and stats
 
 There’s a long list of functions you could use to get the statistics you need, but the syntax looks like this:
 
@@ -60,7 +62,7 @@ There’s a long list of functions you could use to get the statistics you need,
 stats.func_name()
 ```
 
-*Notice how you don’t actually have to write ”scipy” here
+Notice how you don’t actually have to write ”scipy” here.
 
 Basic statistics using scipy
 Today we will learn about 
@@ -68,11 +70,8 @@ Correlations (Pearson)
 
 #### Pearson’s Correlation
 
-Used to evaluate linear relationship between two sets of continuous values
-
-The function, “pearnsonr()” uses the below syntax and returns 2 values of r and p like so: (0.23, 0.03)
+Used to evaluate linear relationship between two sets of continuous values. The function, “pearnsonr()” uses the below syntax and returns 2 values of r and p like so: (0.23, 0.03).
 
 ```
 stats.pearsonr(df_name.col1, df_name.col2)
 ```
-
