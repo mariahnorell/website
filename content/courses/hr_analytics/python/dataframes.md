@@ -72,8 +72,6 @@ What row/column #s are of interest?
 
 Let's practice! -->
 
-### Example
-
 Let’s try with whole rows or columns. The syntax here is `iloc` and is followed by two sets of values in brackets like this `[a:b, c:d]`. In this example, `a:b` represents a row slice and `c:d` represents a column slice. These represent upper and lower bounds. Here is how we would write this:
 
 ```
@@ -102,20 +100,19 @@ df.iloc[:, :]
 
 We just learned how to sort our data by selecting the appropriate numbers for the rows and columns. What if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a “Boolean expression”.
 
-We can search within a specific column to return a specific row
+We can search within a specific column to return a specific row. 
 
-### Example
-
-Let's search the "MaritalStatus" column and return data for the row(s) containing "Divorced".
+<!-- Let's search the "MaritalStatus" column and return data for the row(s) containing "Divorced". -->
 
 An example of the syntax structure: 
 
 ```
-# df_name[df_name.col_name[operator][value]]
-example = df_name[df_name.MaritalStatus == 1]
+df_name[df_name.col_name[operator][value]]
 ```
 
-We can use the same general syntax to find data that meets some criteria. Essentially just need to choose:- An operator (e.g., <, <=, >, >=, ==, !=) – A value (a string or number).
+We can use the same general syntax to find data that meets some criteria. Essentially just need to choose:
+  * An operator (e.g., <, <=, >, >=, ==, !=)
+  * A value (a string or number)
 
 <!-- Return data from the df that: 
 - matches a string like "female"
@@ -142,5 +139,5 @@ Syntax = df_name.sort_values(by=col_name, ascending = False)
 hr_df.sort_values(by = “column name”, ascending = False)
 ```
 
-### Viewing vs. Changing the DF
+<!-- ### Viewing vs. Changing the DF -->
 It's important to note that "sort_values()" does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
