@@ -74,22 +74,44 @@ my_variable = pd.read_csv('filename.csv')
 
 After reading in the .csv file, it is important to verify that it loaded in properly. To do this, we can use three different methods:
 
-1. df
-2. df.head()
-3. df.tail()
+1. my_variable
+2. my_variable.head()
+3. my_variable.tail()
 
 Let's take a look at some examples:
 
-#### df
+#### my_variable
 
 Returns entire dataset
 
-#### df.head()
+```
+import pandas as pd
+my_variable = pd.read_csv('filename.csv')
+my_variable
+```
+
+#### my_variable.head()
 
 Returns the top 5 rows of data
 
-#### df.tail()
+```
+import pandas as pd
+my_variable = pd.read_csv('filename.csv')
+my_variable.head()
+```
+
+#### my_variable.tail()
 
 Returns the bottom 5 rows of data
 
+```
+import pandas as pd
+my_variable = pd.read_csv('filename.csv')
+my_variable.tail()
+```
+
 If you simply write .head() or .tail(), it will automatically return 5 variables. If you want to return a specific number, simply place that number within the parentheses. For example, .head(3) will return the top three rows of data and .tail(7) will return the bottom seven rows of data.
+
+### Step Four: Putting it all Together
+
+Now that we know the three steps to read in our data, let's walk through an example.
