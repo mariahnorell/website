@@ -31,12 +31,37 @@ Whenever you want to add a new library for your code, the 'import' command will 
 import pandas
 ```
 
-### Step Two: Reading in a File
-
-To read in a ".csv" file, we will use a command, "read_csv()" to view the file. First, we must assign a variable and then we can reference our file. See below for some notes on how to do this.
+Often, programmers shorten the library to a couple letters to make it cleaner and easier to read. Here's how we can shorten our library name: 
 
 ```
-# This is an example of a comment, which can be used as a note for you to keep your code organized
+import pandas as pd
+```
+
+Now when we write code, we can use `pd` instead of writing out the whole word, `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now.
+
+### Step Two: Reading in a File
+
+To read in a ".csv" file, we will use a command, "read_csv()" to view the file. First, we must assign it to a variable name and then we can read in the file. Sometimes writing notes in your code can help organize what is being called. See below for an example on writing a comment:
+
+```
+# This is an example of a comment, which can be used as a note for you to keep your code organized. When writing '#' followed by your notes, Python ignores what is written and does not try to compute anything.
+```
+
+The syntax, or order in which the code should be written so that Python can understand what you're trying to accomplish, for reading in Excel (.xlsx) files look like this:
+
+```
+variable = pandas.read_excel('filename.xlsx')
+```
+
+And for .csv files: 
+
+```
+variable = pandas.read_csv('filename.csv')
+
+
+For this first example, let's define our variable as `my_df` which stands for 'my dataframe'. We will cover dataframes in more detail in the next section, but for now let's just see what it does: 
+
+```
 # my_df = variable name
 # pd = pandas library to convert data into dataframe
 # read_csv = command
