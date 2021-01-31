@@ -16,28 +16,14 @@ weight: 60
 <!-- In this tutorial, I'll share how to visualize data: -->
 
 ## Data Visualization
-We are using the programming language of Python
-In Python we have libraries: 
-Pandas
-Let’s us work with dataframes and perform descriptive statistics
-Stats (part of Scipy)
-Let’s us do more complex statistics 
-And now today… Seaborn & Matplotlib
-Create plots and graphs of our data!
 
-Matplotlib library
-Popular to create plots
-Doesn’t look very pretty
+Within Python, there is a Matplotlib library that is popular to create plots with. There is also the Seaborn library which uses functions from matplotlib as a foundation and tends to make much more visually appealing plots.
 
-Seaborn library
-Uses functions from matplotlib as a foundation
-Makes much more visually appealing plots
-
-Seaborn Functions
+<!-- Seaborn Functions
 
 Scatter Plots
 Histograms
-Count Plots
+Count Plots -->
 
 
 To use Seaborn, we have to import both seaborn and matplotlib libaries
@@ -75,10 +61,8 @@ marker = “*” (after y-axis)
 
 #### Histograms & Count Plots
 
-Histograms = 
-continuous data
-Count Plots = 
-categorical data
+Histograms = continuous data
+Count Plots = categorical data
 
 Function = distplot()
 dist = short for distribution
@@ -94,10 +78,15 @@ plot_name = sns.distplot(x = df_name.col1, y = df_name.col2)
 You can include colors and markers into your plots by adding the following arguments: 
 
 Color: 
+
 color = “red” (after kde)
+
 Number of Bins: 
+
 Seaborn will automatically pick a number that makes sense
+
 You can change this by adding: 
+
 bins = # (after kde)
 
 #### Count Plots
