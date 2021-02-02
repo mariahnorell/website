@@ -16,7 +16,7 @@ weight: 1
 
 ## Notes About this Book
 
-This book currently contains information on Python and is currently in development. More content will be added weekly.
+This book contains information on Python and is currently in development. More content will be added weekly.
 
 ---
 
