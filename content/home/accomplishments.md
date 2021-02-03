@@ -37,7 +37,7 @@ item:
 
 - organization: "Coursera"
   organization_url: "https://www.coursera.org"
-  title: "Databases and SQL for Data Scince by IBM"
+  title: "Databases and SQL for Data Science by IBM"
   url: ""
   certificate_url: "https://www.coursera.org/account/accomplishments/verify/AWC6QWTUSHGG"
   date_start: "2019-10-27"
