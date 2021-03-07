@@ -93,10 +93,11 @@ There’s a long list of functions you could use to get the statistics you need,
 
 ```
 # replace 'func_name' with actual function name
+
 stats.func_name()
 ```
 
-> *Notice how you don’t actually have to write ”scipy” here.*
+> *Notice how you don’t actually have to write ”scipy” here. More on that later.*
 
 ### Pearson’s Correlation
 
