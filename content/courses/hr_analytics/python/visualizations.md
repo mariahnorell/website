@@ -17,7 +17,7 @@ weight: 60
 
 ## Data Visualization
 
-Within Python, there is a Matplotlib library that is popular to create plots with. There is also the Seaborn library which uses functions from matplotlib as a foundation and tends to make much more visually appealing plots.
+Within Python, there is a Matplotlib library that is popular to create plots with. There is also the Seaborn library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots.
 
 <!-- Seaborn Functions
 
@@ -26,7 +26,7 @@ Histograms
 Count Plots -->
 
 
-To use Seaborn, we have to import both seaborn and matplotlib libaries
+To use Seaborn, to import both seaborn and matplotlib libaries:
 
 ```
 # Library for df
@@ -161,19 +161,17 @@ fig.savefig(‘my_plot.pdf’)
 
 ## More Resources
 
-For more examples of what seaborn can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up plots by type [here](https://seaborn.pydata.org/api.html).
+For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
 
-## For Fun
-Word Clouds
+## For Fun: Word Clouds
 
-One of the most common Python libraries is "wordcloud". 
-https://github.com/amueller/word_cloud/blob/master/README.md
-http://amueller.github.io/word_cloud/auto_examples/index.html
+One of the most common Python libraries is "wordcloud". For additional resources, click [here]('https://github.com/amueller/word_cloud/blob/master/README.md') for instructions and [here]('http://amueller.github.io/word_cloud/auto_examples/index.html') for examples.
 
-Doesn’t come pre-installed, but easy to install with pip (Macs) or conda (PCs):
-See the README link on the previous slide for installation instructions. For syntax, see next slide – only thing you’ll need to change is one variable name!
+`Wordcloud` does not come pre-installed, but is easy to install with pip (Macs) or conda (PCs). To install `wordcloud`, navigate to your IDE and enter the command: `pip install wordcloud`. Once installed, you can import to begin reading in a `df` to generate a variety of examples through boundary maps, emojis, single word and frequency images.
 
 ```
+pip install wordcloud
+
 # import libraries
 from wordcloud import WordCloud
 import matplotlib
@@ -181,7 +179,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 # generate word cloud
-wordcloud = WordCloud(background_color = 'black').gernerate()
+wordcloud = WordCloud(background_color = 'black').generate()
 plt.df(wordcloud, interpolations = 'bilinear')
 plt.axis('off')
 
