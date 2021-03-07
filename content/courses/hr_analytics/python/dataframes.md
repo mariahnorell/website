@@ -17,7 +17,7 @@ weight: 40
 
 ## Dataframes 
 
-Recall that Pandas operates in a rows-to-columns fashion (2D dataset) called a "dataframe". Most commonly, this is shortened to `df` when writing code. 
+Recall that Pandas operates in a rows-to-columns fashion (2D dataset) called a 'dataframe'. Most commonly, this is shortened to `df` when writing code. 
 
 
 ## Indexing with Numbers
@@ -25,10 +25,10 @@ Recall that Pandas operates in a rows-to-columns fashion (2D dataset) called a "
 Indexing means we want to select a specific row/column in a dataframe. To pull a column of information you can write:
 
 ```
-hr_df[“Age”]
+hr_df['Age']
 ```
 
-To pull the nth value in the “Education” column you can write the following:
+To pull the nth value in the 'Education' column you can write the following:
 
 ```
 df.column_name[n]
@@ -43,7 +43,7 @@ df.Education[3]
 
 #### What is slicing?
 
-Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at “a” and stop before “b”. 
+Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at 'a' and stop before 'b'. 
 
 ```
 # : = all rows
@@ -88,7 +88,7 @@ df = pd.read_csv('filename.csv')
 df.iloc[0:2, 1:3]
 ```
 
-To see all the rows or all the columns? Simply place the colon in the brackets without any numbers:
+To see all the rows or all the columns, place the colon in the brackets without any numbers:
 
 ```
 import pandas as pd
@@ -98,7 +98,7 @@ df.iloc[:, :]
 
 ## Indexing with Booleans
 
-We just learned how to sort our data by selecting the appropriate numbers for the rows and columns. What if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a “Boolean expression”.
+We just learned how to sort our data by selecting the appropriate numbers for the rows and columns, but what if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a 'Boolean expression'.
 
 We can search within a specific column to return a specific row. 
 
@@ -140,4 +140,4 @@ hr_df.sort_values(by = “column name”, ascending = False)
 ```
 
 <!-- ### Viewing vs. Changing the DF -->
-It's important to note that "sort_values()" does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
+It's important to note that 'sort_values()' does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
