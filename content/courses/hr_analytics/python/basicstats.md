@@ -1,6 +1,6 @@
 ---
-title: Statistics in Python
-linktitle: Statistics in Python
+title: Basic Statistics
+linktitle: Basic Statistics
 toc: true
 type: docs
 draft: false
@@ -88,7 +88,9 @@ hrdata = pd.read_csv('HRDataset_v14.csv')
 hrdata.head()
 ```
 
-![First five rows of the HR dataset in a DataFrame](/Users/mariah/GitHub/mariahnorell/starter-academic/assets/images/hr_df.png)
+{{< gallery album="<tutorial_one>" >}} 
+
+![First five rows of the HR dataset in a DataFrame](hr_df.png)
 
 Next, let's review the high-level statistics of the entire data set: 
 

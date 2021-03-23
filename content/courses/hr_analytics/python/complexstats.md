@@ -1,6 +1,6 @@
 ---
-title: Complex Statistics in Python
-linktitle: Complex Statistics in Python
+title: Complex Statistics
+linktitle: Complex Statistics
 toc: true
 type: docs
 draft: false
