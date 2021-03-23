@@ -9,6 +9,11 @@ menu:
     parent: Python
     weight: 50
 
+ gallery_item:
+ - album: tutorial_one
+   image: hr_df.png
+   caption: A caption
+
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 50
 ---
