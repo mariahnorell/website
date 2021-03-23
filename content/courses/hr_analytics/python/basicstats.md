@@ -88,7 +88,6 @@ hrdata = pd.read_csv('HRDataset_v14.csv')
 hrdata.head()
 ```
 
-{{< gallery album="<tutorial_one>" >}} 
 
 ![First five rows of the HR dataset in a DataFrame](hr_df.png)
 
