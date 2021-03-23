@@ -89,7 +89,7 @@ hrdata.head()
 ```
 
 
-![First five rows of the HR dataset in a DataFrame](static/media/hr_df.png)
+![First five rows of the HR dataset in a DataFrame](/Users/mariah/GitHub/mariahnorell/starter-academic/static/media/hr_df.png)
 
 Next, let's review the high-level statistics of the entire data set: 
 
