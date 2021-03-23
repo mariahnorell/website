@@ -88,7 +88,7 @@ hrdata = pd.read_csv('HRDataset_v14.csv')
 hrdata.head()
 ```
 
-![First five rows of the HR dataset in a DataFrame](/assets/images/hr_df.png)
+![First five rows of the HR dataset in a DataFrame](/Users/mariah/GitHub/mariahnorell/website/assets/images/hr_df.png)
 
 Next, let's review the high-level statistics of the entire data set: 
 
