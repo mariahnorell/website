@@ -30,14 +30,14 @@ Just like in Excel, there are some quick ways to pull basic (and even some compl
 
 To write it out, use the syntax `.describe()`:
 
-```python
+```
 # Combined syntax:
 df.describe()
 ```
 
 To obtain the high-level statistics of the entire data set:
 
-```python
+```
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.describe()
@@ -45,7 +45,7 @@ df.describe()
 
 To obtain the high-level statistics of one column in the data set:
 
-```python
+```
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.column_name.describe()
@@ -63,7 +63,7 @@ Alternatively, we could pull the descriptive statistics with the following comma
 
 For example, to obtain the max value of one column in the data set:
 
-```python
+```
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.column_name.max()
@@ -71,23 +71,23 @@ df.column_name.max()
 
 Or, to obtain the counts of one column in the data set:
 
-```python
+```
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df_name.column_name.count()
 ```
 
-## Tutorials
+## Tutorial
 
 To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 
-### Tutorial One: Describe Command
+### Part One: Describe Command
 
 Take a look at the following code and analyze the output. What observations can you make from this initial pull of the data?
 
 <script src="https://gist.github.com/mariahnorell/b3ca4768999f51c5064a3376a1c5051f.js"></script>
 
-### Tutorial Two: Alternative Commands
+### Part Two: Alternative Commands
 
 What insights can you gather from looking at the data using these commands?
 
