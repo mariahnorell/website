@@ -9,11 +9,6 @@ menu:
     parent: Python
     weight: 50
 
- gallery_item:
- - album: tutorial_one
-   image: hr_df.png
-   caption: A caption
-
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 50
 ---
@@ -87,6 +82,8 @@ To practice what we just learned, let's use sample data to pull these statistics
 
 After saving the file to your preferred directory, assign it to a variable and review the first five rows:
 
+<script src="https://gist.github.com/mariahnorell/20ed5a216de2cc557e5af95028ae909b.js"></script>
+
 ``` 
 import pandas as pd
 hrdata = pd.read_csv('HRDataset_v14.csv')
@@ -96,7 +93,6 @@ hrdata.head()
 
 ![First five rows of the HR dataset in a DataFrame](/Users/mariah/GitHub/mariahnorell/starter-academic/static/media/hr_df.png)
 
-{{< tutorial_one >}}
 
 Next, let's review the high-level statistics of the entire data set: 
 
