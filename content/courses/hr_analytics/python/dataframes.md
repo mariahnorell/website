@@ -17,12 +17,12 @@ weight: 40
 
 ## Dataframes 
 
-Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'dataframe'. Most commonly, this is shortened to `df` when writing code. 
+Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code. 
 
 
 ## Indexing with Numbers
 
-Indexing means we want to select a specific row/column in a dataframe. To pull a column of information you can write:
+Indexing means we want to select a specific row/column in a DataFrame. To pull a column of information you can write:
 
 ```
 hr_df['Age']

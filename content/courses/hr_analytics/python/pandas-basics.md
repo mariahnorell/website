@@ -17,7 +17,7 @@ weight: 30
 
 ## Pandas Library
 
-Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'dataframe'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
+Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
 
 ## Creating a DataFrame in Pandas
 
@@ -44,13 +44,13 @@ It's good practice to assign the line of code you are trying to run to a variabl
 The syntax, or order in which the code should be written so that Python can understand what you're trying to accomplish, for reading in Excel (.xlsx) files look like this:
 
 ```
-variable = pandas.read_excel('filename.xlsx')
+my_variable = pandas.read_excel('filename.xlsx')
 ```
 
 And for .csv files: 
 
 ```
-variable = pandas.read_csv('filename.csv')
+my_variable = pandas.read_csv('filename.csv')
 ```
 
 Sometimes writing notes in your code can help organize what is being called. See below for an example on writing a comment:
@@ -110,7 +110,7 @@ my_variable = pd.read_csv('filename.csv')
 my_variable.tail()
 ```
 
-Writing .head() or .tail(), it will automatically return 5 variables. To return a specific number, place that desired number within the parentheses. For example, .head(3) will return the top three rows of data and .tail(7) will return the bottom seven rows of data.
+Writing .head() or .tail(), it will automatically return 5 variables. To return a specific number, place that desired number within the parentheses. For example, `.head(3)` will return the top three rows of data and `.tail(7)` will return the bottom seven rows of data.
 
 ### Step Four: Putting it all Together
 
