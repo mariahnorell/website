@@ -55,9 +55,10 @@ Alternatively, we could pull the descriptive statistics with the following comma
 
 * df_name.column_name.mean()
 * df_name.column_name.median()
-* df_name.column_name.max()
-* df_name.column_name.std()
 * df_name.column_name.mode()
+* df_name.column_name.max()
+* df_name.column_name.min()
+* df_name.column_name.std()
 * df_name.column_name.count()
 
 For example, to obtain the max value of one column in the data set: 
@@ -76,8 +77,16 @@ df = pd.read_csv('filename.csv')
 df_name.column_name.count()
 ```
 
-## Tutorial
+## Tutorials
 
 To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 
+### Tutorial One: Describe Command
+Take a look at the following code and analyze the output. What observations can you make from this initial pull of the data?
+
 <script src="https://gist.github.com/mariahnorell/b3ca4768999f51c5064a3376a1c5051f.js"></script>
+
+### Tutorial Two: Alternative Commands
+Identify what the output indicates from the following code. What insights can you gather from looking at the data using these commands?
+
+<script src="https://gist.github.com/mariahnorell/d5b9b1f21dd876307698900bcafbb8a5.js"></script>
