@@ -80,14 +80,4 @@ df_name.column_name.count()
 
 To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 
-After saving the file to your preferred directory, assign it to a variable and review the first five rows:
-
-<script src="https://gist.github.com/mariahnorell/95d584978fd6ffd2721a6ee728e4e588.js"></script>
-
-Next, let's review the high-level statistics of the entire data set: 
-
-<script src="https://gist.github.com/mariahnorell/827808652535679a5c08d1b0c47e1200.js"></script>
-
-Add in the column name of interest to view the high-level statistics there:
-
-<script src="https://gist.github.com/mariahnorell/41f158a38fc3ec370ecc6b483402b622.js"></script>
+<script src="https://gist.github.com/mariahnorell/b3ca4768999f51c5064a3376a1c5051f.js"></script>
