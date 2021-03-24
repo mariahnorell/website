@@ -13,7 +13,7 @@ menu:
 weight: 50
 ---
 
-<!-- In this tutorial, I'll share how to pull basic and complex statistics from a dataset: -->
+<!-- In this tutorial, I'll share how to pull basic and complex statistics from a data set: -->
 
 <!-- ## NumPy Library
 
@@ -32,7 +32,7 @@ To write it out, use the syntax `.describe()`:
 
 ```
 # Combined syntax: 
-df_name.describe()
+df.describe()
 ```
 
 To obtain the high-level statistics of the entire data set: 
@@ -51,7 +51,7 @@ df = pd.read_csv('filename.csv')
 df.column_name.describe()
 ```
 
-Alternatively, we could pull the descriptive statistics with the following four commands:
+Alternatively, we could pull the descriptive statistics with the following commands:
 
 * df_name.column_name.mean()
 * df_name.column_name.median()
@@ -68,12 +68,12 @@ df = pd.read_csv('filename.csv')
 df.column_name.max()
 ```
 
-Or, to obtain the standard deviation of one column in the data set:
+Or, to obtain the counts of one column in the data set:
 
 ``` 
 import pandas as pd
 df = pd.read_csv('filename.csv')
-df_name.column_name.std()
+df_name.column_name.count()
 ```
 
 ## Tutorial
@@ -82,17 +82,11 @@ To practice what we just learned, let's use sample data to pull these statistics
 
 After saving the file to your preferred directory, assign it to a variable and review the first five rows:
 
-<script src="https://gist.github.com/mariahnorell/20ed5a216de2cc557e5af95028ae909b.js"></script>
-
 ``` 
 import pandas as pd
 hrdata = pd.read_csv('HRDataset_v14.csv')
 hrdata.head()
 ```
-
-
-![First five rows of the HR dataset in a DataFrame](/Users/mariah/GitHub/mariahnorell/starter-academic/static/media/hr_df.png)
-
 
 Next, let's review the high-level statistics of the entire data set: 
 

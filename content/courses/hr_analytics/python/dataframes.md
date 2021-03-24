@@ -17,7 +17,7 @@ weight: 40
 
 ## Dataframes 
 
-Recall that Pandas operates in a rows-to-columns fashion (2D dataset) called a 'dataframe'. Most commonly, this is shortened to `df` when writing code. 
+Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'dataframe'. Most commonly, this is shortened to `df` when writing code. 
 
 
 ## Indexing with Numbers
@@ -121,7 +121,7 @@ Obtain greater than or less than a value:
 - Job Satisfaction score over 3
 
 Represents a minimum or maximum age value:
-- Lowest age in the dataset -->
+- Lowest age in the data set -->
 
 ## Sorting Data
 
