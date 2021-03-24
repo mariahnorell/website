@@ -53,6 +53,7 @@ df.column_name.describe()
 
 Alternatively, we could pull the descriptive statistics with the following commands:
 
+```
 * df_name.column_name.mean()
 * df_name.column_name.median()
 * df_name.column_name.mode()
@@ -60,6 +61,7 @@ Alternatively, we could pull the descriptive statistics with the following comma
 * df_name.column_name.min()
 * df_name.column_name.std()
 * df_name.column_name.count()
+```
 
 For example, to obtain the max value of one column in the data set: 
 
@@ -87,6 +89,6 @@ Take a look at the following code and analyze the output. What observations can 
 <script src="https://gist.github.com/mariahnorell/b3ca4768999f51c5064a3376a1c5051f.js"></script>
 
 ### Tutorial Two: Alternative Commands
-Identify what the output indicates from the following code. What insights can you gather from looking at the data using these commands?
+What insights can you gather from looking at the data using these commands?
 
 <script src="https://gist.github.com/mariahnorell/d5b9b1f21dd876307698900bcafbb8a5.js"></script>
