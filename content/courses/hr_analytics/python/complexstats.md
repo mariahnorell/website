@@ -30,42 +30,51 @@ There’s a long list of functions you could use to get the statistics you need,
 stats.func_name()
 ```
 
->> *Notice how you don’t actually have to write ”scipy” here. More on that later.*
-
+<!-- >> *Notice how you don’t actually have to write ”scipy” here. More on that later.* -->
 
 ## Correlations
 
-Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `corr()`, which will find all relationships for each column that is a continuous variable in your data.
+Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular fromat and also automatically excludes blank values from the analysis.
 
-The Result of the corr() method is a table with a lot of numbers that represents how well the relationship is between two columns.
-
-To get the correlations with this method, you do not need to call the `stats` function. Instead, you would write it out using the syntax `corr()`:
+To get the correlations with this method, write it out using the syntax `.corr()`:
 
 ```
 hr_df.corr()
 ```
 
-Pearson's Correlation is the most popular method to observe relationships. Pearson's Correlation evaluates the linear relationship between two sets of continuous values and can be computed using Python in a relatively simple way.
+Pearson's Correlation is the most popular method to observe relationships. Pearson's Correlation evaluates the linear relationship between two sets of continuous values and can be computed in a relatively simple way.
 
-The function, `pearsonr()` two column names to determine the strength and direction of the relationship. It also returns 2 values of r and p like so: (0.23, 0.03). To get the correlation with this method, use the `stats` function like so:
+The function `pearsonr()` reads in two column names to determine the strength and direction of the relationship of those constructs. It also returns two values of r and p-value like so: (0.23, 0.03). Recall that the correlation coefficient is represented by r and the p-value helps us determine whether that relationship is statistically significant or not.
+
+To get the correlation with this method, use the `stats` function like so:
 
 ```
-stats.pearsonr(df_name.col1, df_name.col2)
+stats.pearsonr(df_name.column1, df_name.column2)
 ```
 
 ## Tutorial
 
-### Part Three: Correlations
+### Part One: Writing the Code
+Using the same data set from the section before, we can obtain the correlation coefficient of two continuous variables. For this example, let's determine whether there is a relationship between *Employee Satisfaction* and *Peformance Rating Scores*.
 
-Using the above data, we can obtain the correlation coefficient of two continuous variables. For this example, let's determine whether
+<script src="https://gist.github.com/mariahnorell/b21b82919f46b1faf06a4d6349f6486a.js"></script>
 
+### Part Two: Interpreting the Results
 
-The number varies from -1 to 1.
+Pearson's Correlation values ranges from -1 to 1. 0 would indicate no relationship while -1 or +1 would indicate a perfect relationship.
 
-1 means that there is a 1 to 1 relationship (a perfect correlation), and for this data set, each time a value went up in the first column, the other one went up as well.
+Here's a guide on interpreting the strength and direction of the correlation output:
 
-0.9 is also a good relationship, and if you increase one value, the other will probably increase as well.
+* -1 = Perfect negative linear relationship
+* -0.75 = Strong negative linear relationship
+* -0.50 = Moderate negative linear relationship
+* -0.25 = Weak negative linear relationship
+* 0 = No linear relationship
+* +0.25 = Weak positive linear relationship
+* +0.50 = Moderate positive linear relationship
+* +0.75 = Strong positive linear relationship
+* +1 = Perfect positive linear relationship
 
--0.9 would be just as good relationship as 0.9, but if you increase one value, the other will probably go down.
+Remember, correlation does not equal causation!
 
-0.2 means NOT a good relationship, meaning that if one value goes up does not mean that the other will.
+Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Peformance Rating Scores*? If so, what is the strength and direction?
