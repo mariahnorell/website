@@ -65,16 +65,18 @@ Pearson's Correlation values ranges from -1 to 1. 0 would indicate no relationsh
 
 Here's a guide on interpreting the strength and direction of the correlation output:
 
-* -1 = Perfect negative linear relationship
-* -0.75 = Strong negative linear relationship
-* -0.50 = Moderate negative linear relationship
-* -0.25 = Weak negative linear relationship
-* 0 = No linear relationship
-* +0.25 = Weak positive linear relationship
-* +0.50 = Moderate positive linear relationship
-* +0.75 = Strong positive linear relationship
-* +1 = Perfect positive linear relationship
-
-Remember, correlation does not equal causation!
+> -1 = Perfect negative linear relationship
+> -0.75 = Strong negative linear relationship
+> -0.50 = Moderate negative linear relationship
+> -0.25 = Weak negative linear relationship
+> 0 = No linear relationship
+> +0.25 = Weak positive linear relationship
+> +0.50 = Moderate positive linear relationship
+> +0.75 = Strong positive linear relationship
+> +1 = Perfect positive linear relationship
 
 Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Peformance Rating Scores*? If so, what is the strength and direction?
+
+We can see that r = 0.30 and p < .05 which indicates the following:
+
+> There is a weak, positive linear relationship between Employee Satisfaction and Performance Rating Scores, such that, as the employee is more content with their work the higher their performance review score is. Remember though, correlation does not equal causation!
