@@ -10,8 +10,10 @@ date: "2021-01-01T00:00:00Z"
 lastmod: "2021-01-01T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
-type: docs  # Do not modify.
+type: book  # Do not modify.
 
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Pexels**](https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?cs=srgb&dl=pexels-jeshootscom-442574.jpg&fm=jpg/)'
   focal_point: ""
