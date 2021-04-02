@@ -12,6 +12,11 @@ draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 
+image:
+  caption: 'Image credit: [**Pexels**](https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?cs=srgb&dl=pexels-jeshootscom-442574.jpg&fm=jpg/)'
+  focal_point: ""
+  preview_only: false
+
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
@@ -21,10 +26,7 @@ menu:
     weight: 1
 ---
 
-image:
-  caption: 'Image credit: [**Pexels**](https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?cs=srgb&dl=pexels-jeshootscom-442574.jpg&fm=jpg/)'
-  focal_point: ""
-  preview_only: false
+
 ## Welcome
 
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
