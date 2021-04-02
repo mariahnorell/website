@@ -12,6 +12,10 @@ draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
@@ -21,15 +25,17 @@ menu:
     weight: 1
 ---
 
+!(featured.jpg)
+
 ## Welcome
 
-People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start. 
+People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
 
 ### Comments on this book
 
 Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
 <!-- In the future, requests will be made through the issues section of Github. -->
-<!-- 
+<!--
 ### Notes on the data in this book
 
 In this current version, the content of this book will be focused on Python and the Jupyter Notebook IDE. -->
