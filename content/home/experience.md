@@ -25,22 +25,6 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Data Scientist
-    company: Aon
-    company_url: ''
-    location: California
-    date_start: '2017-06-01'
-    date_end: ''
-    description: |2-
-      Projects:
-        
-        - Pay Equity Analysis
-        - Organizational Risk
-        - Strategic Workforce Planning
-        - Psychometrics
-        - Conjoint Analysis
-        - Process Automation
-        
   - title: Adjunct Lecturer
     company: San Jose State University
     company_url: ''
@@ -53,4 +37,20 @@ experience:
         - Fundamentals of Human Resource Management (BUS3 150)
         - Human Resources Analytics (BUS3 152)
         - Industrial/Organizational Psychology (PSYC 170)
+
+  - title: Data Scientist
+    company: Aon
+    company_url: ''
+    location: California
+    date_start: '2017-06-01'
+    date_end: '2021-03-31'
+    description: |2-
+      Projects:
+
+        - Pay Equity Analysis
+        - Organizational Risk
+        - Strategic Workforce Planning
+        - Psychometrics
+        - Conjoint Analysis
+        - Process Automation
 ---

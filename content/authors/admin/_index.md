@@ -10,8 +10,6 @@ role: Data Scientist & Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Aon
-  url: "https://rewards.aon.com/en-us/solutions/analytics"
 - name: San Jose State University
   url: "https://www.sjsu.edu/mgmt/"
 
@@ -57,7 +55,7 @@ social:
   link: https://www.linkedin.com/in/mariah-norell
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
@@ -70,8 +68,10 @@ email: "mariah.norell@sjsu.edu"
 highlight_name: false
 ---
 
-I'm a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoy working with clients to identify and mitigate potential pay equity gaps within their organization. Some other projects I work on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
 
-You can also find me at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
+I'm a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
+
+
+Previously, I was a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organization. Some other projects I worked on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
