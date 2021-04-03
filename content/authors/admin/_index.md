@@ -72,6 +72,6 @@ highlight_name: false
 I'm a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and see my students grasp the needs and challenges business face.
 
 
-Previously, I was a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organization. Some other projects I worked on include workforce planning, organizational risk assessments, and automating existing business processes with Python.
+Previously, I was a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organization. Some other projects I worked on included workforce planning, organizational risk assessments, benchmarking, and automating existing business processes with Python.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
