@@ -19,13 +19,13 @@
 #   weight = 30
 
 [[main]]
-  name = "Courses"
-  url = "courses"
+  name = "Contact"
+  url = "#contact"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Courses"
+  url = "courses"
   weight = 50
 
 [[main]]
