@@ -112,11 +112,11 @@ my_variable.tail()
 
 Writing .head() or .tail(), it will automatically return 5 variables. To return a specific number, place that desired number within the parentheses. For example, `.head(3)` will return the top three rows of data and `.tail(7)` will return the bottom seven rows of data.
 
-<!-- ## Tutorial
+## Tutorial
 
-Now that we know the three steps to read in our data, let's walk through an example.
+Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
+### Reviewing the Data
 
-### Part One:
+<script src="https://gist.github.com/mariahnorell/d2c84458e8b4bea676b704e3481af414.js"></script>
 
-
-### Part Two: -->
+Try it out! Add a number in the parentheses to pull the amount of data you are interested in viewing.
