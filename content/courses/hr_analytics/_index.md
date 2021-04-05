@@ -19,6 +19,10 @@ menu:
   hr_analytics:
     name: Welcome
     weight: 1
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 0
+
 ---
 
 {{< figure src="image.jpg" caption="Image credit: [**Pexels**](https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?cs=srgb&dl=pexels-jeshootscom-442574.jpg&fm=jpg)">}}

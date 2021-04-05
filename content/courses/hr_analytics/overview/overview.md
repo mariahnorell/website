@@ -1,6 +1,6 @@
 ---
-title: Introduction
-linktitle: Introduction
+title: Overview
+linktitle: Overview
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
@@ -24,14 +24,14 @@ This book contains information on Python and is currently in development. More c
 
 #### San Jose State University Students
 
-- Additional "Intro to Programming" courses include: 
+- Additional "Intro to Programming" courses include:
   - CS 22A-01: Not specific to a major
   - CS 22A-02: Specific to biology/medicine majors
   - ENGR 120: Specific to social sciences majors
 
-#### Online Learning 
+#### Online Learning
 
-- My favorite beginner courses/certifications include:   
+- My favorite beginner courses/certifications include:
   - [Kaggle: Python (Free)](https://www.kaggle.com/learn/python)
   - [Python for Everybody Specialization](https://www.coursera.org/specializations/python)
   - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)
