@@ -10,7 +10,7 @@ date: "2021-01-01T00:00:00Z"
 lastmod: "2021-01-01T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
-type: book  # Do not modify.
+type: docs  # Do not modify.
 linktitle: Welcome
 menu:
   hr_analytics:
