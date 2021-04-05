@@ -26,6 +26,15 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- organization: "CertiProf"
+  organization_url: "https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-english"
+  title: "Scrum Foundation Professional Certificate (SFPC)"
+  url: ""
+  certificate_url: ""
+  date_start: "2020-11-16"
+  date_end: ""
+  description: "Learned Scrum Framework, theory, and principles based on the official Scrum Guide."
+
 - organization: "Anaplan"
   organization_url: "https://community.anaplan.com/t5/Academy/ct-p/Training"
   title: "Anaplan: Level 1 Model Builder"
@@ -52,7 +61,7 @@ item:
   date_start: "2019-08-15"
   date_end: ""
   description: ""
-  
+
 - organization: "Coursera"
   organization_url: "https://www.coursera.org"
   title: "Python for Data Science and AI by IBM"
