@@ -9,7 +9,7 @@ title: Human Resource Analytics
 date: "2021-01-01T00:00:00Z"
 lastmod: "2021-01-01T00:00:00Z"
 draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
+toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 
 # Add menu entry to sidebar.
@@ -29,6 +29,7 @@ People analytics, human resource analytics, workforce analytics? There are a var
 ### Comments on this book
 
 Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
+
 <!-- In the future, requests will be made through the issues section of Github. -->
 <!--
 ### Notes on the data in this book
