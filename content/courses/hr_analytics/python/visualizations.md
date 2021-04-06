@@ -17,16 +17,9 @@ weight: 60
 
 ## Data Visualization
 
-Within Python, there is a Matplotlib library that is popular to create plots with. There is also the Seaborn library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots.
+Within Python, there is a `matplotlib` library that is popular to create plots with. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are examples found in `seaborn`.
 
-<!-- Seaborn Functions
-
-Scatter Plots
-Histograms
-Count Plots -->
-
-
-To use Seaborn, to import both seaborn and matplotlib libaries:
+To get started, import both `seaborn` and `matplotlib` libaries:
 
 ```
 # Library for df
@@ -38,8 +31,10 @@ import matplotlib
 import seaborn as sns
 ```
 
-Function = regplot()
-Reg = short for “regression”
+#### Scatter plots:
+
+To view a scatter plot of the data, `seaborn` has a function called, `regplot()` (short for regression) which will graph the desired data points on the `x` and `y` axis.
+
 
 Syntax below:
 
@@ -49,13 +44,12 @@ Syntax below:
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2)
 ```
 
-#### Scatter plots:
 
-You can include colors and markers into your plots by adding the following arguments: 
+You can include colors and markers into your plots by adding the following arguments:
 
-Color: 
+Color:
 color = “red” (after y-axis)
-Shape: 
+Shape:
 marker = “*” (after y-axis)
 
 
@@ -75,17 +69,17 @@ Syntax below:
 plot_name = sns.distplot(x = df_name.col1, y = df_name.col2)
 ```
 
-You can include colors and markers into your plots by adding the following arguments: 
+You can include colors and markers into your plots by adding the following arguments:
 
-Color: 
+Color:
 
 color = “red” (after kde)
 
-Number of Bins: 
+Number of Bins:
 
 Seaborn will automatically pick a number that makes sense
 
-You can change this by adding: 
+You can change this by adding:
 
 bins = # (after kde)
 
@@ -141,7 +135,7 @@ Bar plot
 • In our example: percentage
 – hue = df.col_name
 • Column with category names; each category will be
-plotted as a different hue (color) 
+plotted as a different hue (color)
 
 ```
 # add example here
@@ -149,13 +143,13 @@ point = sns.barplot(x = df_long.age, y = df_long.percentage, hue = df.df))
 ```
 
 Need to use the following two commands:
-1. fig = my_plot.get_figure() 
+1. fig = my_plot.get_figure()
 2. fig.savefig(‘my_plot.pdf’)
 
 ```
 # add example here
 point = sns.barplot(x = df_long.age, y = df_long.percentage, hue = df.df))
-fig = my_plot.get_figure() 
+fig = my_plot.get_figure()
 fig.savefig(‘my_plot.pdf’)
 ```
 
