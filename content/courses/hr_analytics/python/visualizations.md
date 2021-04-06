@@ -166,6 +166,7 @@ plt.axis('off')
 
 # save as pdf
 wordcloud.to_file('name.pdf')
+```
 
 ## More Resources
 
