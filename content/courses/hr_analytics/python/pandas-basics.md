@@ -114,11 +114,11 @@ Writing .head() or .tail(), it will automatically return 5 variables. To return 
 
 ## Tutorial
 
-Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
+Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set.
 ### Reviewing the Data
 
 Can you think of some advantages/disadvantages to using one of these three approaches to review your data?
 
-<script src="https://gist.github.com/mariahnorell/422c406b4677f972255b70cfb2db55a7.js"></script>
+<script src="https://gist.github.com/mariahnorell/5b1c7601bb1b7c801de1422925d1736c.js"></script>
 
 Try it out! Add a number in the parentheses to pull the amount of data you are interested in viewing.
