@@ -17,15 +17,17 @@ weight: 60
 
 ## Data Visualizations
 
-Within Python, there is a `matplotlib` library that is popular to create plots with. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are examples found in `seaborn`.
+Within Python, the `matplotlib` library is popular for plotting data. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are all examples of found in `seaborn`.
+
+All of these plots are customizable through size, shape, color, markers, and more. For now, we will explore colors and markers. For more information on choosing color palettes, check out the seaborn documentation [here]('https://seaborn.pydata.org/tutorial/color_palettes.html').
 
 To get started, import both `seaborn` and `matplotlib` libaries:
 
 ```
-# Library for df
+# Library for df (remember df = dataframe)
 import pandas as pd
 
-# Library for plotting
+# Library for plotting - we need all of these commands
 import matplotlib
 %matplotlib inline
 import seaborn as sns
@@ -33,7 +35,7 @@ import seaborn as sns
 
 ### Scatter Plots
 
-To view a scatter plot of the data, `seaborn` has a function called, `regplot()` (short for regression) which will graph the desired data points on the x and y axis.
+To visually see the relationship between two variables, scatter plots can be very helpful. To view a scatter plot of the data, `seaborn` has a function called `regplot()` (short for regression) which will graph the desired data points on both the x and y axis.
 
 
 The way you would format your code looks like this:
@@ -45,18 +47,20 @@ plot_name = sns.regplot(x = df_name.col1, y = df_name.col2)
 ```
 
 
-Additionally, you can enhance the graph by including colors and markers into your plots by adding the following arguments:
+Enhance the graph by including colors and markers into your plots by adding the following arguments:
 
 * Color of plot points = 'purple' (after y-axis)
 * Shape of marker = '+' (after y-axis)
 
-Therefore, your code would look like this:
+Now your code should look something like this:
 
 ```
 # x = horizontal axis variable
 # y = vertical axis variable
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', marker = '+')
 ```
+
+*Note: For more on scatter plots, check out the seaborn documentation [here]('https://seaborn.pydata.org/generated/seaborn.scatterplot.html').*
 
 ### Histograms
 
