@@ -60,7 +60,7 @@ Now your code should look something like this:
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', marker = '+')
 ```
 
-*Note: For more on scatter plots, check out the seaborn documentation [here]('https://seaborn.pydata.org/generated/seaborn.scatterplot.html').*
+For more on scatter plots, check out the seaborn documentation [here]('https://seaborn.pydata.org/generated/seaborn.scatterplot.html').
 
 ### Histograms
 
