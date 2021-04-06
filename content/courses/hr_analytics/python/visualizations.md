@@ -45,7 +45,7 @@ plot_name = sns.regplot(x = df_name.col1, y = df_name.col2)
 ```
 
 
-Additionally, you enhance the graph by including colors and markers into your plots by adding the following arguments:
+Additionally, you can enhance the graph by including colors and markers into your plots by adding the following arguments:
 
 * Color of plot points = 'purple' (after y-axis)
 * Shape of marker = '+' (after y-axis)
@@ -60,35 +60,21 @@ plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', ma
 
 ### Histograms
 
-Histograms = continuous data
-Count Plots = categorical data
+Rather than viewing the relationship of two variables through a scatter plot, we can also create plots that show a continuous variable individually. Doing so will display a distribution of the data. Therefore, when continuous variables are present in the data, a histogram can be created through the `distplot()` (short for distribution) function. The `seaborn` library will automatically pick a number for the amount of bins that makes sense based on the data. To customize the number of bins, however, you would follow the same format of adding, `bins = #` in the argument. For now, we will use `kde = False` to override a default we don't need. Colors can also be added to these plots as well.
 
-Function = distplot()
-dist = short for distribution
+To plot your data, write your code like this:
 
-Syntax below:
 
 ```
-# x = horizontal
-# y = vertical
-plot_name = sns.distplot(x = df_name.col1, y = df_name.col2)
+# x = horizontal axis variable
+# y = vertical axis variable
+plot_name = sns.distplot(df_name.col1, kde = False, bins = 5, 'color = 'orange')
 ```
 
-You can include colors and markers into your plots by adding the following arguments:
-
-Color:
-
-color = “red” (after kde)
-
-Number of Bins:
-
-Seaborn will automatically pick a number that makes sense
-
-You can change this by adding:
-
-bins = # (after kde)
 
 ### Count Plots
+
+Count Plots = categorical data
 
 Function = countplot()
 
