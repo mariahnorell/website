@@ -60,34 +60,34 @@ plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', ma
 
 ### Histograms
 
-Rather than viewing the relationship of two variables through a scatter plot, we can also create plots that show a continuous variable individually. Doing so will display a distribution of the data. Therefore, when continuous variables are present in the data, a histogram can be created through the `distplot()` (short for distribution) function. The `seaborn` library will automatically pick a number for the amount of bins that makes sense based on the data. To customize the number of bins, however, you would follow the same format of adding, `bins = #` in the argument. For now, we will use `kde = False` to override a default we don't need. Colors can also be added to these plots as well.
+Rather than viewing the relationship of two variables through a scatter plot, we can create plots that show a continuous variable individually. Doing so will display a distribution of the data. Therefore, when continuous variables are present in the data, a histogram can be created through the `distplot()` (short for distribution) function. The `seaborn` library will automatically pick a number for the amount of bins that makes sense based on the data, but to customize you would follow the same format of adding `bins = #` in the argument. For now, we will use `kde = False` to override a default we don't need. Colors can be added to these plots as well.
 
 To plot your data, write your code like this:
 
-
 ```
-# x = horizontal axis variable
-# y = vertical axis variable
 plot_name = sns.distplot(df_name.col1, kde = False, bins = 5, 'color = 'orange')
 ```
 
 
 ### Count Plots
 
-Count Plots = categorical data
+To view a standard bar chart, the `countplot()` function can be used. This type of plot will graph the amount of times a categorical variable appears in the data. To get vertical bars, use `x = df_name.col1` and to get horizontal bars use `y = df_name.col1`.
 
-Function = countplot()
-
-Syntax below:
+For vertical bars, your code would look like this:
 
 ```
 # x = horizontal axis & vertical bars
-# y = vertical axis & horizontal bars
 plot_name = sns.countplot(x = df_name.col1)
+```
+
+For horizontal bars, your code would look like this:
+
+```
+# y = vertical axis & horizontal bars
 plot_name = sns.countplot(y = df_name.col2)
 ```
 
-Note about data formatting
+<!-- Note about data formatting
 • Dataframes can be organized in “short/wide” or “long” format
 – Wide format is best for:
 • Scatter plots, histograms, count plots
@@ -100,7 +100,7 @@ Wide format
 Long format (same data)
 
 
-Converting wide --> long format
+Converting wide to long format
 • Doing this manually can be painful if you have a large data set
 • Can convert with code instead!
 
@@ -111,14 +111,14 @@ Point plot
 • In our example: percentage
 – hue = df.col_name
 • Column with category names; each category will be
-plotted as a different hue (color)
+plotted as a different hue (color) -->
 
-```
+<!-- ```
 # add example here
 point = sns.pointplot(x = df_long.age, y = df_long.percentage, hue = df.df))
-```
+``` -->
 
-
+<!--
 Bar plot
 • Created using the function barplot(), which takes the following inputs:
 – x = df.col_name • In our example: age
@@ -142,11 +142,7 @@ Need to use the following two commands:
 point = sns.barplot(x = df_long.age, y = df_long.percentage, hue = df.df))
 fig = my_plot.get_figure()
 fig.savefig(‘my_plot.pdf’)
-```
-
-## More Resources
-
-For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
+``` -->
 
 ## For Fun: Word Clouds
 
@@ -170,3 +166,7 @@ plt.axis('off')
 
 # save as pdf
 wordcloud.to_file('name.pdf')
+
+## More Resources
+
+For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
