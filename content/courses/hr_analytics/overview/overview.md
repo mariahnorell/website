@@ -16,7 +16,7 @@ weight: 1
 
 ## Notes About this Book
 
-This book contains information on Python and is currently in development. More content will be added weekly.
+This book currently contains information on Python and is in development. More content will be added weekly.
 
 ---
 
@@ -32,6 +32,6 @@ This book contains information on Python and is currently in development. More c
 #### Online Learning
 
 - My favorite beginner courses/certifications include:
-  - [Kaggle: Python (Free)](https://www.kaggle.com/learn/python)
+  - [Kaggle: Python](https://www.kaggle.com/learn/python)
   - [Python for Everybody Specialization](https://www.coursera.org/specializations/python)
   - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)

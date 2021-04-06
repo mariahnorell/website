@@ -146,7 +146,7 @@ fig.savefig(‘my_plot.pdf’)
 
 ## For Fun: Word Clouds
 
-One of the most common Python libraries is "wordcloud". For additional resources, click [here]('https://github.com/amueller/word_cloud/blob/master/README.md') for instructions and [here]('http://amueller.github.io/word_cloud/auto_examples/index.html') for examples.
+One of the most common Python libraries is *wordcloud*. For additional resources, click [here]('https://github.com/amueller/word_cloud/blob/master/README.md') for instructions and [here]('http://amueller.github.io/word_cloud/auto_examples/index.html') for examples.
 
 `Wordcloud` does not come pre-installed, but is easy to install with pip (Macs) or conda (PCs). To install `wordcloud`, navigate to your IDE and enter the command: `pip install wordcloud`. Once installed, you can import to begin reading in a `df` to generate a variety of examples through boundary maps, emojis, single word and frequency images.
 

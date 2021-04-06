@@ -15,9 +15,9 @@ weight: 40
 
 <!-- In this tutorial, I'll share how to view subsets and sort DataFrames: -->
 
-## Dataframes 
+## Dataframes
 
-Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code. 
+Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code.
 
 
 ## Indexing with Numbers
@@ -33,7 +33,7 @@ To pull the nth value in the 'Education' column you can write the following:
 ```
 df.column_name[n]
 ```
-Here's another example: 
+Here's another example:
 
 ```
 import pandas as pd
@@ -43,7 +43,7 @@ df.Education[3]
 
 #### What is slicing?
 
-Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at 'a' and stop before 'b'. 
+Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at 'a' and stop before 'b'.
 
 ```
 # : = all rows
@@ -80,7 +80,7 @@ df = pd.read_csv('filename.csv')
 df.iloc[0:1, 1:2]
 ```
 
-This would return rows 0 and column 1. The upper bounds in the syntax act as a stopper, so if you wanted to capture two rows and two columns, you would modify your code like this: 
+This would return rows 0 and column 1. The upper bounds in the syntax act as a stopper, so if you wanted to capture two rows and two columns, you would modify your code like this:
 
 ```
 import pandas as pd
@@ -100,11 +100,11 @@ df.iloc[:, :]
 
 We just learned how to sort our data by selecting the appropriate numbers for the rows and columns, but what if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a 'Boolean expression'.
 
-We can search within a specific column to return a specific row. 
+We can search within a specific column to return a specific row.
 
 <!-- Let's search the "MaritalStatus" column and return data for the row(s) containing "Divorced". -->
 
-An example of the syntax structure: 
+An example of the syntax structure:
 
 ```
 df_name[df_name.col_name[operator][value]]
@@ -114,7 +114,7 @@ We can use the same general syntax to find data that meets some criteria. Essent
   * An operator (e.g., <, <=, >, >=, ==, !=)
   * A value (a string or number)
 
-<!-- Return data from the df that: 
+<!-- Return data from the df that:
 - matches a string like "female"
 
 Obtain greater than or less than a value:
@@ -129,14 +129,14 @@ Ascending: When you sort your data by a particular column, the default is to sor
 
 ```
 Syntax = df_name.sort_values(by=col_name)
-example = df_name.sort_values(by="Age")
+example = df_name.sort_values(by='Age')
 ```
 
-Descending: To sort in descending order, you add one argument to the syntax 
+Descending: To sort in descending order, you add one argument to the syntax:
 
 ```
 Syntax = df_name.sort_values(by=col_name, ascending = False)
-hr_df.sort_values(by = “column name”, ascending = False)
+hr_df.sort_values(by = 'column name', ascending = False)
 ```
 
 <!-- ### Viewing vs. Changing the DF -->
