@@ -33,25 +33,30 @@ import seaborn as sns
 
 #### Scatter plots:
 
-To view a scatter plot of the data, `seaborn` has a function called, `regplot()` (short for regression) which will graph the desired data points on the `x` and `y` axis.
+To view a scatter plot of the data, `seaborn` has a function called, `regplot()` (short for regression) which will graph the desired data points on the x and y axis.
 
 
-Syntax below:
+The way you would format your code looks like this:
 
 ```
-# x = horizontal
-# y = vertical
+# x = horizontal axis variable
+# y = vertical axis variable
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2)
 ```
 
 
-You can include colors and markers into your plots by adding the following arguments:
+Additionally, you enhance the graph by including colors and markers into your plots by adding the following arguments:
 
-Color:
-color = “red” (after y-axis)
-Shape:
-marker = “*” (after y-axis)
+* Color of plot points = 'purple' (after y-axis)
+* Shape of marker = '+' (after y-axis)
 
+Therefore, your code would look like this:
+
+```
+# x = horizontal axis variable
+# y = vertical axis variable
+plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', marker = '+')
+```
 
 #### Histograms & Count Plots
 
