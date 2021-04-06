@@ -114,7 +114,7 @@ Writing .head() or .tail(), it will automatically return 5 variables. To return 
 
 ## Tutorial
 
-Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set.
+Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 ### Reviewing the Data
 
 Can you think of some advantages/disadvantages to using one of these three approaches to review your data?

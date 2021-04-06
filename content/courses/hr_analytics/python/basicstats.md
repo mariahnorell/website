@@ -78,7 +78,7 @@ df_name.column_name.count()
 ```
 ## Tutorial
 
-To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set.
+To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 
 ### Part One: Describe Command
 

@@ -54,7 +54,7 @@ stats.pearsonr(df_name.column1, df_name.column2)
 
 ## Tutorial
 
-We can obtain the correlation coefficient of two continuous variables from a data set. To get started, download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set.
+We can obtain the correlation coefficient of two continuous variables from a data set. To get started, download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 ### Part One: Writing the Code
 For this example, let's determine whether there is a relationship between *Employee Satisfaction* and *Peformance Rating Scores*.
 
