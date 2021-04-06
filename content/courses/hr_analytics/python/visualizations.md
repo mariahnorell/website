@@ -1,6 +1,6 @@
 ---
-title: Visualization
-linktitle: Visualization
+title: Visualizations
+linktitle: Visualizations
 toc: true
 type: docs
 draft: false
@@ -15,7 +15,7 @@ weight: 60
 
 <!-- In this tutorial, I'll share how to visualize data: -->
 
-## Data Visualization
+## Data Visualizations
 
 Within Python, there is a `matplotlib` library that is popular to create plots with. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are examples found in `seaborn`.
 
@@ -31,7 +31,7 @@ import matplotlib
 import seaborn as sns
 ```
 
-#### Scatter plots:
+### Scatter Plots
 
 To view a scatter plot of the data, `seaborn` has a function called, `regplot()` (short for regression) which will graph the desired data points on the x and y axis.
 
@@ -58,7 +58,7 @@ Therefore, your code would look like this:
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', marker = '+')
 ```
 
-#### Histograms & Count Plots
+### Histograms
 
 Histograms = continuous data
 Count Plots = categorical data
@@ -88,7 +88,7 @@ You can change this by adding:
 
 bins = # (after kde)
 
-#### Count Plots
+### Count Plots
 
 Function = countplot()
 
