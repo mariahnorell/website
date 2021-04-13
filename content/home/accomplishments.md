@@ -78,6 +78,6 @@ item:
   certificate_url: ""
   date_start: "2018-03-01"
   date_end: ""
-  description: "Apply logic and survey flow elements, analyze text and data, and employ Qualtrics API to automate and streamline processes."
+  description: "Applied logic and survey flow elements, analyzed text and data, and employed Qualtrics API to automate and streamline processes."
 
 ---
