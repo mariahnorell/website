@@ -33,7 +33,7 @@ item:
   certificate_url: ""
   date_start: "2021-04-14"
   date_end: ""
-  description: "Learned how to build and execute end-to-end GPUaccelerated data science workflows to quickly explore, iterate, and get work into production. Applied a wide variety of GPU-accelerated machine learning algorithms, including XGBoost, cuGRAPH’s single-source shortest path, and cuML’s KNN, DBSCAN, and logistic regression to perform data analysis at scale."
+  description: "Learned how to build and execute end-to-end GPU-accelerated data science workflows to quickly explore, iterate, and get work into production. Applied a wide variety of machine learning algorithms, including XGBoost, cuGRAPH’s single-source shortest path, and cuML’s KNN, DBSCAN, and logistic regression to perform data analysis at scale."
 
 - organization: "CertiProf"
   organization_url: "https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-english"
