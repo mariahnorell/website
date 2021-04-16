@@ -1,6 +1,6 @@
 ---
-title: DataFrames
-linktitle: DataFrames
+title: Data Slicing
+linktitle: Data Slicing
 toc: true
 type: docs
 draft: false
@@ -15,7 +15,7 @@ weight: 40
 
 <!-- In this tutorial, I'll share how to view subsets and sort DataFrames: -->
 
-## Data Slicing
+## DataFrames
 
 Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code.
 
