@@ -19,7 +19,7 @@ weight: 60
 
 Within Python, the `matplotlib` library is popular for plotting data. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are all examples of found in `seaborn`.
 
-All of these plots are customizable through size, shape, color, markers, and more. For now, we will explore colors and markers. For more information on choosing color palettes, check out the seaborn documentation [here]('https://seaborn.pydata.org/tutorial/color_palettes.html'). For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
+All of these plots are customizable through size, shape, color, markers, and more. For now, we will explore colors and markers. For more information on choosing color palettes, check out the seaborn documentation [here](https://seaborn.pydata.org/tutorial/color_palettes.html). For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
 
 To get started, import both `seaborn` and `matplotlib` libaries:
 
