@@ -69,7 +69,7 @@ Rather than viewing the relationship of two variables through a scatter plot, we
 To plot your data, write your code like this:
 
 ```
-plot_name = sns.distplot(df_name.col1, kde = False, bins = 5, 'color = 'orange')
+plot_name = sns.distplot(df_name.col1, kde = False, bins = 5, color = 'orange')
 ```
 
 
