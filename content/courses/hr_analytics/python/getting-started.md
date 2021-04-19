@@ -16,7 +16,7 @@ weight: 2
 
 ## Choosing an IDE
 
-You can write Python code in numerous IDEs (integrated development environments). The Python language stays the same regardless of the IDE you choose to use, but each IDE may look different or have different features. Think of it this way: your Gmail or Outlook account is still functions as an e-mail account, but can be accessed through many different browsers like Chrome, Firefox, or Safari that have their own characteristics.
+You can write Python code in numerous IDEs (integrated development environments). The Python language stays the same regardless of the IDE you choose to use, but each IDE may look different or have different features. Think of it this way: your Gmail or Outlook account still functions as an e-mail account, but can be accessed through many different browsers like Chrome, Firefox, or Safari that have their own characteristics.
 
 Examples of IDEs include:
 - [Virtual Studio Code](https://code.visualstudio.com/)
@@ -29,7 +29,7 @@ Anaconda is an open-source environment for individuals to write code and is help
 
 ## Jupyter Notebook Basics
 
-Jupyter Notebook is a very user-friendly IDE that allows you to chunk out your code and write in text in a clear way. The way we add in this text is through something called *Markdown*. It is helpful to alternate between writing in Markdown and writing code, because it will visually organize the project you set out to accomplish. In addition, organizing your Notebook will help others (i.e., colleagues, interview committees, friends) understand your thought process.
+Jupyter Notebook is a very user-friendly IDE that allows you to chunk out your code and write in text in a clear way. The way we add in this text is through something called *Markdown*. It is helpful to alternate between writing in Markdown and writing code because it will visually organize the project you set out to accomplish. In addition, organizing your Notebook will help others (i.e., colleagues, interview committees, friends) understand your thought process.
 
 Open up this [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) to understand all necessary steps for running Jupyter and getting your first notebook ready.
 

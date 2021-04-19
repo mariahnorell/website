@@ -34,7 +34,7 @@ stats.func_name()
 
 ## Correlations
 
-Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular fromat and also automatically excludes blank values from the analysis.
+Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
 
 To get the correlations with this method, write it out using the syntax `.corr()`:
 
@@ -56,7 +56,7 @@ stats.pearsonr(df_name.column1, df_name.column2)
 
 We can obtain the correlation coefficient of two continuous variables from a data set. To get started, download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 ### Part One: Writing the Code
-For this example, let's determine whether there is a relationship between *Employee Satisfaction* and *Peformance Rating Scores*.
+For this example, let's determine whether there is a relationship between *Employee Satisfaction* and *Performance Rating Scores*.
 
 <script src="https://gist.github.com/mariahnorell/b21b82919f46b1faf06a4d6349f6486a.js"></script>
 
@@ -76,7 +76,7 @@ Here's a guide on interpreting the strength and direction of the correlation out
 * +0.75 = Strong positive linear relationship
 * +1 = Perfect positive linear relationship
 
-Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Peformance Rating Scores*? If so, what is the strength and direction?
+Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Performance Rating Scores*? If so, what is the strength and direction?
 
 We can see that r = 0.30 and p < .05 which indicates the following:
 

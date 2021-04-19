@@ -21,7 +21,7 @@ Within Python, the `matplotlib` library is popular for plotting data. There is a
 
 All of these plots are customizable through size, shape, color, markers, and more. For now, we will explore colors and markers. For more information on choosing color palettes, check out the seaborn documentation [here](https://seaborn.pydata.org/tutorial/color_palettes.html). For more examples of what `seaborn` can do, click [here](https://seaborn.pydata.org/examples/index.html). You can look up additional plot types [here](https://seaborn.pydata.org/api.html).
 
-To get started, import both `seaborn` and `matplotlib` libaries:
+To get started, import both `seaborn` and `matplotlib` libraries:
 
 ```
 # Library for df (remember df = dataframe)

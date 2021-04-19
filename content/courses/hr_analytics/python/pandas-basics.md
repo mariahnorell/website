@@ -21,7 +21,7 @@ Pandas is a data analysis tool that makes it easy to work with large data sets a
 
 ## Creating a DataFrame in Pandas
 
-You can create one from scratch or you can read in a data file. In this class we will begin with reading in Excel files to mimic real-world scenarios and use cases.
+You can create one from scratch or you can read in a data file. We will begin with reading in Excel files to mimic real-world scenarios and use cases.
 
 ### Importing Pandas
 
@@ -60,7 +60,7 @@ Sometimes writing notes in your code can help organize what is being called. See
 # When writing '#' followed by your notes, Python ignores what is written and does not try to compute anything.
 ```
 
-Here is an example with how you can structure your comments and code so far:
+Here is an example of how you can structure your comments and code so far:
 
 ```
 # Import Pandas library
