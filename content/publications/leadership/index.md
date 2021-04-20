@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication: "Society for Industrial and Organizational Psychology"
 publication_short: ""
 
-abstract: Leader effectiveness (destructive leader vs. transformational leader) depends on the race and gender of the leader being evaluated.
+abstract: Leader effectiveness (destructive vs. transformational) depends on the race and gender of the leader being evaluated.
 
 # Summary. An optional shortened abstract.
 summary: ""
