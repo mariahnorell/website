@@ -1,5 +1,5 @@
 ---
-title: "The Effects of Acute High-Intensity and Moderate Exercise on the Stress Hormone Cortisol & Short-Term Memory"
+title: "A Structural Mediation Model Predicting Invisible Disability Prejudice"
 authors:
 - Sam Stevens
 - Mariah (Patterson) Norell
