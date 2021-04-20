@@ -26,7 +26,7 @@ This book currently contains information on Python and is in development. More c
 
 Additional "Intro to Programming" courses include:
 - Data Science for All Seminars: No pior experience required
-  - The Python Foundations Seminar introduces the basic programming foundations needed in data science. Can earn a digital badge after completing the post-seminar quiz.
+  - The Python Foundations Seminar introduces the basic programming foundations needed in data science. Students can earn a digital badge after completing the post-seminar quiz.
 - CS 22A: Python Programming for Non Majors
   - This course is designed to teach computer programming to non-Computer Science majors. Students will learn how to manipulate images and videos, build databases and Web pages and automate data analysis. This course covers fundamental programming constructs like data structures and algorithms, iterations, functions, and other core concepts.
 - ENGR 120: Programming Concepts for Behavioral and Social Science Applications
