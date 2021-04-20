@@ -35,7 +35,7 @@ summary: With a focus on pay for performance, we examined whether companies with
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://rewards.aon.com/aon.radford/media/images/articles/2018/Q2-2018-hot-topic-performance-management.pdf?ext=.pdf
+url_pdf: publications/performance/performance.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -45,7 +45,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Aon**](https://aon.com/)'
   focal_point: ""

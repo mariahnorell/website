@@ -30,9 +30,9 @@ summary: Career satisfaction is heavily influenced by the amount of encouragemen
 # - Workplace
 featured: false
 
-links:
-- name: Paper
-  url: ''
+# links:
+# - name: ''
+#   url: ''
 url_pdf: publications/proactive/proactive.pdf
 url_code: ''
 url_dataset: ''
