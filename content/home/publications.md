@@ -12,14 +12,14 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Publications
+title: Featured Publications
 subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publications
   # Choose how much pages you would like to display (0 = all pages)
-  count: 10
+  count: 2
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
