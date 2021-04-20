@@ -23,12 +23,12 @@ abstract: The purpose of the present study was to examine the relationship betwe
 # Summary. An optional shortened abstract.
 summary: Career satisfaction is heavily influenced by the amount of encouragement an employee receives at work as well as the degree to which an employee has a balanced work and family life.
 
-# tags:
-# - Career
-# - Satisfaction
-# - Proactive Personality
-# - Workplace
-featured: false
+tags:
+- Career
+- Satisfaction
+- Proactive Personality
+- Workplace
+featured: true
 
 # links:
 # - name: ''

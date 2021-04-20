@@ -28,9 +28,11 @@ abstract: Examined whether companies with five performance ratings distribute th
 # Summary. An optional shortened abstract.
 # summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
 
-# tags:
-# - Source Themes
-# featured: false
+tags:
+- Performance Ratings
+- Merit
+- Compensation
+featured: true
 
 # links:
 # - name: ""
