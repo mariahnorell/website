@@ -4,10 +4,10 @@
 widget: pages
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
-headless: false
+headless: true
 
 # Order that this section appears on the page.
 weight: 90
@@ -19,7 +19,7 @@ content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
   # Choose how much pages you would like to display (0 = all pages)
-  count: 4
+  count: 10
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
