@@ -1,11 +1,8 @@
 ---
-title: "The Effects of Acute High-Intensity and Moderate Exercise on the Stress Hormone Cortisol & Short-Term Memory"
+title: "The Relationship Between Minority Status and Leadership Perceptions"
 authors:
-- Kim Roberts
-- Erryn Rivers
-- Carlos Lopez
+- Altovise Rogers
 - Mariah (Patterson) Norell
-- Logan Shideler
 
 # author_notes:
 # - "Equal contribution"
@@ -24,10 +21,10 @@ publishDate: "2019-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Psychology and Behavioral Science"
+publication: "Society for Industrial and Organizational Psychology"
 publication_short: ""
 
-abstract: We investigated the effect of different levels of exercise on memory and cortisol levels in young adults. Participants included students (n = 124) from a large University.
+abstract: Our study suggests that leader effectiveness depends on the race and gender of the leader being evaluated. Through a lab experimental session, it was found that ethnic minorities were viewed as having a more destructive leadership style, even when displaying the same leadership behaviors as majority members.
 
 # Summary. An optional shortened abstract.
 summary: ""
