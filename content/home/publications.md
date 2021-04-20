@@ -17,7 +17,7 @@ subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
-  page_type: publication
+  page_type: publications
   # Choose how much pages you would like to display (0 = all pages)
   count: 10
   # Choose how many pages you would like to offset by
@@ -41,5 +41,5 @@ design:
 ---
 
 {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
+Quickly discover relevant content by [filtering publications](./publications/).
 {{% /callout %}}
