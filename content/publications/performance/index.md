@@ -32,7 +32,7 @@ tags:
 - Performance Ratings
 - Merit
 - Compensation
-featured: true
+featured: false
 
 # links:
 # - name: ""

@@ -32,8 +32,10 @@ abstract: Investigated the effects of different levels of exercise on memory and
 # Summary. An optional shortened abstract.
 summary: ""
 
-# tags:
-# - Source Themes
+tags:
+- Memory
+- Cortisol
+- Exercise
 # featured: false
 
 # links:

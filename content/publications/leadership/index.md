@@ -29,8 +29,8 @@ abstract: Leader effectiveness (destructive vs. transformational) depends on the
 # Summary. An optional shortened abstract.
 summary: ""
 
-# tags:
-# - Source Themes
+tags:
+- Leadership
 # featured: false
 
 # links:

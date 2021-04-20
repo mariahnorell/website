@@ -28,7 +28,7 @@ tags:
 - Satisfaction
 - Proactive Personality
 - Workplace
-featured: true
+featured: false
 
 # links:
 # - name: ''
