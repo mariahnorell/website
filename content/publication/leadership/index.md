@@ -32,7 +32,7 @@ summary: ""
 tags:
 - Leadership
 - Psychology
-featured: true
+featured: false
 
 # links:
 # - name: ""

@@ -37,7 +37,7 @@ tags:
 - Cortisol
 - Exercise
 - Psychology
-featured: true
+featured: false
 
 # links:
 # - name: ""
