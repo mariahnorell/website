@@ -25,10 +25,10 @@ publication_types: ["1"]
 publication: "Western Psychological Association"
 publication_short: ""
 
-abstract: Inner turmoil was used to directly to predict Invisible Disability Prejudice and callousness and alienation were proposed as mediators in the relationship.
+abstract: Previous research has shown contact with invisible disabilities, such as HIV, can greatly reduce prejudice (Carter et al., 2006; Davis, 2005; Pitkin Derose et al., 2016).  Additional research has shown a relationship between group membership, compassion, and emotional state (Oveis, Horberg, & Keltner, 2010). A structural model was configured with four latent variables. Inner turmoil was used to directly to predict Invisible Disability Prejudice and callousness and alienation were proposed as mediators in the relationship.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: Inner turmoil was used to directly to predict Invisible Disability Prejudice and callousness and alienation were proposed as mediators in the relationship.
 
 tags:
 - Disability
@@ -40,7 +40,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'publications/disability/disability.pdf'
+url_pdf: 'publications/structural-mediation-disability/structural-mediation-disability.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

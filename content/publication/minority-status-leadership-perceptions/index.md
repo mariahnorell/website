@@ -2,7 +2,7 @@
 title: "The Relationship Between Minority Status and Leadership Perceptions"
 authors:
 - Altovise Rogers
-- Mariah (Patterson) Norell
+- Mariah Patterson
 
 # author_notes:
 # - "Equal contribution"
@@ -24,10 +24,10 @@ publication_types: ["2"]
 publication: "Society for Industrial and Organizational Psychology"
 publication_short: ""
 
-abstract: Leader effectiveness (destructive vs. transformational) depends on the race and gender of the leader being evaluated.
+abstract: Our study suggests that leader effectiveness depends on the race and gender of the leader being evaluated. Through a lab experimental session, it was found that ethnic minorities were viewed as having a more destructive leadership style, even when displaying the same leadership behaviors as majority members.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: Leader effectiveness (destructive vs. transformational) depends on the race and gender of the leader being evaluated.
 
 tags:
 - Leadership

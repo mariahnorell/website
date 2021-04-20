@@ -1,7 +1,7 @@
 ---
 title: "Proactive Personality Benefits: The Role of Work-Life Salience, Career Encouragement, and Career Satisfaction"
 authors:
-- Mariah (Patterson) Norell
+- Mariah Patterson
 date: "2018-05-01T00:00:00Z"
 doi: ""
 
@@ -34,7 +34,7 @@ featured: true
 # links:
 # - name: ''
 #   url: ''
-url_pdf: publications/proactive/proactive.pdf
+url_pdf: publications/proactive-personality/proactive-personality.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -1,7 +1,7 @@
 ---
 title: "Exploring Compensation Description and Participant Gender on Reward Decisions"
 authors:
-- Mariah (Patterson) Norell
+- Mariah Patterson
 - Oriel Strickland
 
 # author_notes:
@@ -27,7 +27,7 @@ publication_short: ""
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: ''
 
 tags:
 
