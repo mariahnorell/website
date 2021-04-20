@@ -1,41 +1,39 @@
 ---
 title: "The Effects of Acute High-Intensity and Moderate Exercise on the Stress Hormone Cortisol & Short-Term Memory"
 authors:
-- Kim Roberts
-- Erryn Rivers
-- Carlos Lopez
+- Sam Stevens
 - Mariah (Patterson) Norell
-- Logan Shideler
+- Lawrence Meyers
 
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2019-10-01T00:00:00Z"
+date: "2017-04-01T00:00:00Z"
 doi: ""
 draft: false
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-01-01T00:00:00Z"
+publishDate: "2017-04-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Psychology and Behavioral Science"
+publication: "Western Psychological Association"
 publication_short: ""
 
-abstract: Investigated the effects of different levels of exercise on memory and cortisol levels in young adults.
+abstract: Inner Turmoil was used to directly to predict Invisible Disability Prejudice and Callousness and Alienation were proposed as mediators in the relationship.
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags:
-- Memory
-- Cortisol
-- Exercise
+- Disability
+- Prejudice
+- Stereotypes
 - Psychology
 featured: true
 

@@ -31,7 +31,8 @@ summary: ""
 
 tags:
 - Leadership
-# featured: false
+- Psychology
+featured: true
 
 # links:
 # - name: ""
