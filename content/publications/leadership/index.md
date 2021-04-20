@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication: "Society for Industrial and Organizational Psychology"
 publication_short: ""
 
-abstract: Our study suggests that leader effectiveness depends on the race and gender of the leader being evaluated. It was found that the minority status of managers influenced ratings of whether one was considered a destructive leader and whether one was a transformational leader.
+abstract: Our study suggests that leader effectiveness depends on the race and gender of the leader being evaluated.
 
 # Summary. An optional shortened abstract.
 summary: ""
