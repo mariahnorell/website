@@ -35,7 +35,7 @@ tags:
 - Prejudice
 - Stereotypes
 - Psychology
-featured: true
+featured: false
 
 # links:
 # - name: ""
