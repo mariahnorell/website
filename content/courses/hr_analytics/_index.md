@@ -21,7 +21,7 @@ menu:
 weight: 0
 ---
 
-{{< figure src="image.jpg" caption="Image credit: [**Pexels**](https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?cs=srgb&dl=pexels-jeshootscom-442574.jpg&fm=jpg)">}}
+{{< figure src="image.jpg" caption="Image credit: [**Pexels**](https://images.pexels.com/)">}}
 ## Welcome
 
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
