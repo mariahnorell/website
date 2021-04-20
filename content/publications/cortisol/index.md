@@ -27,7 +27,7 @@ publication_types: ["2"]
 publication: "Journal of Psychology and Behavioral Science"
 publication_short: ""
 
-abstract: We investigated the effect of different levels of exercise on memory and cortisol levels in young adults. Participants included students (n = 124) from a large University.
+abstract: We investigated the effect of different levels of exercise on memory and cortisol levels in young adults.
 
 # Summary. An optional shortened abstract.
 summary: ""
