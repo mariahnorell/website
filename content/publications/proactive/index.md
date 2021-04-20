@@ -32,8 +32,8 @@ featured: false
 
 links:
 - name: Paper
-  url: https://search.proquest.com/openview/306b29acb18d3fbec41f93ea080b91f9/1?pq-origsite=gscholar&cbl=18750&diss=y
-url_pdf: 
+  url: ''
+url_pdf: publications/proactive/proactive.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -43,7 +43,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Pexels**](https://www.pexels.com/photo/black-and-white-blackboard-business-chalkboard-356043/)'
   focal_point: ""
