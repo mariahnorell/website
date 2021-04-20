@@ -29,7 +29,7 @@ tags:
 - Proactive Personality
 - Workplace
 - Worklife Balance
-featured: false
+featured: true
 
 # links:
 # - name: ''
