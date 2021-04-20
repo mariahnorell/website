@@ -25,7 +25,7 @@ publication_types: ["1"]
 publication: "Western Psychological Association"
 publication_short: ""
 
-abstract: Inner Turmoil was used to directly to predict Invisible Disability Prejudice and Callousness and Alienation were proposed as mediators in the relationship.
+abstract: Inner turmoil was used to directly to predict Invisible Disability Prejudice and callousness and alienation were proposed as mediators in the relationship.
 
 # Summary. An optional shortened abstract.
 summary: ""
