@@ -23,10 +23,10 @@ publication_types: ["2"]
 publication: "Radford Articles"
 publication_short: ""
 
-abstract: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
+abstract: Examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
 
 # Summary. An optional shortened abstract.
-summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
+# summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
 
 # tags:
 # - Source Themes
