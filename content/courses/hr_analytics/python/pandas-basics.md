@@ -17,7 +17,10 @@ weight: 30
 
 ## Pandas Library
 
-Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
+Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS.
+
+## DataFrames
+Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
 
 ## Creating a DataFrame in Pandas
 

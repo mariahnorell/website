@@ -24,12 +24,15 @@ Programming is the process of designing and building a computer program to accom
 
 ## Python
 
-Python is a programming language that was written by Guido van Rossum in the 1990s. This language became so popular because it was free and open-sourced, meaning anyone can use it. This language quickly became one of the most on-demand languages to learn as it is very readable to the user. By 2018, over 8 million people were programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is used by many different professionals in many different professions and industries, so it will be powerful to have in your analytics tool belt.
+Python is a programming language that was written by Guido van Rossum in the 1990s. This language initially became so popular because it was free and open-sourced, meaning anyone can use it. Python is now one of the most on-demand languages to learn as it is very readable to the user. By 2018, over 8 million people started programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is used by many different professionals in many different industries, so it will be powerful to have in your analytics tool belt.
 
 The best way to learn this language is to dive right into a project. The following sections in this book contain HR-related examples and walkthroughs on how to use this powerful programming language to your advantage.
 
+Python	is
+widely	used	in	research	and	industry.
 <!--
 watch videos, find a project, use stack overflow for help, etc. -->
+
 
 
 ## Libraries
