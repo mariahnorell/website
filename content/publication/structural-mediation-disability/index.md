@@ -2,7 +2,7 @@
 title: "A Structural Mediation Model Predicting Invisible Disability Prejudice"
 authors:
 - Sam Stevens
-- Mariah (Patterson) Norell
+- Mariah Patterson
 - Lawrence Meyers
 
 # author_notes:

@@ -2,7 +2,7 @@
 title: "Understanding the Impact of Performance Ratings in Differentiating Pay"
 authors:
 - Tim Brown
-- Mariah (Patterson) Norell
+- Mariah Patterson
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
@@ -37,7 +37,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: publications/performance/performance.pdf
+url_pdf: publications/performance-ratings/performance-ratings.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
