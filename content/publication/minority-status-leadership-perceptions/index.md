@@ -7,18 +7,18 @@ authors:
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2019-10-01T00:00:00Z"
+date: "2017-12-01T00:00:00Z"
 doi: ""
 draft: false
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-01-01T00:00:00Z"
+publishDate: "2017-12-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Society for Industrial and Organizational Psychology"
@@ -32,6 +32,9 @@ summary: Leader effectiveness (destructive vs. transformational) depends on the 
 tags:
 - Leadership
 - Psychology
+- Minority
+- Race
+- Gender
 featured: false
 
 # links:
