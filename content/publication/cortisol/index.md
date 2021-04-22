@@ -24,7 +24,7 @@ publishDate: "2019-04-01T00:00:00Z"
 publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Project @ California State University, Sacramento"
 publication_short: ""
 
 abstract: Investigated the effects of different levels of exercise on memory and cortisol levels in young adults.
