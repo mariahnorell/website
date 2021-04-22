@@ -95,6 +95,4 @@ We can see that r = 0.30 and p < .05 which indicates the following:
 
 ### Formula
 
-```latex
 $$\hat{y} = a + bx$$
-```
