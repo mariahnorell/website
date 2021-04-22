@@ -100,7 +100,8 @@ $$Y = a + bX$$
  <!-- $$\hat{y} = a + bx$$ -->
 
 Where:
-
+| Variables  | Interpretation |
+| ------------- | ------------- |
 | Y | Dependent Variable |
 | X | Explanatory Variable |
 | b | Slope of the Line |
