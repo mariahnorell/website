@@ -95,16 +95,16 @@ We can see that r = 0.30 and p < .05 which indicates the following:
 
 ### Formula
 
-**Y = a + bX**
+$$Y = a + bX$$
 
  <!-- $$\hat{y} = a + bx$$ -->
 
 Where:
 
-Y is the dependent variable
-X is the explanatory variable
-b is the slope of the line
-a is the intercept
+| Y | Dependent Variable |
+| X | Explanatory Variable |
+| b | Slope of the Line |
+| a | Intercept |
 
 <!-- ŷ is the estimated response value
 a is the intercept of the regression line
