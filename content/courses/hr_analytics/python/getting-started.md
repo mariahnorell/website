@@ -72,4 +72,3 @@ Markdown is particularly helpful when we want to include notes about our code.
 ---
 
 Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
-

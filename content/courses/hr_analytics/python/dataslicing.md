@@ -24,18 +24,19 @@ Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 
 
 Indexing means we want to select a specific row/column in a DataFrame. To pull a column of information you can write:
 
-```
+```python
 hr_df['Age']
 ```
 
 To pull the nth value in the 'Education' column you can write the following:
 
-```
+```python
 df.column_name[n]
 ```
+
 Here's another example:
 
-```
+```python
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.Education[3]
@@ -45,13 +46,13 @@ df.Education[3]
 
 Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at 'a' and stop before 'b'.
 
-```
+```python
 # : = all rows
 # 0:1 = one column slice
 df_name.iloc[:, 0:1]
 ```
 
-```
+```python
 # 0:1 = one row slice
 # : = all rows
 df_name.iloc[:, 0:1]
@@ -74,7 +75,7 @@ Let's practice! -->
 
 Let’s try with whole rows or columns. The syntax here is `iloc` and is followed by two sets of values in brackets like this `[a:b, c:d]`. In this example, `a:b` represents a row slice and `c:d` represents a column slice. These represent upper and lower bounds. Here is how we would write this:
 
-```
+```python
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.iloc[0:1, 1:2]
@@ -82,7 +83,7 @@ df.iloc[0:1, 1:2]
 
 This would return rows 0 and column 1. The upper bounds in the syntax act as a stopper, so if you wanted to capture two rows and two columns, you would modify your code like this:
 
-```
+```python
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.iloc[0:2, 1:3]
@@ -90,7 +91,7 @@ df.iloc[0:2, 1:3]
 
 To see all the rows or all the columns, place the colon in the brackets without any numbers:
 
-```
+```python
 import pandas as pd
 df = pd.read_csv('filename.csv')
 df.iloc[:, :]
@@ -106,7 +107,7 @@ We can search within a specific column to return a specific row.
 
 An example of the syntax structure:
 
-```
+```python
 df_name[df_name.col_name[operator][value]]
 ```
 
@@ -127,14 +128,14 @@ Represents a minimum or maximum age value:
 
 Ascending: When you sort your data by a particular column, the default is to sort in ascending order. For example, we could sort our data by the Age column:
 
-```
+```python
 Syntax = df_name.sort_values(by=col_name)
 example = df_name.sort_values(by='Age')
 ```
 
 Descending: To sort in descending order, you add one argument to the syntax:
 
-```
+```python
 Syntax = df_name.sort_values(by=col_name, ascending = False)
 hr_df.sort_values(by = 'column name', ascending = False)
 ```

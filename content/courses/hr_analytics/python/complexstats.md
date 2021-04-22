@@ -18,13 +18,13 @@ weight: 52
 
 Pandas can do much more complex statistics than just the mean or the sum. For more complex work though, we need to make sure we have the `scipy` library – therefore, when we begin our code we need to add:
 
-```
+```python
 from scipy import stats
 ```
 
 There’s a long list of functions you could use to get the statistics you need, but the syntax looks like this:
 
-```
+```python
 # replace 'func_name' with actual function name
 
 stats.func_name()
@@ -38,7 +38,7 @@ Correlations measure the strength of a linear relationship between measurement v
 
 To get the correlations with this method, write it out using the syntax `.corr()`:
 
-```
+```python
 hr_df.corr()
 ```
 
@@ -48,7 +48,7 @@ The function `pearsonr()` reads in two column names to determine the strength an
 
 To get the correlation with this method, use the `stats` function like so:
 
-```
+```python
 stats.pearsonr(df_name.column1, df_name.column2)
 ```
 
@@ -75,6 +75,20 @@ Here's a guide on interpreting the strength and direction of the correlation out
 * +0.50 = Moderate positive linear relationship
 * +0.75 = Strong positive linear relationship
 * +1 = Perfect positive linear relationship
+
+```markdown
+| Correlational Coefficient (r)  | Interpretation |
+| ------------- | ------------- |
+| -1.00  | Perfect negative linear relationship  |
+| -0.75  | Strong negative linear relationship  |
+| -0.50  | Moderate negative linear relationship  |
+| -0.25  | Weak negative linear relationship  |
+| -0.00  | No linear relationship  |
+| +0.25  | Weak positive linear relationship  |
+| +0.50  | Moderate positive linear relationship  |
+| +0.75  | Strong positive linear relationship  |
+| +1.00  | Perfect positive linear relationship  |
+```
 
 Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Performance Rating Scores*? If so, what is the strength and direction?
 

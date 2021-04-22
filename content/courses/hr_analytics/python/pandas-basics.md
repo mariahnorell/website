@@ -20,6 +20,7 @@ weight: 30
 Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS.
 
 ## DataFrames
+
 Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
 
 ## Creating a DataFrame in Pandas
@@ -30,13 +31,13 @@ You can create one from scratch or you can read in a data file. We will begin wi
 
 Whenever you want to add a new library for your code, the `import` command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
 
-```
+```python
 import pandas
 ```
 
 Often, programmers shorten libraries to a couple letters to make it cleaner and easier to read. Now when we write code, we can use `pd` instead of `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now. Here's how we can shorten the `pandas` library name:
 
-```
+```python
 import pandas as pd
 ```
 
@@ -46,26 +47,26 @@ It's good practice to assign the line of code you are trying to run to a variabl
 
 The syntax, or order in which the code should be written so that Python can understand what you're trying to accomplish, for reading in Excel (.xlsx) files look like this:
 
-```
+```python
 my_variable = pandas.read_excel('filename.xlsx')
 ```
 
 And for .csv files:
 
-```
+```python
 my_variable = pandas.read_csv('filename.csv')
 ```
 
 Sometimes writing notes in your code can help organize what is being called. See below for an example on writing a comment:
 
-```
+```python
 # This is an example of a comment, which can be used as a note for you to keep your code organized.
 # When writing '#' followed by your notes, Python ignores what is written and does not try to compute anything.
 ```
 
 Here is an example of how you can structure your comments and code so far:
 
-```
+```python
 # Import Pandas library
 import pandas as pd
 
@@ -87,7 +88,7 @@ Let's take a look at some examples:
 
 Returns entire data set
 
-```
+```python
 import pandas as pd
 my_variable = pd.read_csv('filename.csv')
 my_variable
@@ -97,7 +98,7 @@ my_variable
 
 Returns the top 5 rows of data
 
-```
+```python
 import pandas as pd
 my_variable = pd.read_csv('filename.csv')
 my_variable.head()
@@ -107,7 +108,7 @@ my_variable.head()
 
 Returns the bottom 5 rows of data
 
-```
+```python
 import pandas as pd
 my_variable = pd.read_csv('filename.csv')
 my_variable.tail()

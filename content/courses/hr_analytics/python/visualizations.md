@@ -23,7 +23,7 @@ All of these plots are customizable through size, shape, color, markers, and mor
 
 To get started, import both `seaborn` and `matplotlib` libraries:
 
-```
+```python
 # Library for df (remember df = dataframe)
 import pandas as pd
 
@@ -37,15 +37,13 @@ import seaborn as sns
 
 To visually see the relationship between two variables, scatter plots can be very helpful. To view a scatter plot of the data, `seaborn` has a function called `regplot()` (short for regression) which will graph the desired data points on both the x and y axis.
 
-
 The way you would format your code looks like this:
 
-```
+```python
 # x = horizontal axis variable
 # y = vertical axis variable
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2)
 ```
-
 
 Enhance the graph by including colors and markers into your plots by adding the following arguments:
 
@@ -54,7 +52,7 @@ Enhance the graph by including colors and markers into your plots by adding the 
 
 Now your code should look something like this:
 
-```
+```python
 # x = horizontal axis variable
 # y = vertical axis variable
 plot_name = sns.regplot(x = df_name.col1, y = df_name.col2, color = 'purple', marker = '+')
@@ -68,10 +66,9 @@ Rather than viewing the relationship of two variables through a scatter plot, we
 
 To plot your data, write your code like this:
 
-```
+```python
 plot_name = sns.distplot(df_name.col1, kde = False, bins = 5, color = 'orange')
 ```
-
 
 ### Count Plots
 
@@ -79,14 +76,14 @@ To view a standard bar chart, the `countplot()` function can be used. This type 
 
 For vertical bars, your code would look like this:
 
-```
+```python
 # x = horizontal axis & vertical bars
 plot_name = sns.countplot(x = df_name.col1)
 ```
 
 For horizontal bars, your code would look like this:
 
-```
+```python
 # y = vertical axis & horizontal bars
 plot_name = sns.countplot(y = df_name.col2)
 ```
@@ -98,7 +95,7 @@ To visualize text data, one of the most common Python libraries is *wordcloud*. 
 
 Begin by installing `wordcloud` and importing the library as shown below:
 
-```
+```python
 pip install wordcloud
 
 # import libraries
@@ -110,7 +107,7 @@ import matplotlib.pyplot as plt
 
 Next, use the following command and replace 'enter_variable_name_here' with a column from your `df` that you're interested in viewing:
 
-```
+```python
 # generate wordcloud
 wordcloud = WordCloud(background_color = 'black').generate('enter_variable_name_here')
 plt.df(wordcloud, interpolations = 'bilinear')
