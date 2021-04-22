@@ -66,17 +66,6 @@ Pearson's Correlation values ranges from -1 to 1, where 0 would indicate no rela
 
 Here's a guide on interpreting the strength and direction of the correlation output:
 
-* -1 = Perfect negative linear relationship
-* -0.75 = Strong negative linear relationship
-* -0.50 = Moderate negative linear relationship
-* -0.25 = Weak negative linear relationship
-* 0 = No linear relationship
-* +0.25 = Weak positive linear relationship
-* +0.50 = Moderate positive linear relationship
-* +0.75 = Strong positive linear relationship
-* +1 = Perfect positive linear relationship
-
-```markdown
 | Correlational Coefficient (r)  | Interpretation |
 | ------------- | ------------- |
 | -1.00  | Perfect negative linear relationship  |
@@ -88,7 +77,6 @@ Here's a guide on interpreting the strength and direction of the correlation out
 | +0.50  | Moderate positive linear relationship  |
 | +0.75  | Strong positive linear relationship  |
 | +1.00  | Perfect positive linear relationship  |
-```
 
 Take a look at the output from above. Is there a relationship between *Employee Satisfaction* and *Performance Rating Scores*? If so, what is the strength and direction?
 
