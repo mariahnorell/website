@@ -83,3 +83,18 @@ Take a look at the output from above. Is there a relationship between *Employee 
 We can see that r = 0.30 and p < .05 which indicates the following:
 
 > There is a weak, positive linear relationship between Employee Satisfaction and Performance Rating Scores, such that, as the employee is more content with their work the higher their performance review score is. Remember though, correlation does not equal causation!
+
+## Linear Regression
+
+### Assumptions
+
+1. Linear Relationship Exists
+2. Independence of Residuals
+3. Homoscedasticity
+4. Normality
+
+### Formula
+
+```latex
+$$\ŷ = a + bx$$
+```
