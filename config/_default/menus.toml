@@ -8,10 +8,7 @@
 #   url = "#about"
 #   weight = 10
 
-# [[main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 20
+
 
 # [[main]]
 #   name = "Projects"
@@ -21,11 +18,16 @@
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Courses"
   url = "courses"
+  weight = 40
+
+[[main]]
+  name = "Posts"
+  url = "#posts"
   weight = 50
 
 [[main]]
@@ -41,3 +43,5 @@
 #    name = "CV"
 #    url = "media/resume.pdf"
 #    weight = 70
+
+

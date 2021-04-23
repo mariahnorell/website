@@ -38,7 +38,7 @@ experience:
         - Human Resources Analytics (BUS3 152)
         - Industrial/Organizational Psychology (PSYC 170)
 
-  - title: Data Scientist
+  - title: Data Scientist and Consultant
     company: Aon
     company_url: ''
     location: California
