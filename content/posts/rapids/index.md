@@ -32,7 +32,7 @@ image:
 
 ## Conference Experience
 
-This past week, I attended [NVIDIA's GTC](https://www.nvidia.com/en-us/gtc/) conference to deepen my understanding of machine learning and artificial intelligence. To me, the most rewarding part of the conference was the hands-on training session I attended. I heard about GTC through an organization I'm a member of called [Women in Data](https://www.womenindata.org/) where the mission is to "close the gender gap and increase diversity in data careers".
+This past week, I attended [NVIDIA's GTC](https://www.nvidia.com/en-us/gtc/) to deepen my understanding of machine learning and artificial intelligence. To me, the most rewarding part of the conference was the hands-on training session I attended. I heard about GTC through an organization I'm a member of called [Women in Data](https://www.womenindata.org/) where the mission is to "close the gender gap and increase diversity in data careers".
 
 It was exciting to get my hands on a real-world project to elevate my skills in the [Fundamentals of Accelerated Data Science with RAPIDS](https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/DLI-Workshop-Fundamentals-of-Accelerated-Data-Science-with-RAPIDS.pdf) workshop. Through a mixture of instructor-led and self-paced lab sections, I learned all about GPU-accelerated data manipulation, machine learning, and conducted an in-depth biodefense simulation analysis on population data.
 
