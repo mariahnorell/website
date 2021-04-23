@@ -20,7 +20,7 @@ categories:
 
 projects: []
 image:
-  caption: 'Image credit: [**NVIDIA**](https://www.nvidia.com/en-us/deep-learning-ai/software/rapids/Y)'
+  caption: ''
   focal_point: ""
   placement: 2
   preview_only: false
@@ -40,7 +40,7 @@ It was exciting to get my hands on a real-world project to elevate my skills in 
 
 During the workshop I learned all about RAPIDS, which is a collection of data science libraries and APIs. Specifically, the libraries allow for end-to-end GPU acceleration for common, everyday data science workflows. One library I learned about was cuDF (which is almost identical to Pandas). In some of the labs, I was able to compare processing times from both cuDF and Pandas and was blown away with just how efficient the cuDF method was. For example, in one scenario I tested, there was over 60 million rows of data to process and while Pandas took about 30 seconds, cuDF only took 3 seconds. Seriously fast!
 
-
+{{< figure src="image.jpg" caption="Image credit: [**NVIDIA**](https://www.nvidia.com/en-us/deep-learning-ai/software/rapids/Y)">}}
 
 ## Biodefense Simulation Project
 
