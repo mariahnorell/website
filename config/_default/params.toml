@@ -14,7 +14,7 @@
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/themes/
 #   Browse user installed themes in `data/themes/`
 #   Canva favicon font size = 313, change background to accent color
-theme = "Ocean"
+theme = "Coffee"
 
 # Enable users to switch between day and night mode?
 day_night = true
