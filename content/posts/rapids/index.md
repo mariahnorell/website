@@ -1,13 +1,13 @@
 ---
 title: Data Science with RAPIDS
 subtitle: ''
-date: 2016-04-20T00:00:00Z
+date: 2021-04-23
 summary: ''
 draft: false
 featured: false
 authors:
   - admin
-lastmod: 2020-12-13T00:00:00Z
+lastmod: 2021-04-23
 tags:
   - Python
   - Data Science
