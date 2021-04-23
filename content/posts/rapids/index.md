@@ -2,7 +2,7 @@
 title: Data Science with NVIDIA Rapids
 subtitle: Learning
 date: 2016-04-20T00:00:00Z
-summary: Lalala
+summary: ''
 draft: false
 featured: false
 authors:
