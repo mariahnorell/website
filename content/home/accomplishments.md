@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 60
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'Accomplish&shy;ments'
@@ -30,10 +30,10 @@ item:
   organization_url: "https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/DLI-Workshop-Fundamentals-of-Accelerated-Data-Science-with-RAPIDS.pdf"
   title: "Fundamentals of Accelerated Data Science (with RAPIDS)"
   url: ""
-  certificate_url: ""
-  date_start: "2021-04-14"
+  certificate_url: "https://courses.nvidia.com/certificates/41e25296023f4f01ab2b42339591719c"
+  date_start: "2021-04-23"
   date_end: ""
-  description: "Learned how to build and execute end-to-end GPU-accelerated data science workflows to quickly explore, iterate, and get work into production. Applied a wide variety of machine learning algorithms, including XGBoost, cuGRAPH’s single-source shortest path, and cuML’s KNN, DBSCAN, and logistic regression to perform data analysis at scale."
+  description: "Learned how to build and execute end-to-end GPU-accelerated data science workflows to quickly explore, iterate, and get work into production. Applied a wide variety of machine learning algorithms to perform data analysis at scale."
 
 - organization: "CertiProf"
   organization_url: "https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-english"

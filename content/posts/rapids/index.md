@@ -38,9 +38,9 @@ It was exciting to get my hands on a real-world project to elevate my skills in 
 
 ## Learning RAPIDS
 
-During the workshop I learned all about RAPIDS, which is a collection of data science libraries and APIs. Specifically, the libraries allow for end-to-end GPU acceleration for common, everyday data science workflows. One library I learned about was cuDF (which is almost identical to Pandas). In some of the labs, I was able to compare processing times from both cuDF and Pandas and was blown away with just how efficient the cuDF method was. For example, in one scenario I tested, there was over 60 million rows of data to process and while Pandas took about 30 seconds, cuDF only took 3 seconds. Seriously fast!
+During the workshop I learned all about [RAPIDS](https://github.com/rapidsai), which is a collection of data science libraries and APIs and [CUDA](https://developer.nvidia.com/cuda-toolkit). Specifically, the libraries allow for end-to-end GPU acceleration for common, everyday data science workflows. One library I learned about was cuDF (which is almost identical to Pandas). In some of the labs, I was able to compare processing times from both cuDF and Pandas and was blown away with just how efficient the cuDF method was. For example, in one scenario I tested, there was over 60 million rows of data to process and while Pandas took about 30 seconds, cuDF only took 3 seconds. Seriously fast!
 
-{{< figure src="image.jpg" caption="Image credit: [**NVIDIA**](https://www.nvidia.com/en-us/deep-learning-ai/software/rapids/Y)">}}
+{{< figure src="image.jpg" caption="Image credit: [**NVIDIA**](https://www.nvidia.com/en-us/deep-learning-ai/software/rapids/)">}}
 
 ## Biodefense Simulation Project
 
@@ -50,10 +50,5 @@ Tools Used:
 
 * cuDF, cuPy, cuGraph, cuXfilter
 * cuML (K-means, DBSCAN, logistic regression, k-nearest neighbors, XGBoost)
-
-Additional Information:
-
-* [RAPIDS Source Code](https://github.com/rapidsai)
-* [Conda Packages](https://anaconda.org/rapidsai)
 
 After successfully completing the simulation analysis, I passed the assessment and received a [certificate of competency](https://courses.nvidia.com/certificates/41e25296023f4f01ab2b42339591719c) from NVIDIA's Deep Learning Institute!
