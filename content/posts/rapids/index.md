@@ -1,6 +1,6 @@
 ---
 title: Data Science with NVIDIA Rapids
-subtitle: Learning
+subtitle: ''
 date: 2016-04-20T00:00:00Z
 summary: ''
 draft: false
@@ -13,10 +13,7 @@ tags:
   - Python
   - Data Science
   - NVIDIA
-  - Pandas
-  - NumPy
-  - cuDF
-  - cuML
+  - RAPIDS
 
 categories:
   - Programming
@@ -29,31 +26,28 @@ image:
   preview_only: false
 ---
 
-## GTC
+## Conference Experience
 
-This past week, I attended [NVIDIA's GTC](https://www.nvidia.com/en-us/gtc/) conference to deepen my understanding of machine learning and artificial intelligence. I heard about GTC and was able to attend through an organization I'm a member of called [Women in Data](https://www.womenindata.org/) where the mission is to "close the gender gap and increase diversity in data careers".
+This past week, I attended [NVIDIA's GTC](https://www.nvidia.com/en-us/gtc/) conference to deepen my understanding of machine learning and artificial intelligence. To me, the most rewarding part of the conference was the hands-on training session I attended. I heard about GTC through an organization I'm a member of called [Women in Data](https://www.womenindata.org/) where the mission is to "close the gender gap and increase diversity in data careers".
 
-To me, the most rewarding part of the conference was the hands-on training session I attended called the [Fundamentals of Accelerated Data Science with RAPIDS](https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/DLI-Workshop-Fundamentals-of-Accelerated-Data-Science-with-RAPIDS.pdf). As a data scientist who is relatively new to the machine learning space, I was excited to get my hands on a real-world project that could help me elevate my skills. Through a mixture of instructor-led and self-paced sections, I learned all about GPU-Accelerated Data Manipulation, Machine Learning, and put it all together by conducting an in-depth analysis on population data to help stave off a simulated epidemic in the UK.
+It was exciting to get my hands on a real-world project to elevate my skills through the [Fundamentals of Accelerated Data Science with RAPIDS](https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/DLI-Workshop-Fundamentals-of-Accelerated-Data-Science-with-RAPIDS.pdf) workshop. Through a mixture of instructor-led and self-paced lab sections, I learned all about GPU-accelerated data manipulation, machine learning, and conducted an in-depth biodefense simulation analysis on population data.
 
-## RAPIDS
+## Learning RAPIDS
 
-During the training session, I got to learn all about RAPIDS, which is a collection of data science libraries. Specifically, they allow for end-to-end GPU acceleration for common data science workflows. There were some labs we completed durign the trainings that showed a side-by-side comparison on Pandas and cuDF (the equivalent) run times and I was blown away by the processing time.
+During the workshop I learned all about RAPIDS, which is a collection of data science libraries and APIs. Specifically, the libraries allow for end-to-end GPU acceleration for common, everyday data science workflows. The key library I was exposed to was cuDF (which is almost identical to Pandas). In some of the labs, I was able to compare processing times from both cuDF and Pandas and was blown away with just how efficient the cuDF method was. For example, in one scenario I tested, there was over 60 million rows of data to process and while Pandas took about 30 seconds, cuDF only took 3. Seriously fast!
 
 ## Biodefense Simulation Project
 
-Data: Multiple weeks of data (roads, hospitals, infection rates from population) of virulent epidemic
-Scope: Learned core tools to use RAPIDS for everyday data science tasks & scalability methods from workstations and clusters to cloud and HPC
-
-Tasks:
-
-* Calculated measures of geographic spread for each cluster of infected persons
-* Compared density of infected vs. uninfected people in each cluster region
-* Determined number of individuals closest to each hospital in country
-* Prepared road directions for ambulances to hospitals based on coordinates
-* Completed logistic regression and decision tree analysis of data to understand magnitude of factors relative impact on risk
-* Visualized results with dynamic graphs
+The simulation was broken down into three scenarios. In scenario one I identified geographic clusters, calculated the spread for each cluster, and compared density of infected vs. uninfected people in each cluster region. Next, in scenario two I determined the number of individuals closest to each hospital and prepared road directions for ambulances to hospitals based on coordinates. Next, in scenario three I calculated the key factors associated with higher rates of infection and additional analyses to understand the magnitude of factors and their relative impact on risk. Finally, I visualized all the results with dynamic graphs.
 
 Tools Used:
 
-* cuDF, cuGraph, cuXfilter
+* cuDF, cuPy, cuGraph, cuXfilter
 * cuML (K-means, DBSCAN, logistic regression, k-nearest neighbors, XGBoost)
+
+Additional Information:
+
+* [RAPIDS Source Code](https://github.com/rapidsai)
+* [Conda Packages](https://anaconda.org/rapidsai)
+
+After successfully completing the simulation analysis, I passed the assessment and received a [certificate of competency](https://courses.nvidia.com/certificates/41e25296023f4f01ab2b42339591719c) from NVIDIA's Deep Learning Institute!
