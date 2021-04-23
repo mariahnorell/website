@@ -1,5 +1,5 @@
 ---
-title: Data Science with NVIDIA Rapids
+title: Data Science with RAPIDS
 subtitle: ''
 date: 2016-04-20T00:00:00Z
 summary: ''
