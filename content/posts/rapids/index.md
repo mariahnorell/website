@@ -2,17 +2,20 @@
 title: Data Science with RAPIDS
 subtitle: ''
 date: 2021-04-23
-summary: ''
+summary: My experience attending GTC.
 draft: false
 featured: false
 authors:
   - admin
-lastmod: 2021-04-23
+# lastmod: 2021-04-23
 tags:
   - Python
   - Data Science
+  - Pandas
+  - cuDF
   - NVIDIA
   - RAPIDS
+  - Conference
 
 categories:
   - Programming
