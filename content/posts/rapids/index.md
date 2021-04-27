@@ -1,13 +1,12 @@
 ---
 title: Data Science with RAPIDS
 subtitle: ''
-date: "2021-04-23T00:00:00Z"
+date: "Apr 23, 2021"
 summary: ''
 draft: false
 featured: false
 authors:
   - admin
-lastmod: "2021-04-23T00:00:00Z"
 
 tags:
   - Conference
