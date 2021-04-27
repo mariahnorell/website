@@ -57,7 +57,7 @@ item:
   organization_url: "https://www.coursera.org"
   title: "Databases and SQL for Data Science by IBM"
   url: ""
-  certificate_url: "https://www.coursera.org/account/accomplishments/verify/AWC6QWTUSHGG"
+  certificate_url: "https://www.coursera.org/account/accomplishments/verify/AWC6QWTUSHGG"`
   date_start: "2019-10-27"
   date_end: ""
   description: ""

@@ -23,6 +23,14 @@ copyright = ""
 # Get last modified date for content from Git?
 enableGitInfo = true
 
+# Set frontmatter
+[frontmatter]
+date = [ "date", ":git", ":fileModTime", "publishDate" ]
+lastmod = [ "date", "lastmod", ":git", ":fileModTime" ]
+publishDate = [ "publishDate", "date" ]
+expiryDate = [ "expiryDate" ]
+
+
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
