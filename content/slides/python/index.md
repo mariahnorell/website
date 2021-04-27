@@ -3,6 +3,7 @@ title: Python Basics
 summary: An introduction to Python using Anaconda and Jupyter Notebook.
 authors: [admin]
 tags: ''
+draft: true
 
 # Activate this widget? true/false
 active: false
