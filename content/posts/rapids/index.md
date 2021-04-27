@@ -1,7 +1,7 @@
 ---
 title: Data Science with RAPIDS
 subtitle: ''
-date: "Apr 23, 2021"
+date: "2021-04-23"
 summary: ''
 draft: false
 featured: false
