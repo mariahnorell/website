@@ -268,7 +268,7 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "G-34RT0GXMH2"
   google_tag_manager = ""
 
 ############################
@@ -276,7 +276,7 @@ plugins_js  = []
 ############################
 [cms]
   # See https://wowchemy.com/docs/install/
-  netlify_cms = true
+  netlify_cms = false
 
 ############################
 ## Icon Pack Extensions
