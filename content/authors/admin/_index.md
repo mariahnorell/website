@@ -69,7 +69,7 @@ highlight_name: false
 ---
 
 
-I'm a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles.
+As a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles.
 
 Previously, I was a Data Scientist at Aon helping companies elevate their HR strategy through people analytics. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organizations. Some other projects I worked on included workforce planning, organizational risk assessments, benchmarking, and automating existing business processes with Python.
 

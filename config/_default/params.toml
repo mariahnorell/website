@@ -13,7 +13,7 @@
 #   Guide to color themes: https://wowchemy.com/docs/customization/#color-themes
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/themes/
 #   Browse user installed themes in `data/themes/`
-#   Canva favicon font size = 313, change background to accent color
+#   favicon font size = 313, change background to accent color
 theme = "Minimal"
 
 # Enable users to switch between day and night mode?
@@ -79,7 +79,7 @@ privacy_pack = false
 edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {page = false, post = false, book = false}}
 
 # Show related content at the bottom of pages?
-show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
+show_related = {book = true, page = true, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -162,7 +162,7 @@ sharing = true
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
 abstract_length = 135
@@ -212,7 +212,7 @@ plugins_js  = []
   engine = 0
 
   # Which page types are commentable?
-  commentable = {page = false, post = true, docs = false, project = false, publication = false, talk = false}
+  commentable = {page = false, post = false, docs = false, project = false, publication = false, talk = false}
 
   # Configuration of Disqus.
   [comments.disqus]
