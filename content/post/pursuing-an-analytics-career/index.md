@@ -86,7 +86,7 @@ Typically, Data Engineers and Data Scientists have advanced degrees in a STEM-re
 
 ### Graduate Programs
 
-If you're considering graduate school, I recommend to pay close attention to the name of the program and review the actual courses taught to see if it meets your expectations. Take it a step further by requesting access to the syllabus to actually see what content is covered in the curriculum and assess your own skillset. Lastly, be wary of the entry requirements (some graduate programs require STEM courses like calculus to be completed before entry) and most importantly, determine whether you can afford it.
+If you're considering graduate school, I recommend paying close attention to the name of the program and review the actual courses taught to see if it meets your expectations. Take it a step further by requesting access to the syllabus to see what content is covered in the curriculum and assess your own skillset. Lastly, be wary of the entry requirements (some graduate programs require STEM courses like calculus to be completed before entry) and most importantly, determine whether you can afford it.
 
 > Note: Many programs can cost between $50K-270K and take 1-4 years to complete. It's crucial to do your research!
 
