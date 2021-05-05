@@ -11,7 +11,7 @@ authors:
 
 tags:
   - Python
-  - Data Science
+  - Analytics
   - Pandas
   - R
   - SQL
