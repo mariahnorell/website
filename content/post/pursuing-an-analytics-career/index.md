@@ -60,7 +60,7 @@ Here's a list of some common job titles for those pursuing a career in People An
 - Talent Acquisition Analyst
 - Workforce Analyst
 
-## Skills Needed to Succeed
+## Skills Needed
 
 Regardless of the type of analyst you decide to become, there are many important skills you'll need in order to be a competitive candidate.
 
@@ -72,25 +72,23 @@ These five skills are what employers are looking for in an analyst:
 - HR and Business Acumen
 - Knowing a Programming Language
 
-Essentially, it comes down to being able to combine quantitative and qualitative judgement, and being able to apply the knowledge and skills you’ve learned along the way. Whichever path you decide to take, make sure you are applying the skills to real projects and not just memorizing terms.
+Essentially, it comes down to being able to combine quantitative and qualitative judgement, and apply the knowledge and skills you’ve learned along the way. Whichever path you decide to take, make sure you are applying the skills to real projects and not just memorizing terms.
 
-> *Bonus Tip: Find yourself a mentor and create a GitHub account to have an online portfolio.
+> Bonus Tips: (1) Find yourself a mentor, and (2) create a GitHub account to create your very own online portfolio.
 
 ## Where to Get Started
 
-Now that you know some of the general skills needed and the typical career paths, it's time to make a game plan for yourself to actually learn the material. The two major choices you should consider is (1) continue your educational career by going to graduate school, or (2) go at your own pace and enroll in online certifications.
+Now that you know some of the general skills needed and types of career paths, it's time to make a game plan for yourself to start learning the material. The two major choices you should consider is (1) continue your educational career by going to graduate school, or (2) go at your own pace and enroll in online certifications.
 
 ### Graduate Programs vs. Certifications
 
 Typically, Data Engineers and Data Scientists have advanced degrees in a STEM-related field and Data Analysts have undergraduate degrees with relevant experience. Don't feel pressured into getting a graduate degree; you can always work your way up through gaining on-the-job experience!
 
-*Personally, I completed my MS in I/O Psychology in addition to some Data Science certifications, but everyone's path is different!*
-
 ### Graduate Programs
 
 If you're considering graduate school, I recommend to pay close attention to the name of the program and review the actual courses taught to see if it meets your expectations. Take it a step further by requesting access to the syllabus to actually see what content is covered in the curriculum and assess your own skillset. Lastly, be wary of the entry requirements (some graduate programs require STEM courses like calculus to be completed before entry) and most importantly, determine whether you can afford it.
 
-> Many programs can cost between $50K-270K and take 1-4 years to complete. It's crucial to do your research!
+> Note: Many programs can cost between $50K-270K and take 1-4 years to complete. It's crucial to do your research!
 
 Here are some of the most common Master of Science and PhD graduate programs for an analytics career:
 
@@ -122,6 +120,8 @@ Review the following table for a list of my favorite MOOCs and suggested courses
 
 ## General Advice
 
-One of the best pieces of advice given to me was to start small. It can be overwhelming trying to learn everything - you don't need to become an expert over night!
+One of the best pieces of advice given to me was to start small. It can be overwhelming trying to learn everything - you don't need to become an expert overnight!
 
-As an educator, I love giving back to my community. So, if you want more advice and recommendations, I'd be happy to hop on a call with you. You can schedule time with me here: [calendly.com/mariahnorell](https://calendly.com/mariahnorell).
+---
+
+*Everyone's path is different. If you want more advice, I'd be happy to hop on a call with you. You can schedule time directly with me here: [calendly.com/mariahnorell](https://calendly.com/mariahnorell).*
