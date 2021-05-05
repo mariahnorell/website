@@ -46,7 +46,7 @@ The type of analyst you become is pretty universal among the various fields and 
 | Data Scientist | Modeling Data and Automation | Statistics, SQL, Python, R |
 | Data Engineer | Database Administrator, Data Architect | Advanced Programming, ETL |
 
-## Common Job Titles
+### Common Job Titles
 
 With most analyst positions, the naming convention is pretty straightforward. Looking up any of the job types from above will provide a multitude of jobs, but I also recommend that you always review the job description to see if the position is in alignment with your goals and skills before applying.
 
@@ -60,7 +60,7 @@ Here's a list of some common job titles for those pursuing a career in People An
 - Talent Acquisition Analyst
 - Workforce Analyst
 
-## Skills Needed
+### Skills Needed
 
 Regardless of the type of analyst you decide to become, there are many important skills you'll need in order to be a competitive candidate.
 
