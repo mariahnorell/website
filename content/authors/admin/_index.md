@@ -10,6 +10,9 @@ role: Data Scientist & Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
+- name: Amazon Web Services
+  url: "https://aws.amazon.com"
+
 - name: San Jose State University
   url: "https://www.sjsu.edu/mgmt/"
 
