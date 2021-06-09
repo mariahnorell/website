@@ -44,15 +44,6 @@ item:
   date_end: ""
   description: "Learned Scrum Framework, theory, and principles based on the official Scrum Guide."
 
-- organization: "Anaplan"
-  organization_url: "https://community.anaplan.com/t5/Academy/ct-p/Training"
-  title: "Anaplan: Level 1 Model Builder"
-  url: ""
-  certificate_url: ""
-  date_start: "2020-04-15"
-  date_end: ""
-  description: "Learned foundational Anaplan concepts and technical model building skills."
-
 - organization: "Coursera"
   organization_url: "https://www.coursera.org"
   title: "Databases and SQL for Data Science by IBM"
