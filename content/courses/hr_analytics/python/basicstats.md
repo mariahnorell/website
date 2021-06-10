@@ -53,13 +53,13 @@ df.column_name.describe()
 
 Alternatively, we could pull the descriptive statistics with the following commands:
 
-| Descriptive Stat  | Code |
+| Descriptive Statistics | Code |
 | ------------- | ------------- |
 | Mean | `df_name.column_name.mean()` |
 | Median | `df_name.column_name.median()` |
 | Mode | `df_name.column_name.mode()` |
-| Maximum Numeric Value | `df_name.column_name.max()` |
-| Minimum Numeric Value | `df_name.column_name.min()` |
+| Maximum Value | `df_name.column_name.max()` |
+| Minimum Value | `df_name.column_name.min()` |
 | Standard Deviation | `df_name.column_name.std()` |
 | Count Instances | `df_name.column_name.count()` |
 
