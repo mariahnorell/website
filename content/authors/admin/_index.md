@@ -10,8 +10,8 @@ role: Data Scientist & Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Amazon Web Services
-  url: "https://aws.amazon.com"
+- name: Atlassian
+  url: "https://www.atlassian.com/"
 
 - name: San Jose State University
   url: "https://www.sjsu.edu/mgmt/"
@@ -71,8 +71,8 @@ email: "mariah.norell@sjsu.edu"
 highlight_name: false
 ---
 
-Currently, I'm on the People Analytics team at Amazon Web Services (AWS). I'm also a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles.
+Currently, I'm on the People Team at Atlassian. I'm also a Lecturer at San Jose State University teaching core HR classes. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles.
 
-Previously, I was a Data Scientist and Consultant at Aon helping companies elevate their HR strategy through People Analytics. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organizations. Some other projects I worked on included workforce planning, organizational risk assessments, benchmarking, and automating existing business processes with Python.
+Previously, I was on the People Analytics team at Amazon Web Services (AWS) and a Data Scientist/Consultant at Aon helping companies elevate their HR strategy. I enjoyed working with clients to identify and mitigate potential pay equity gaps within their organizations. Some other projects I worked on included workforce planning, organizational risk assessments, benchmarking, and automating existing business processes with Python.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

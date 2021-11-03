@@ -25,12 +25,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Analytics Business Partner
+    company: Atlassian
+    company_url: ''
+    location: California
+    date_start: '2021-11-01'
+    date_end: ''
+ 
   - title: People Analytics Specialist
     company: Amazon Web Services
     company_url: ''
     location: California
     date_start: '2021-05-01'
-    date_end: ''
+    date_end: '2021-10-31'
 
   - title: Adjunct Lecturer
     company: San Jose State University
