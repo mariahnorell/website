@@ -32,13 +32,6 @@ experience:
     date_start: '2021-11-01'
     date_end: ''
  
-  - title: People Analytics Specialist
-    company: Amazon Web Services
-    company_url: ''
-    location: California
-    date_start: '2021-05-01'
-    date_end: '2021-10-31'
-
   - title: Adjunct Lecturer
     company: San Jose State University
     company_url: ''
@@ -51,6 +44,14 @@ experience:
         - Fundamentals of Human Resource Management (BUS3 150)
         - Human Resources Analytics (BUS3 152)
         - Industrial/Organizational Psychology (PSYC 170)
+        - Intermediate Statistics (STAT 115)
+
+  - title: People Analytics Specialist
+    company: Amazon Web Services
+    company_url: ''
+    location: California
+    date_start: '2021-05-01'
+    date_end: '2021-10-31'
 
   - title: Data Scientist and Consultant
     company: Aon
