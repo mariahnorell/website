@@ -55,6 +55,7 @@ stats.pearsonr(df_name.column1, df_name.column2)
 ## Tutorial
 
 We can obtain the correlation coefficient of two continuous variables from a data set. To get started, download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
+
 ### Part One: Writing the Code
 For this example, let's determine whether there is a relationship between *Employee Satisfaction* and *Performance Rating Scores*.
 
@@ -86,7 +87,17 @@ We can see that r = 0.30 and p < .05 which indicates the following:
 
 ## Linear Regression
 
+John Tukey (an American mathematician and statistician) once said, “An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem.” 
+
+### Definition
+
+Ultimately, a linear regression is an attempt to model the relationship between two variables by fitting the linear equation to the observed data (i.e., finding the line of best fit). Statisticians, data scientists, and business professionals use linear regressions often as a means to predict the values of one variable from values of the other variables in question. In a linear regression, one variable is explanatory (i.e., independent variable) and the other is predicted (i.e., dependent variable). Sometimes, there might be more than one explanatory or predicted variable, but more on that later.
+
 ### Assumptions
+
+Depending on the model you build, there will be a variety of assumptions/conditions needed to ensure proper model predictions and estimates.
+
+The following are the core assumptions needed for linear regression modeling: 
 
 1. Linear Relationship Exists
 2. Independence of Residuals
@@ -95,11 +106,11 @@ We can see that r = 0.30 and p < .05 which indicates the following:
 
 ### Formula
 
+Below is the linear regression formula, where *X* is the explanatory variable and *Y* is the predicted variable. The slope of the line is *b* and *a* is the intercept (i.e., the value of *Y* when *X* = 0).
+
 $$Y = a + bX$$
 
- <!-- $$\hat{y} = a + bx$$ -->
-
-Where:
+Here's the explanations at a glance:
 | Variables  | Interpretation |
 | ------------- | ------------- |
 | Y | Dependent Variable |
@@ -107,6 +118,25 @@ Where:
 | b | Slope of the Line |
 | a | Intercept |
 
-<!-- ŷ is the estimated response value
-a is the intercept of the regression line
-b is the slope of the regression line -->
+<!-- ### Finding the Line of Best-Fit
+
+Regressions are all about finding the best-fit line throughout sets of data. Getting the line of best-fit is typically done through a method called the 'least-quares' error solution. This means the regression equation minimizes the differences between data points and the line. 
+
+The least-squares method uses the error of prediction 
+
+The formula for the error of prediction is the distance between the actual (Y) value and the predicted (Ŷ) value.  
+
+$$Y - Ŷ$$
+
+
+In regression analyses, a prediction error can be used as a measure to determine how well the model does on the predicted variable. 
+
+A line that is the best fit for the actual data that minimizes prediction errors. -->
+
+### Interpretation of Results
+
+Before attempting to fit a linear model to observed data, first determine whether or not there is a relationship between the variables of interest. If a correlation exists, this does not imply that one variable causes the other, but that there is some significant association between the two variables. In other words, correlation does not equal causation. 
+
+When reviewing the data as a scatter plot on a graph, take notice to the outliers/outriders and determine their importance (or deterance) to the data. 
+
+When reviewing the model results, the first number you can focus in on is R Square. R Square explains the goodness of fit - the closer to 1.00 the better!
