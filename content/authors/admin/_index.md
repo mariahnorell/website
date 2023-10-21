@@ -71,6 +71,6 @@ email: "mariah.norell@sjsu.edu"
 highlight_name: false
 ---
 
-Currently, I'm a Senior People Insights Partner on the People Insights Team at Atlassian. I'm also a Lecturer at San Jose State University where I teach intermediate and advanced People Analytics courses. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles. Previously, I was on the People Analytics team at Amazon Web Services (AWS) and was a Data Scientist/Consultant at Aon helping companies elevate their HR strategy. 
+Currently, I'm a Lead People Insights Partner on the People Analytics & Insights Team at Atlassian. I'm also a Lecturer at San Jose State University where I teach intermediate and advanced People Analytics courses. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles. Previously, I was on the People Analytics team at Amazon Web Services (AWS) and was a Data Scientist/Consultant at Aon helping companies elevate their HR strategy. 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
