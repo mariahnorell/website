@@ -29,7 +29,7 @@ experience:
     company: Atlassian
     company_url: ''
     location: California
-    date_start: '2023-10-01'
+    date_start: '2021-11-01'
     date_end: ''
     description: |2-
       Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
