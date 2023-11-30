@@ -31,13 +31,6 @@ experience:
     location: California
     date_start: '2023-10-01'
     date_end: ''
-
-- title: Senior People Insights Partner
-    company: Atlassian
-    company_url: ''
-    location: California
-    date_start: '2021-11-01'
-    date_end: '2023-09-30'
     description: |2-
       Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
  
@@ -77,7 +70,7 @@ experience:
     date_start: '2017-06-01'
     date_end: '2021-03-31'
     description: |2-
-      Projects:
+      Areas of Focus:
 
         - Pay Equity
         - Organizational Risk
