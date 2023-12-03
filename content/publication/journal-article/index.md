@@ -1,16 +1,5 @@
 ---
-<<<<<<<< HEAD:exampleSite/content/publication/example/index.md
-# Activate this page? true/false
-active: false
-
-title: "An example conference paper"
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
-========
 title: "An example journal article"
->>>>>>>> upstream/main:content/publication/journal-article/index.md
 authors:
 - admin
 - Robert Ford
@@ -41,13 +30,7 @@ tags:
 - Source Themes
 featured: false
 
-<<<<<<<< HEAD:exampleSite/content/publication/example/index.md
-# Display this page in the Featured widget?
-featured: false
-
 # Custom links (uncomment lines below)
-========
->>>>>>>> upstream/main:content/publication/journal-article/index.md
 # links:
 # - name: ""
 #   url: ""
