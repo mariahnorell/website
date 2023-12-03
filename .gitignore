@@ -2,11 +2,9 @@
 .idea/
 
 # Hugo
-/resources/
+resources/
 public/
 jsconfig.json
-
-
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,hugo,zsh
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,hugo,zsh
