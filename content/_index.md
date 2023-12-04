@@ -65,7 +65,6 @@ sections:
         - title: Lead People Insights Partner
           company: Atlassian
           company_url: ''
-          company_logo: ''
           location: California
           date_start: '2023-10-01'
           date_end: ''
@@ -74,7 +73,6 @@ sections:
         - title: Senior People Insights Partner
           company: Atlassian
           company_url: ''
-          company_logo: ''
           location: California
           date_start: '2021-11-01'
           date_end: '2023-09-30'
