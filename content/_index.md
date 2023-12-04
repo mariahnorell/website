@@ -78,7 +78,7 @@ sections:
           date_start: '2021-11-01'
           date_end: '2023-09-30'
           description: Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
-         - title: Lecturer, Lucas Graduate School of Business
+        - title: Lecturer, Lucas Graduate School of Business
           company: San Jose State University
           company_url: ''
           company_logo: org-x
@@ -90,7 +90,7 @@ sections:
 
               * Human Resources Analytics - Advanced Graduate Course (BUS 297D)
               * Human Resources Analytics - Undergraduate Course (BUS3 152)
-          - title: People Analytics Analyst
+        - title: People Analytics Analyst
           company: Amazon Web Services (AWS)
           company_url: ''
           company_logo: org-x
