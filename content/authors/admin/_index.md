@@ -65,7 +65,7 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "mariah.norell@sjsu.edu"
+email: "mariah@norell.co"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
