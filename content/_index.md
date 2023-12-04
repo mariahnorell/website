@@ -69,11 +69,7 @@ sections:
           location: California
           date_start: '2023-10-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-              * Analysing
-              * Modelling
-              * Deploying
+          description: Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
         - title: Senior People Insights Partner
           company: Atlassian
           company_url: ''
@@ -92,17 +88,8 @@ sections:
           description: |2-
             Core content developer and instructor for the undergraduate and graduate People Analytics curriculum:
 
-              * Human Resources Analytics - Advanced (BUS 297D)
-              * Human Resources Analytics (BUS3 152)
-            Previous Teaching Portfolio:  
-
-              * Intermediate Statistics (STAT 115)
-              * Fundamentals of Human Resource Management (BUS3 150)
-              * Industrial/Organizational Psychology (PSYC 170)
-            Teaching Awards:
-
-              * Distinguished Lecturer Award (2021-2022)
-              * Master Teacher Award (2018-Present)
+              * Human Resources Analytics - Advanced Graduate Course (BUS 297D)
+              * Human Resources Analytics - Undergraduate Course (BUS3 152)
           - title: People Analytics Analyst
           company: Amazon Web Services (AWS)
           company_url: ''
