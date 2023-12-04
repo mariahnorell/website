@@ -73,7 +73,7 @@ sections:
         - title: Senior People Insights Partner
           company: Atlassian
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
           date_start: '2021-11-01'
           date_end: '2023-09-30'
@@ -81,7 +81,7 @@ sections:
         - title: Lecturer, Lucas Graduate School of Business
           company: San Jose State University
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
           date_start: '2018-08-01'
           date_end: ''
@@ -105,7 +105,7 @@ sections:
         - title: People Analytics Analyst
           company: Amazon Web Services (AWS)
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
           date_start: '2021-05-01'
           date_end: '2021-10-31'
@@ -113,7 +113,7 @@ sections:
         - title: Data Scientist and Consultant
           company: Radford, Aon (Data Analytics Consulting Firm)
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
           date_start: '2017-06-01'
           date_end: '2021-03-31'
@@ -142,32 +142,23 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/DLI-Workshop-Fundamentals-of-Accelerated-Data-Science-with-RAPIDS.pdf
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2021-04-23'
+          description: 'Learned how to build and execute end-to-end GPU-accelerated data science workflows to quickly explore, iterate, and get work into production. Applied a wide variety of machine learning algorithms to perform data analysis at scale.'
+          icon: ''
+          organization: NVIDIA
+          organization_url: ''
+          title: Fundamentals of Accelerated Data Science with RAPIDS
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-english
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
+          date_start: '2020-11-16'
+          description: Learned Scrum Framework, theory, and principles based on the official Scrum Guide.
+          icon: ''
+          organization: CertiProf
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          title: Scrum Foundation Professional Certificate (SFPC
           url: ''
     design:
       columns: '2'
@@ -281,33 +272,29 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: ''
+      phone: ''
+      appointment_url: 'https://calendly.com/mariahnorell'
       address:
-        street: 450 Serra Mall
+        street: ''
         city: Stanford
         region: CA
-        postcode: '94305'
+        postcode: ''
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      directions: ''
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - ''
+        - ''
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+      # coordinates:
+      #   latitude: ''
+      #   longitude: ''  
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
           link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
         - icon: video
           icon_pack: fas
           name: Zoom Me
