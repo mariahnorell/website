@@ -42,14 +42,14 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: ''
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     content:
       title: Experience
@@ -216,14 +216,14 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
   - block: collection
     id: featured
     content:
@@ -259,26 +259,26 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        ''
       # Contact (add or remove contact options as necessary)
       email: ''
       phone: ''
       appointment_url: 'https://calendly.com/mariahnorell'
       address:
         street: ''
-        city: Stanford
-        region: CA
+        city: ''
+        region: ''
         postcode: ''
         country: United States
         country_code: US
@@ -291,14 +291,14 @@ sections:
       #   latitude: ''
       #   longitude: ''  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        # - icon: twitter
+        #   icon_pack: fab
+        #   name: DM Me
+        #   link: 'https://twitter.com/Twitter'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Zoom Me
+        #   link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
