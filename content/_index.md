@@ -71,7 +71,6 @@ sections:
           date_end: ''
           description: |2-
               Responsibilities include:
-
               * Analysing
               * Modelling
               * Deploying
@@ -95,18 +94,15 @@ sections:
 
               * Human Resources Analytics - Advanced (BUS 297D)
               * Human Resources Analytics (BUS3 152)
-        
             Previous Teaching Portfolio:  
 
               * Intermediate Statistics (STAT 115)
-              - Fundamentals of Human Resource Management (BUS3 150)
-              - Industrial/Organizational Psychology (PSYC 170)
-      
+              * Fundamentals of Human Resource Management (BUS3 150)
+              * Industrial/Organizational Psychology (PSYC 170)
             Teaching Awards:
 
-              - Distinguished Lecturer Award (2021-2022)
-              - Master Teacher Award (2018-Present)
-
+              * Distinguished Lecturer Award (2021-2022)
+              * Master Teacher Award (2018-Present)
           - title: People Analytics Analyst
           company: Amazon Web Services (AWS)
           company_url: ''
