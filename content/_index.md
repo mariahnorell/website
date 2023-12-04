@@ -62,27 +62,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Lead People Insights Partner
+          company: Atlassian
           company_url: ''
-          company_logo: org-gc
+          company_logo: ''
           location: California
-          date_start: '2021-01-01'
+          date_start: '2023-10-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+            Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.    
+        - title: Senior People Insights Partner
+          company: Atlassian
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2021-11-01'
+          date_end: '2023-09-30'
+          description: |2-
+            Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
     design:
       columns: '2'
   - block: accomplishments
