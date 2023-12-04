@@ -67,7 +67,7 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: California
-          date_start: '2021-01-01'
+          date_start: '2023-10-01'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -75,13 +75,13 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
+        - title: Senior People Insights Partner
           company: University X
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2021-11-01'
+          date_end: '2023-09-30'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
