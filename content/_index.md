@@ -65,7 +65,7 @@ sections:
         - title: Lead People Insights Partner
           company: Atlassian
           company_url: ''
-          company_logo: org-gc
+          company_logo: ''
           location: California
           date_start: '2023-10-01'
           date_end: ''
@@ -77,7 +77,7 @@ sections:
           location: California
           date_start: '2021-11-01'
           date_end: '2023-09-30'
-          description: Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
+          description: ''
         - title: Lecturer, Lucas Graduate School of Business
           company: San Jose State University
           company_url: ''
@@ -90,6 +90,18 @@ sections:
 
               * Human Resources Analytics - Advanced Graduate Course (BUS 297D)
               * Human Resources Analytics - Undergraduate Course (BUS3 152)
+
+            Previous Teaching Portfolio:  
+            
+            * Intermediate Statistics (STAT 115)
+            * Fundamentals of Human Resource Management (BUS3 150)
+            * Industrial/Organizational Psychology (PSYC 170)
+      
+            Teaching Awards:
+            
+            * Distinguished Lecturer Award (2021-2022)
+            * Master Teacher Award (2018-Present)
+
         - title: People Analytics Analyst
           company: Amazon Web Services (AWS)
           company_url: ''
