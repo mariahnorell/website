@@ -26,10 +26,6 @@ weight: 0
 
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
 
-### Comments on this book
-
-Feedback and requests for new content can be made via email: mariah.norell@sjsu.edu.
-
 <!-- In the future, requests will be made through the issues section of Github. -->
 <!--
 ### Notes on the data in this book
