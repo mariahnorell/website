@@ -7,10 +7,10 @@ draft: false
 menu:
   intro_pa:
     parent: Python
-    weight: 60
+    weight: 66
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 60
+weight: 66
 ---
 
 <!-- In this tutorial, I'll share how to visualize data: -->

@@ -7,10 +7,10 @@ draft: false
 menu:
   intro_pa:
     parent: Python
-    weight: 30
+    weight: 62
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 30
+weight: 62
 ---
 
 <!-- In this tutorial, I'll share how to import pandas, read in a file, and verify the data: -->

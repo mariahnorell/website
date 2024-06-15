@@ -7,10 +7,10 @@ draft: false
 menu:
   intro_pa:
     parent: Python
-    weight: 40
+    weight: 63
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 40
+weight: 63
 ---
 
 <!-- In this tutorial, I'll share how to view subsets and sort DataFrames: -->

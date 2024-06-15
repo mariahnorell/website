@@ -1,6 +1,6 @@
 ---
-title: An Introduction
-linktitle: An Introduction
+title: Qualtrics Basics
+linktitle: Qualtrics Basics
 toc: true
 type: book
 draft: false
@@ -10,7 +10,7 @@ menu:
     weight: 20
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 20
 ---
 
 

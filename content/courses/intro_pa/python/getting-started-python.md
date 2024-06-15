@@ -8,10 +8,10 @@ draft: false
 menu:
   intro_pa:
     parent: Python
-    weight: 2
+    weight: 61
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+weight: 61
 ---
 
 ## Choosing an IDE
