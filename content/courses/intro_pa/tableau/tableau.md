@@ -1,15 +1,16 @@
 ---
-title: Qualtrics Basics
-linktitle: Qualtrics Basics
+title: Tableau
+linktitle: Tableau
 toc: true
 type: book
 draft: false
 menu:
   intro_pa:
-    name: Qualtrics
-    weight: 20
+    name: Tableau
+    weight: 80
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 20
+weight: 80
 ---
+
 

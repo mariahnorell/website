@@ -16,16 +16,6 @@ menu:
   intro_pa:
     name: Welcome
     weight: 0
-    name: Overview
-    weight: 1
-    name: Qualtrics
-    weight: 20
-    name: Excel
-    weight: 40
-    name: Python
-    weight: 60
-    name: Tableau
-    weight: 80
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 0
