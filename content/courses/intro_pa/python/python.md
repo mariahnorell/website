@@ -13,24 +13,24 @@ menu:
 weight: 60
 ---
 
-# Introduction to Python
+## Introduction to Python
 
-## Programming
+### Programming
 
 Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more!
 
-## Python
+### Python
 
 Python is a programming language that was written by Guido van Rossum in the 1990s. This language initially became so popular because it was free and open-sourced, meaning anyone can use it. Python is now one of the most on-demand languages to learn as it is very readable to the user. By 2018, over 8 million people started programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is widely used by many professionals in both research and industry, so it will be powerful to have in your analytics tool belt.
 
 The best way to learn this language is to dive right into a project. The following sections in this book contain HR-related examples and walkthroughs on how to use this powerful programming language to your advantage.
 
 
-## Libraries
+### Libraries
 
 Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the Pandas library.
 
-# Choosing an IDE
+## Choosing an IDE
 
 You can write Python code in numerous IDEs (integrated development environments). The Python language stays the same regardless of the IDE you choose to use, but each IDE may look different or have different features. Think of it this way: your Gmail or Outlook account still functions as an e-mail account, but can be accessed through many different browsers like Chrome, Firefox, or Safari that have their own characteristics.
 
@@ -40,10 +40,10 @@ Examples of IDEs include:
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Jupyter Notebook](https://jupyter.org/)
 
-## Installing Anaconda
+### Installing Anaconda
 Anaconda is an open-source environment for individuals to write code and is helpful to all data analysts. Go to [anaconda.com](https://www.anaconda.com/products/individual) to download Python 3.7 for your computer and follow all instruction prompts.
 
-## Jupyter Notebook Basics
+### Jupyter Notebook Basics
 
 Jupyter Notebook is a very user-friendly IDE that allows you to chunk out your code and write in text in a clear way. The way we add in this text is through something called *Markdown*. It is helpful to alternate between writing in Markdown and writing code because it will visually organize the project you set out to accomplish. In addition, organizing your Notebook will help others (i.e., colleagues, interview committees, friends) understand your thought process.
 
@@ -51,7 +51,7 @@ Open up this [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 While getting everything set up, locate a place on your computer that will be easy to access all notebooks for this class. It's recommended to utilize cloud-based storage tools like iCloud, OneDrive, Dropbox, Google Drive, rather than your desktop to ensure you do not lose any work.
 
-### What is Markdown?
+#### What is Markdown?
 
 ```md
 ### Hello, this is Markdown.
@@ -89,19 +89,19 @@ Markdown is particularly helpful when we want to include notes about our code.
 
 Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
 
-# Pandas Library
+## Pandas Library
 
 Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS.
 
-## DataFrames
+### DataFrames
 
 Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
 
-## Creating a DataFrame in Pandas
+### Creating a DataFrame in Pandas
 
 You can create one from scratch or you can read in a data file. We will begin with reading in Excel files to mimic real-world scenarios and use cases.
 
-### Importing Pandas
+#### Importing Pandas
 
 Whenever you want to add a new library for your code, the `import` command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
 
@@ -115,7 +115,7 @@ Often, programmers shorten libraries to a couple letters to make it cleaner and 
 import pandas as pd
 ```
 
-### Reading in a File
+#### Reading in a File
 
 It's good practice to assign the line of code you are trying to run to a variable. To read in a .csv file for example, first assign it a variable name. Doing so will help later when we want to reference the file because we won't have to re-write the command, we will be able to reference the variable name used.
 
@@ -148,7 +148,7 @@ import pandas as pd
 my_variable = pd.read_csv('filename.csv')
 ```
 
-### Verifying the Data
+#### Verifying the Data
 
 After reading in the .csv file, it is important to verify that it loaded in properly. To do this, we can use three different methods:
 
