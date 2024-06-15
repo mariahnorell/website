@@ -1,6 +1,6 @@
 ---
-title: Fundamental Excel Skills
-linktitle: Fundamental Excel Skills
+title: Getting Started with Excel
+linktitle: Getting Started with Excel
 toc: true
 type: book
 draft: false

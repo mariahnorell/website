@@ -73,20 +73,19 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 <!-- Weighting for headers in toc:
 
 Welcome = 0
-
 Overview = 10
 
 Qualtrics (20)
-Qualtrics Basics = 
-Getting Started Python = 
+Qualtrics Basics = 2
+Getting Started Python = 21
 
 
 Excel (40)
-Excel Basics = 40
+Excel Basics = 4
 Getting Started Excel = 41
 
 Python (60)
-Python Basics = 1 -- 60
+Python Basics = 1 -- 6
 Getting Started = 2 -- 61
 Basic Stats = 50 -- 64
 Complex Stats = 52  -- 65
@@ -96,7 +95,7 @@ Visualizations = 60 -- 66
 
 
 Tableau (80)
-Tableau Basics = 80
+Tableau Basics = 8
 Getting Started Tableau = 81
 
  -->

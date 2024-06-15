@@ -1,6 +1,6 @@
 ---
-title: Basic Statistics
-linktitle: Basic Statistics
+title: Getting Started with Qualtrics
+linktitle: Getting Started with Qualtrics
 toc: true
 type: book
 draft: false
@@ -18,6 +18,4 @@ weight: 21
 <!-- ## NumPy Library
 
 NumPy supports processing large sets of data as well as complex mathematical functions. -->
-
-## Describing Data
 

@@ -1,6 +1,6 @@
 ---
-title: Basic Statistics
-linktitle: Basic Statistics
+title: Getting Started with Tableau
+linktitle: Getting Started with Tableau
 toc: true
 type: book
 draft: false
@@ -19,5 +19,5 @@ weight: 81
 
 NumPy supports processing large sets of data as well as complex mathematical functions. -->
 
-## Describing Data
+
 
