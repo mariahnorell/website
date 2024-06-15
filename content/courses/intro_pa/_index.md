@@ -16,8 +16,8 @@ menu:
   intro_pa:
     name: Welcome
     weight: 0
-    name: Overview
-    weight: 1
+      name: Overview
+      weight: 1
     name: Qualtrics
     weight: 20
     name: Excel
@@ -37,11 +37,6 @@ weight: 0
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
 
 <!-- In the future, requests will be made through the issues section of Github. -->
-<!--
-### Notes on the data in this book
-
-In this current version, the content of this book will be focused on Python and the Jupyter Notebook IDE. -->
-
 
 
 <!-- * **Online courses**
@@ -86,16 +81,16 @@ Welcome = 0
 Overview = 10
 
 Qualtrics (20)
-Qualtrics Basics = 2
+Qualtrics Basics = 20
 Getting Started Python = 21
 
 
 Excel (40)
-Excel Basics = 4
+Excel Basics = 40
 Getting Started Excel = 41
 
 Python (60)
-Python Basics = 1 -- 6
+Python Basics = 1 -- 60
 Getting Started = 2 -- 61
 Basic Stats = 50 -- 64
 Complex Stats = 52  -- 65
@@ -105,7 +100,7 @@ Visualizations = 60 -- 66
 
 
 Tableau (80)
-Tableau Basics = 8
+Tableau Basics = 80
 Getting Started Tableau = 81
 
  -->

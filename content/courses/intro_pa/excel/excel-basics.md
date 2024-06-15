@@ -1,6 +1,6 @@
 ---
-title: Excel Basics
-linktitle: Excel Basics
+title: Excel
+linktitle: Excel
 toc: true
 type: book
 draft: false
