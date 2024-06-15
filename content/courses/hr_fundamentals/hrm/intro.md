@@ -3,7 +3,7 @@ title: An Introduction
 linktitle: An Introduction
 toc: true
 type: docs
-draft: false
+draft: true
 menu:
   hr_fundamentals:
     parent: HR Management

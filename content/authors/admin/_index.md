@@ -21,7 +21,7 @@ bio: My research interests include pay equity, diversity and inclusion, and wome
 
 # Interests to show in About widget
 interests:
-- People Analytics
+- Consulting
 - Data Vizualization
 - Being Skeptical of Data
 - Coffee Enthusiast
@@ -65,5 +65,5 @@ email: "mariah@norell.co"
 highlight_name: false
 ---
 
-I'm a People Analytics and Insights Lead at Atlassian. I'm also an educator at San Jose State University where I teach intermediate and advanced People Analytics courses. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles. Previously, I was on the People Analytics team at Amazon Web Services (AWS) and was a Data Scientist/Consultant at Aon helping companies elevate their HR strategy. 
+Global people analytics leader with a passion for education and bridging the gap between data and strategy. 
 

@@ -5,7 +5,7 @@ toc: true
 type: docs
 draft: false
 menu:
-  hr_analytics:
+  intro_pa:
     parent: Python
     weight: 50
 
