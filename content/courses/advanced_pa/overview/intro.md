@@ -2,10 +2,10 @@
 title: An Introduction
 linktitle: An Introduction
 toc: true
-type: docs
-draft: false
+type: book
+draft: true
 menu:
-  hr_fundamentals:
+  advanced_pa:
     parent: HR Management
     weight: 1
 

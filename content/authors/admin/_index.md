@@ -6,7 +6,7 @@ title: Mariah Norell
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist & Lecturer
+role: People Analytics Leader & Educator
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -21,7 +21,7 @@ bio: My research interests include pay equity, diversity and inclusion, and wome
 
 # Interests to show in About widget
 interests:
-- People Analytics
+- Consulting
 - Data Vizualization
 - Being Skeptical of Data
 - Coffee Enthusiast
@@ -31,10 +31,10 @@ education:
   courses:
   - course: MS in Industrial and Organizational Psychology
     institution: San Jose State University
-    year: 2018
+
   - course: BA in Psychology
     institution: Sacramento State University
-    year: 2016
+    
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,12 +44,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
-#- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-#  icon_pack: fas
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/mariahnorell
@@ -71,6 +65,5 @@ email: "mariah@norell.co"
 highlight_name: false
 ---
 
-Hi there! I'm a Lead People Insights Partner on the People Analytics & Insights Team at Atlassian. I'm also a Lecturer at San Jose State University where I teach intermediate and advanced People Analytics courses. I find it exciting to bring my scientist-practitioner background to the classroom and watch my students grasp the competencies of fundamental business principles. Previously, I was on the People Analytics team at Amazon Web Services (AWS) and was a Data Scientist/Consultant at Aon helping companies elevate their HR strategy. 
+Global people analytics leader with a passion for education and bridging the gap between data and strategy. 
 
-<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

@@ -2,11 +2,11 @@
 title: Foreward
 linktitle: Foreward
 toc: true
-type: docs
-date: "2019-05-05T00:00:00+01:00"
+type: book
+date: "2024-06-05T00:00:00+01:00"
 draft: true # change when updated
 menu:
-  hr_analytics:
+  intro_pa:
     name: Foreward
     weight: 2
 
@@ -14,7 +14,7 @@ menu:
 weight: 2
 ---
 
-With the influx of data becoming ever so available, the need for human resource professionals to increase their analytical skillset became evident. 
+With the influx of data becoming ever so available, the need for human resource professionals to increase their analytical skillset is necessary. 
 
 Add in research: 
 

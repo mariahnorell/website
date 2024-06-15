@@ -2,11 +2,11 @@
 title: Foreward
 linktitle: Foreward
 toc: true
-type: docs
+type: book
 date: "2019-05-05T00:00:00+01:00"
 draft: true # change when updated
 menu:
-  hr_fundamentals:
+  advanced_pa:
     name: Foreward
     weight: 2
 

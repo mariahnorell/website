@@ -2,10 +2,10 @@
 title: An Introduction
 linktitle: An Introduction
 toc: true
-type: docs
+type: book
 draft: false
 menu:
-  hr_analytics:
+  intro_pa:
     parent: Python
     weight: 1
 

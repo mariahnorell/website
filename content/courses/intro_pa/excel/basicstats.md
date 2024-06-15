@@ -2,11 +2,11 @@
 title: Basic Statistics
 linktitle: Basic Statistics
 toc: true
-type: docs
+type: book
 draft: false
 menu:
-  hr_analytics:
-    parent: Python
+  intro_pa:
+    parent: Excel
     weight: 50
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
