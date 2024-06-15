@@ -16,8 +16,8 @@ menu:
   intro_pa:
     name: Welcome
     weight: 0
-      name: Overview
-      weight: 1
+    name: Overview
+    weight: 1
     name: Qualtrics
     weight: 20
     name: Excel
