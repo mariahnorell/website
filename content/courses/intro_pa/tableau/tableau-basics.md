@@ -6,8 +6,8 @@ type: book
 draft: false
 menu:
   intro_pa:
-    name: Python
-    weight: 60
+    name: Tableau
+    weight: 80
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
