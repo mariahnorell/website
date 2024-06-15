@@ -7,10 +7,10 @@ draft: false
 menu:
   intro_pa:
     name: Python
-    weight: 6
+    weight: 60
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 6
+weight: 60
 ---
 
 

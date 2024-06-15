@@ -7,7 +7,7 @@ draft: false
 menu:
   intro_pa:
     parent: Excel
-    weight: 4
+    weight: 40
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 41
