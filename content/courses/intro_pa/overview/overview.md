@@ -8,10 +8,10 @@ draft: false
 menu:
   intro_pa:
     name: Overview
-    weight: 10
+    weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 10
+weight: 1
 ---
 
 ## Notes About this Book

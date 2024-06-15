@@ -7,7 +7,7 @@ draft: false
 menu:
   intro_pa:
     parent: Tableau
-    weight: 81
+    weight: 8
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 81
