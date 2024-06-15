@@ -2,7 +2,7 @@
 title: Data Slicing
 linktitle: Data Slicing
 toc: true
-type: docs
+type: book
 draft: false
 menu:
   intro_pa:

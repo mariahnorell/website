@@ -2,7 +2,7 @@
 title: Pandas Basics
 linktitle: Pandas Basics
 toc: true
-type: docs
+type: book
 draft: false
 menu:
   intro_pa:

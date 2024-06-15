@@ -2,7 +2,7 @@
 title: Complex Statistics
 linktitle: Complex Statistics
 toc: true
-type: docs
+type: book
 draft: false
 menu:
   intro_pa:

@@ -2,7 +2,7 @@
 title: An Introduction
 linktitle: An Introduction
 toc: true
-type: docs
+type: book
 draft: false
 menu:
   intro_pa:
