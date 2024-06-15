@@ -16,7 +16,7 @@ weight: 1
 
 ## Notes About this Book
 
-This book is for those who are new to the field of People Analytics. 
+This book is for all who are new to the field of People Analytics. 
 
 ---
 

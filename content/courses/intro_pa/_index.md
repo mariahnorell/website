@@ -69,3 +69,24 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`. -->
+
+<!-- Weighting for headers in toc:
+Forward = 2
+Overview = 10
+
+Qualtrics
+
+Python
+Basic Stats = 50 
+Complex Stats = 52
+Data Slicing = 40
+Getting Started = 2
+Pandas Basics = 30
+Python Basics = 1
+Visualizations = 60
+
+Excel
+
+
+Tableau -->
+
