@@ -36,5 +36,5 @@ Before going into specific examples of using Excel in the People Analytics space
 
 *Once you feel comfortable with the above, you are ready to for a beginner-friendly analysis with people data!*
 
-
-<!-- ![Step 1](/cleaning-data-step1.png) -->
+Download the excel file [here](website/static/Cleaning-Data.csv)
+![Step 1](/cleaning-data-step1.png)
