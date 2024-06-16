@@ -23,7 +23,7 @@ publication_types: ["2"]
 publication: "Radford Articles"
 publication_short: ""
 
-abstract: Aon has partnered with BioMarin to bring the company’s pay equity gap in the United States to virtually zero. This case study explains how we are able to achieve such an encouraging result in a short period of time..
+abstract: Aon has partnered with BioMarin to bring the company’s pay equity gap in the United States to virtually zero. This case study explains how we are able to achieve such an encouraging result in a short period of time.
 
 # Summary. An optional shortened abstract.
 # summary: With a focus on pay for performance, we examined whether companies with five performance ratings distribute their merit budget differently compared to firms with fewer ratings.
