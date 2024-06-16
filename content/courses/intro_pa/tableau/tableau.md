@@ -3,10 +3,11 @@ title: Tableau
 linktitle: Tableau
 toc: true
 type: book
+date: "2024-06-15T00:00:00+01:00"
 draft: false
 menu:
   intro_pa:
-    name: Tableau
+    name: Tableau & Data Visualization
     weight: 80
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)

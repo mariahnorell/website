@@ -3,7 +3,7 @@ title: Overview
 linktitle: Overview
 toc: true
 type: book
-date: "2019-05-05T00:00:00+01:00"
+date: "2024-06-15T00:00:00+01:00"
 draft: false
 menu:
   intro_pa:
@@ -16,7 +16,7 @@ weight: 1
 
 ## Notes About this Book
 
-This book is for all who are new to the field of People Analytics. 
+This beginner-friendly book is for all who are new to the field of People Analytics. I put this book of resources together to help contexualize the intersection of tools and skills needed to thrive in an analytical environment. The following sections are broken up into tools so that the viewer can choose what complimentary skills they would like to learn. Each section contains a variety of tutorials and walkthroughs with real data and analysis examples. 
 
 ---
 

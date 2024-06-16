@@ -1,13 +1,13 @@
 ---
 # Course title, summary, and position.
 linktitle: Introduction to People Analytics
-summary: Examine how Human Resource professionals can use data analytics to inform HR decisions. This course covers descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
+summary: Examine how People Analytics and Human Resource professionals can use data analytics to inform critical business decisions. This course covers descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
 weight: 1
 
 # Page metadata.
 title: Introduction to People Analytics
 date: "2021-01-01T00:00:00Z"
-lastmod: "2021-01-01T00:00:00Z"
+lastmod: "2024-06-15T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: book  # Do not modify.
@@ -25,8 +25,6 @@ weight: 0
 ## Welcome
 
 People analytics, human resource analytics, workforce analytics? There are a variety of terms that detail very similar practices, but at the core of it all is data. To make strategic impact in a data-driven world, rethinking personal growth and development in the HR space is imperative. This book was designed for those who are interested in pursuing an analytical career within human resources, but are not quite sure where to start.
-
-<!-- In the future, requests will be made through the issues section of Github. -->
 
 
 <!-- * **Online courses**

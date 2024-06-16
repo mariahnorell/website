@@ -3,10 +3,11 @@ title: Python
 linktitle: Python
 toc: true
 type: book
+date: "2024-06-15T00:00:00+01:00"
 draft: false
 menu:
   intro_pa:
-    name: Python
+    name: Python & Data Analysis
     weight: 60
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -83,9 +84,9 @@ Now that we have installed Anaconda and have Jupyter Notebook, we can begin codi
 
 ## Pandas Library
 
-Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the `pandas` library.
+Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the Pandas library.
 
-`Pandas` is a library within Python that makes data analysis with large data sets easy. It allows anyone to do basic, intermediate, and advanced level manipulations. It is widely used by data analysts and data scientists to perform operations commonly done in Excel, SPSS, or R. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook. You can create a DataFrame from scratch or you can read in a data file. Most commonly, this is shortened to `df` when writing code. We will begin with reading in Excel files to mimic real-world scenarios and use cases. 
+Pandas is a library within Python that makes data analysis with large data sets easy. It allows anyone to do basic, intermediate, and advanced level manipulations. It is widely used by data analysts and data scientists to perform operations commonly done in Excel, SPSS, or R. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook. You can create a DataFrame from scratch or you can read in a data file. Most commonly, this is shortened to `df` when writing code. We will begin with reading in Excel files to mimic real-world scenarios and use cases. 
 
 Whenever you want to add a new library for your code, the `import` command will be used. Open up a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
 
@@ -93,7 +94,7 @@ Whenever you want to add a new library for your code, the `import` command will 
 import pandas
 ```
 
-Often, programmers shorten libraries to a couple letters to make it cleaner and easier to read. Now when we write code, we can use `pd` instead of `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now. Here's how we can shorten the `pandas` library name:
+Often, programmers shorten libraries to a couple letters to make it cleaner and easier to read. Now when we write code, we can use `pd` instead of `pandas`. This shortcut will be more helpful when working with longer library names, but is a good practice to learn and be aware of now. Here's how we can shorten the Pandas library name:
 
 ```python
 import pandas as pd
@@ -292,7 +293,7 @@ Represents a minimum or maximum age value:
 
 ### Sorting Data
 
-Often, it is easier to look at data once it has been sorted from largest to smallest or the reverse, for any given column. In the `pandas` library, the default syntax is to sort in ascending order. For example, we could sort our data by the Age column, this is what we would write:
+Often, it is easier to look at data once it has been sorted from largest to smallest or the reverse, for any given column. In the Pandas library, the default syntax is to sort in ascending order. For example, we could sort our data by the Age column, this is what we would write:
 
 ```python
 Syntax = df_name.sort_values(by=col_name)
@@ -313,7 +314,7 @@ It's important to note that 'sort_values()' does not **change** the data. Everyt
 
 ## Descriptive Statistics
 
-Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls:
+Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the Pandas library, there is one shortcut command that pulls:
 
 * Total number of observations
 * Mean, median, mode
@@ -389,7 +390,7 @@ What insights can you gather from looking at the data using these commands?
 
 ## Correlations
 
-Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the `pandas` library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
+Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
 
 To get the correlations with this method, write it out using the syntax `.corr()`:
 
