@@ -1,6 +1,6 @@
 ---
-title: Qualtrics
-linktitle: Qualtrics
+
+linktitle: Qualtrics & Survey Design
 toc: true
 type: book
 date: "2024-06-15T00:00:00+01:00"
@@ -14,7 +14,7 @@ menu:
 weight: 20
 ---
 
-# Introduction to Qualtrics
+# Introduction
 
 ## What is Qualtrics?
 

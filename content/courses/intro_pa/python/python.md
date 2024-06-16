@@ -1,6 +1,6 @@
 ---
-title: Python
-linktitle: Python
+
+title: Python & Data Analysis
 toc: true
 type: book
 date: "2024-06-15T00:00:00+01:00"
@@ -14,7 +14,7 @@ menu:
 weight: 60
 ---
 
-# Introduction to Python
+# Introduction
 
 ## What is Python?
 

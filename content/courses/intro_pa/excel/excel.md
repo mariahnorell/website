@@ -14,7 +14,7 @@ menu:
 weight: 40
 ---
 
-# Introduction to Excel
+# Introduction
 
 ## What is Excel?
 Excel is spreadsheet software that allows students, teachers, businesses, and other professionals to analyze data, create visualizations, and more. Formulas and functions are commonly used - perhaps the most common being `vlookup` or a `pivot table`. Regardless of the maturity of an organization, the People Analytics and Human Resources teams will almost always use Excel in some way. Therefore, it is an essential skill that must be learned. 
