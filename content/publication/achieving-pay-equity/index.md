@@ -32,7 +32,7 @@ tags:
 - Pay Equity
 - Case Study
 - Compensation
-featured: true
+featured: false
 
 # links:
 # - name: ""
