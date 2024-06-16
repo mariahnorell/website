@@ -5,6 +5,8 @@ summary: tbd
 
 weight: 1
 
+
+
 # Page metadata.
 title: Advanced People Analytics
 date: "2021-01-01T00:00:00Z"
@@ -16,7 +18,7 @@ linktitle: Welcome
 menu:
   advanced_pa:
     name: Welcome
-    weight: 1
+    weight: 0
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 0

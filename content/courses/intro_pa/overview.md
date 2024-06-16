@@ -28,9 +28,13 @@ My favorite beginner courses/certifications include:
 - [Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)
 
+Check out my post, [here](https://mariahnorell.com/post/pursuing-an-analytics-career/), for a comprehensive overview on what it takes to break into the analytics field and see what types of courses/certifications I personally recommend! 
+
 ### Free Data Sets
 
 Top sites to find free data sets:
 - [Data.gov](https://www.data.gov/)
 - [Datahub.io](https://datahub.io/collections)
 - [Kaggle](https://www.kaggle.com/datasets)
+- [Tableau](https://www.tableau.com/learn/articles/free-public-data-sets)
+- [data.world](https://data.world/datasets/people)
