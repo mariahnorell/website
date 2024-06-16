@@ -22,13 +22,10 @@ Excel is spreadsheet software that allows students, teachers, businesses, and ot
 If you are a student, there is a strong likelihood that you already have access via [this website](https://www.microsoft.com/en-us/education/products/office). A common alternative to Excel is Google Sheets which only requires a user to have a gmail account. The following tutorials will predominantly utilize Excel, though it should be noted that Google Sheets can be used as a substitute in most cases. 
 
 
-{{< img src="website/content/courses/intro_pa/excel/cleaning-data-step1.png">}}
+{{< img src="/cleaning-data-step1.jpg" class="img-responsive">}}
 
 Open the Excel workbook titled “Cleaning Data.xlsx”.
 
 Review the data fields in the table, and refer to the field definitions in the Background Section of this tutorial.
 
 Note that each row below the column names represents a unique employee, where the total number of employees is 15.
-
-
-{{< img src="website/static/img/cleaning-data-step1.png">}}
