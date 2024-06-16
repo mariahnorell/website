@@ -10,6 +10,7 @@ authors:
 date: "2016-04-01T00:00:00Z"
 doi: ""
 draft: true
+active: false
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2016-04-01T00:00:00Z"
@@ -31,7 +32,7 @@ summary: ''
 
 tags:
 
-featured: true
+featured: false
 
 # links:
 # - name: ""
