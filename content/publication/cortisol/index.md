@@ -4,7 +4,7 @@ authors:
 - Kim Roberts
 - Erryn Rivers
 - Carlos Lopez
-- Mariah Patterson
+- Mariah (Patterson) Norell
 - Logan Shideler
 
 # author_notes:

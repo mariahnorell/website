@@ -2,14 +2,14 @@
 title: "The Relationship Between Minority Status and Leadership Perceptions"
 authors:
 - Altovise Rogers
-- Mariah Patterson
+- Mariah (Patterson) Norell
 
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 date: "2017-12-01T00:00:00Z"
 doi: ""
-draft: false
+draft: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-12-01T00:00:00Z"
