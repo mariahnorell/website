@@ -15,8 +15,6 @@ weight: 60
 
 # Introduction to Python
 
- 
-
 ## Programming
 
 Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more!
@@ -70,7 +68,7 @@ We can also write in **bold** and add links like [this one](https://youtu.be/dQw
 Markdown is particularly helpful when we want to include notes about our code.
 ```
 
-Now here's how the output looks:
+*Here's how that output looks:*
 
 ---
 
@@ -91,21 +89,11 @@ Markdown is particularly helpful when we want to include notes about our code.
 
 Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
 
-## Pandas Library
+## Pandas
 
-Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS.
+Pandas is a library within Python that makes data analysis with large data sets easy. It allows anyone to do basic, intermediate, and advanced level manipulations. It is widely used by data analysts and data scientists to perform operations commonly done in Excel, SPSS, or R. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook. You can create a DataFrame from scratch or you can read in a data file. Most commonly, this is shortened to `df` when writing code. We will begin with reading in Excel files to mimic real-world scenarios and use cases. 
 
-## DataFrames
-
-Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook.
-
-## Creating a DataFrame in Pandas
-
-You can create one from scratch or you can read in a data file. We will begin with reading in Excel files to mimic real-world scenarios and use cases.
-
-### Importing Pandas
-
-Whenever you want to add a new library for your code, the `import` command will be used. Open a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
+Whenever you want to add a new library for your code, the `import` command will be used. Open up a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
 
 ```python
 import pandas
@@ -192,9 +180,10 @@ my_variable.tail()
 
 Writing .head() or .tail(), it will automatically return 5 variables. To return a specific number, place that desired number within the parentheses. For example, `.head(3)` will return the top three rows of data and `.tail(7)` will return the bottom seven rows of data.
 
-## Tutorial
+## Tutorial 1
 
-Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
+Now that we know the three steps to read in our data, let's walk through an example. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set. Take a moment to download this file and navigate where you just set up your Jupyter notebook files. Create a folder to store all practice files and materials. Then open up the Anaconda app, navigate to the Jupyter notebook section, and find the folder you just created to begin a new project. 
+
 ### Reviewing the Data
 
 Can you think of some advantages/disadvantages to using one of these three approaches to review your data?
@@ -203,14 +192,9 @@ Can you think of some advantages/disadvantages to using one of these three appro
 
 Try it out! Add a number in the parentheses to pull the amount of data you are interested in viewing.
 
-## DataFrames
-
-Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code.
-
-
 ## Indexing with Numbers
 
-Indexing means we want to select a specific row/column in a DataFrame. To pull a column of information you can write:
+From the above section, we pulled all data to look at and in all one view. Often, the sheer volume of data you will work with will require you to filter down to only the relevant variables. In other words, instead of looking at a file with all rows and columns, you may really only be interested in some rows and/or some columns. One way we can select (or filter) our variables is to do something called indexing. Here's an example of how to pull a column of information you can write:
 
 ```python
 hr_df['Age']
@@ -230,9 +214,7 @@ df = pd.read_csv('filename.csv')
 df.Education[3]
 ```
 
-#### What is slicing?
-
-Think of slicing like chunking up the data into smaller pieces. For example, you would start the index at 'a' and stop before 'b'.
+Here's another example where we can slice the data even more. For example, you would start the index at 'a' and stop before 'b'.
 
 ```python
 # : = all rows
@@ -287,7 +269,7 @@ df.iloc[:, :]
 
 ## Indexing with Booleans
 
-We just learned how to sort our data by selecting the appropriate numbers for the rows and columns, but what if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a 'Boolean expression'.
+We just learned how to slice our data by selecting the appropriate numbers for the rows and columns, but what if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a 'Boolean expression'.
 
 We can search within a specific column to return a specific row.
 
@@ -314,14 +296,14 @@ Represents a minimum or maximum age value:
 
 ## Sorting Data
 
-Ascending: When you sort your data by a particular column, the default is to sort in ascending order. For example, we could sort our data by the Age column:
+Often, it is easier to look at data once it has been sorted from largest to smallest or the reverse, for any given column. In the `pandas` library, the default syntax is to sort in ascending order. For example, we could sort our data by the Age column, this is what we would write:
 
 ```python
 Syntax = df_name.sort_values(by=col_name)
 example = df_name.sort_values(by='Age')
 ```
 
-Descending: To sort in descending order, you add one argument to the syntax:
+To sort in descending order, you add one argument to the syntax exactly as follows:
 
 ```python
 Syntax = df_name.sort_values(by=col_name, ascending = False)
@@ -329,7 +311,7 @@ hr_df.sort_values(by = 'column name', ascending = False)
 ```
 
 <!-- ### Viewing vs. Changing the DF -->
-It's important to note that 'sort_values()' does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
+It's important to note that 'sort_values()' does not **change** the data. Everything we have learned so far are different ways to **view** the data and not manipulate it.
 
 ## Describing Data
 
@@ -375,7 +357,7 @@ Alternatively, we could pull the descriptive statistics with the following comma
 | Standard Deviation | `df_name.column_name.std()` |
 | Count Instances | `df_name.column_name.count()` |
 
-For example, to obtain the max value of one column in the data set:
+For example, to obtain the max value of one column in the data set we would use this command:
 
 ```python
 import pandas as pd
@@ -383,7 +365,7 @@ df = pd.read_csv('filename.csv')
 df.column_name.max()
 ```
 
-Or, to obtain the counts of one column in the data set:
+Or, to obtain the counts of one column in the data set we would use this command:
 
 ```python
 import pandas as pd
@@ -391,9 +373,9 @@ df = pd.read_csv('filename.csv')
 df_name.column_name.count()
 ```
 
-## Tutorial
+## Tutorial 2
 
-To practice what we just learned, let's use sample data to pull these statistics. Download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
+We just learned how to index, sort, and describe data. To practice what we just learned, let's use the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set. 
 
 ### Part One: Describe Command
 
@@ -427,7 +409,7 @@ To get the correlation with this method, use the `stats` function like so:
 stats.pearsonr(df_name.column1, df_name.column2)
 ```
 
-## Tutorial
+## Tutorial 3
 
 We can obtain the correlation coefficient of two continuous variables from a data set. To get started, download the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set
 
@@ -588,7 +570,6 @@ For horizontal bars, your code would look like this:
 # y = vertical axis & horizontal bars
 plot_name = sns.countplot(y = df_name.col2)
 ```
-
 
 ## Word Clouds
 
