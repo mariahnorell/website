@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Introduction to People Analytics
+title: Introduction to People Analytics
 summary: Examine how People Analytics and Human Resource professionals can use data analytics to inform critical business decisions. This course covers descriptive, predictive, and prescriptive analytics. Concepts are applied using software tools like Qualtrics, Python, Excel, and Tableau.
 weight: 1
 

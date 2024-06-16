@@ -22,7 +22,7 @@ Excel is spreadsheet software that allows students, teachers, businesses, and ot
 If you are a student, there is a strong likelihood that you already have access via [this website](https://www.microsoft.com/en-us/education/products/office). A common alternative to Excel is Google Sheets which only requires a user to have a gmail account. The following tutorials will predominantly utilize Excel, though it should be noted that Google Sheets can be used as a substitute in most cases. 
 
 
-{{< figure src="cleaning-data-step1.jpg" >}}
+{{< figure src="cleaning-data-step1.png" >}}
 
 Open the Excel workbook titled “Cleaning Data.xlsx”.
 
