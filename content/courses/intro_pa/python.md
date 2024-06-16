@@ -464,7 +464,7 @@ The following are the core assumptions needed for linear regression modeling:
 
 Below is the linear regression formula, where *X* is the explanatory variable and *Y* is the predicted variable. The slope of the line is *b* and *a* is the intercept (i.e., the value of *Y* when *X* = 0).
 
-$Y = a + bX$
+$$ Y = a + bX $$
 
 Here's the explanations at a glance:
 | Variables  | Interpretation |
