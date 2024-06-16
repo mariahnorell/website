@@ -14,6 +14,8 @@ weight: 60
 ---
 
 # Introduction to Python
+# Introduction to Python
+
 ## Programming
 
 Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more!
