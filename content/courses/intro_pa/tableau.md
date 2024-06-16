@@ -9,7 +9,6 @@ menu:
     name: Tableau & Data Visualization
     weight: 80
 
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 80
 ---
 
@@ -31,5 +30,3 @@ Check out the following links for ways to get involved in the Tableau community:
 ## Installing Tableau
 
 If you are a student, you should be able to get a free trial account via [this website](https://www.tableau.com/academic/students). Others can click [this link](https://www.tableau.com/tft/activation) for a free 14-day trial. You may be prompted to choose between Tableau Desktop vs. Tableau Prep. For the following tutorials, Tableau Desktop will be preferred and is accessible with any type of computer you may have. 
-
-### *More information coming soon!*

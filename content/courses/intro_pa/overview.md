@@ -10,7 +10,6 @@ menu:
     name: Overview
     weight: 1
 
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
 ---
 
@@ -35,13 +34,3 @@ Top sites to find free data sets:
 - [Data.gov](https://www.data.gov/)
 - [Datahub.io](https://datahub.io/collections)
 - [Kaggle](https://www.kaggle.com/datasets)
-
-
-<!-- 
-
-With the influx of data becoming ever so available, the need for human resource professionals to increase their analytical skillset is necessary. 
-
-Add in research: 
-
-Huevel & Bondarouk, 2016
-https://www.analyticsinhr.com/blog/what-is-hr-analytics/ -->
