@@ -15,20 +15,11 @@ weight: 60
 
 # Introduction to Python
 
-## Programming
+## What is Python?
 
-Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more!
+Python is a programming language that was written by Guido van Rossum in the 1990s. Programming is the process of designing and building a computer program to accomplish many tasks. Some examples include analyzing data, generating algorithms, implementing rules and validations, and much more! This language initially became so popular because it was free and open-sourced, meaning anyone can use it. Python is now one of the most on-demand languages to learn as it is very readable to the user. By 2018, over 8 million people started programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is widely used by many professionals in both research and industry, so it will be powerful to have in your analytics tool belt.
 
-## Python
-
-Python is a programming language that was written by Guido van Rossum in the 1990s. This language initially became so popular because it was free and open-sourced, meaning anyone can use it. Python is now one of the most on-demand languages to learn as it is very readable to the user. By 2018, over 8 million people started programming in Python and there's been a steady 8-10% increase in usership year-over-year. This language is great for beginners and is widely used by many professionals in both research and industry, so it will be powerful to have in your analytics tool belt.
-
-The best way to learn this language is to dive right into a project. The following sections in this book contain HR-related examples and walkthroughs on how to use this powerful programming language to your advantage.
-
-
-## Libraries
-
-Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the Pandas library.
+Learning Python will give you superpowers in the workplace, especially in the People Analytics field, and the best way to learn this language is to dive right into a project. The following sections contain People Analytics and Human Resources related examples and walkthroughs on how to use this powerful programming language to your advantage.
 
 ## Choosing an IDE
 
@@ -89,9 +80,12 @@ Markdown is particularly helpful when we want to include notes about our code.
 
 Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
 
-## Pandas
 
-Pandas is a library within Python that makes data analysis with large data sets easy. It allows anyone to do basic, intermediate, and advanced level manipulations. It is widely used by data analysts and data scientists to perform operations commonly done in Excel, SPSS, or R. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook. You can create a DataFrame from scratch or you can read in a data file. Most commonly, this is shortened to `df` when writing code. We will begin with reading in Excel files to mimic real-world scenarios and use cases. 
+## Pandas Library
+
+Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the `pandas` library.
+
+`Pandas` is a library within Python that makes data analysis with large data sets easy. It allows anyone to do basic, intermediate, and advanced level manipulations. It is widely used by data analysts and data scientists to perform operations commonly done in Excel, SPSS, or R. Pandas operates in a rows-to-columns fashion (2D data set) which is called a 'DataFrame'. Think of a Google spreadsheet, SPSS file, or Excel workbook. You can create a DataFrame from scratch or you can read in a data file. Most commonly, this is shortened to `df` when writing code. We will begin with reading in Excel files to mimic real-world scenarios and use cases. 
 
 Whenever you want to add a new library for your code, the `import` command will be used. Open up a Jupyter Notebook file (.ipynb) and write the following command in a code cell:
 
@@ -192,7 +186,9 @@ Can you think of some advantages/disadvantages to using one of these three appro
 
 Try it out! Add a number in the parentheses to pull the amount of data you are interested in viewing.
 
-## Indexing with Numbers
+## Ways to Filter and View Data
+
+### Indexing with Numbers
 
 From the above section, we pulled all data to look at and in all one view. Often, the sheer volume of data you will work with will require you to filter down to only the relevant variables. In other words, instead of looking at a file with all rows and columns, you may really only be interested in some rows and/or some columns. One way we can select (or filter) our variables is to do something called indexing. Here's an example of how to pull a column of information you can write:
 
@@ -267,7 +263,7 @@ df = pd.read_csv('filename.csv')
 df.iloc[:, :]
 ```
 
-## Indexing with Booleans
+### Indexing with Booleans
 
 We just learned how to slice our data by selecting the appropriate numbers for the rows and columns, but what if you don’t know exactly what to look for? Sometimes we deal with data sets that are so big we don't know what column number to search for. Instead, we can search through something called a 'Boolean expression'.
 
@@ -294,7 +290,7 @@ Obtain greater than or less than a value:
 Represents a minimum or maximum age value:
 - Lowest age in the data set -->
 
-## Sorting Data
+### Sorting Data
 
 Often, it is easier to look at data once it has been sorted from largest to smallest or the reverse, for any given column. In the `pandas` library, the default syntax is to sort in ascending order. For example, we could sort our data by the Age column, this is what we would write:
 
@@ -313,7 +309,9 @@ hr_df.sort_values(by = 'column name', ascending = False)
 <!-- ### Viewing vs. Changing the DF -->
 It's important to note that 'sort_values()' does not **change** the data. Everything we have learned so far are different ways to **view** the data and not manipulate it.
 
-## Describing Data
+<!-- Consider adding tutorial here!!! -->
+
+## Descriptive Statistics
 
 Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls:
 
@@ -375,7 +373,7 @@ df_name.column_name.count()
 
 ## Tutorial 2
 
-We just learned how to index, sort, and describe data. To practice what we just learned, let's use the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set. 
+We just learned how to obtain high level descriptive statistics data. To practice what we just learned, let's use the following HR data set from Kaggle: https://www.kaggle.com/rhuebner/human-resources-data-set. 
 
 ### Part One: Describe Command
 
@@ -391,7 +389,7 @@ What insights can you gather from looking at the data using these commands?
 
 ## Correlations
 
-Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
+Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the `pandas` library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
 
 To get the correlations with this method, write it out using the syntax `.corr()`:
 
@@ -448,11 +446,11 @@ John Tukey (an American mathematician and statistician) once said, “An approxi
 
 ### Definition
 
-Ultimately, a linear regression is an attempt to model the relationship between two variables by fitting the linear equation to the observed data (i.e., finding the line of best fit). Statisticians, data scientists, and business professionals use linear regressions often as a means to predict the values of one variable from values of the other variables in question. In a linear regression, one variable is explanatory (i.e., independent variable) and the other is predicted (i.e., dependent variable). Sometimes, there might be more than one explanatory or predicted variable, but more on that later.
+A linear regression is an attempt to model the relationship between two variables by fitting the linear equation to the observed data (i.e., finding the line of best fit). Statisticians, data scientists, and business professionals use linear regressions often as a means to predict the values of one variable from values of the other variables in question. One variable is explanatory (i.e., independent variable) and the other is predicted (i.e., dependent variable). Sometimes, there might be more than one explanatory or predicted variable, but more on that later.
 
 ### Assumptions
 
-Depending on the model you build, there will be a variety of assumptions/conditions needed to ensure proper model predictions and estimates.
+Depending on the question you are trying to answer, there will be a variety of assumptions/conditions needed to ensure proper model predictions and estimates.
 
 The following are the core assumptions needed for linear regression modeling: 
 
@@ -571,7 +569,7 @@ For horizontal bars, your code would look like this:
 plot_name = sns.countplot(y = df_name.col2)
 ```
 
-## Word Clouds
+### Word Clouds
 
 To visualize text data, one of the most common Python libraries is *wordcloud*. It does not come pre-installed when you downloaded Jupyter Notebook through Anaconda, however, it is easy to install. To install `wordcloud`, go to your preferred IDE (integrated development environment) and enter the following command: `pip install wordcloud`. After it is installed, you can import it just like the any other library and read in your `df` to generate a variety of images.
 

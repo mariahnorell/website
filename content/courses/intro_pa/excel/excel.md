@@ -12,3 +12,14 @@ menu:
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 40
 ---
+
+# Introduction to Excel
+
+## What is Excel?
+Excel is spreadsheet software that allows students, teachers, businesses, and other professionals to analyze data, create visualizations, and more. Formulas and functions are commonly used - perhaps the most common being `vlookup` or a `pivot table`. Regardless of the maturity of an organization, the People Analytics and Human Resources teams will almost always use Excel in some way. Therefore, it is an essential skill that must be learned. 
+
+## Installing Excel
+
+If you are a student at University, there is a strong likelihood that you already have access via [this website](https://www.microsoft.com/en-us/education/products/office). A common alternative to Excel is Google Sheets which only requires a user to have a gmail account. The following tutorials will predominantly utilize Excel, though it should be noted that Google Sheets can be used as a substitute in most cases. 
+
+## *More information coming soon!*
