@@ -14,7 +14,8 @@ weight: 60
 ---
 
 # Introduction to Python
-# Introduction to Python
+
+ 
 
 ## Programming
 
@@ -31,7 +32,7 @@ The best way to learn this language is to dive right into a project. The followi
 
 Programming languages have libraries that act as a collection of code that has been stored together in one single file. Using the designated code 'unlocks' your access to that library, which in turn allows you to do some pretty powerful computing. To start writing Python code, you will need to do your research on which libraries you need for your analysis. For now, we will begin with the Pandas library.
 
-# Choosing an IDE
+## Choosing an IDE
 
 You can write Python code in numerous IDEs (integrated development environments). The Python language stays the same regardless of the IDE you choose to use, but each IDE may look different or have different features. Think of it this way: your Gmail or Outlook account still functions as an e-mail account, but can be accessed through many different browsers like Chrome, Firefox, or Safari that have their own characteristics.
 
@@ -41,10 +42,10 @@ Examples of IDEs include:
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Jupyter Notebook](https://jupyter.org/)
 
-## Installing Anaconda
+### Installing Anaconda
 Anaconda is an open-source environment for individuals to write code and is helpful to all data analysts. Go to [anaconda.com](https://www.anaconda.com/products/individual) to download Python 3.7 for your computer and follow all instruction prompts.
 
-## Jupyter Notebook Basics
+### Jupyter Notebook Basics
 
 Jupyter Notebook is a very user-friendly IDE that allows you to chunk out your code and write in text in a clear way. The way we add in this text is through something called *Markdown*. It is helpful to alternate between writing in Markdown and writing code because it will visually organize the project you set out to accomplish. In addition, organizing your Notebook will help others (i.e., colleagues, interview committees, friends) understand your thought process.
 
@@ -90,7 +91,7 @@ Markdown is particularly helpful when we want to include notes about our code.
 
 Now that we have installed Anaconda and have Jupyter Notebook, we can begin coding!
 
-# Pandas Library
+## Pandas Library
 
 Pandas is a data analysis tool that makes it easy to work with large data sets and do basic, intermediate, and advanced level manipulations. It's a tool used widely by data analysts and data scientists to perform operations commonly done in Excel or SPSS.
 
@@ -207,7 +208,7 @@ Try it out! Add a number in the parentheses to pull the amount of data you are i
 Recall that Pandas operates in a rows-to-columns fashion (2D data set) called a 'DataFrame'. Most commonly, this is shortened to `df` when writing code.
 
 
-# Indexing with Numbers
+## Indexing with Numbers
 
 Indexing means we want to select a specific row/column in a DataFrame. To pull a column of information you can write:
 
@@ -330,7 +331,7 @@ hr_df.sort_values(by = 'column name', ascending = False)
 <!-- ### Viewing vs. Changing the DF -->
 It's important to note that 'sort_values()' does not CHANGE the data. Everything we have learned so far are different ways to VIEW the data and not manipulate it.
 
-# Describing Data
+## Describing Data
 
 Just like in Excel, there are some quick ways to pull basic (and even some complex) statistics in Python. Within the `pandas` library, there is one shortcut command that pulls:
 
@@ -406,7 +407,7 @@ What insights can you gather from looking at the data using these commands?
 
 <script src="https://gist.github.com/mariahnorell/d5b9b1f21dd876307698900bcafbb8a5.js"></script>
 
-# Correlations
+## Correlations
 
 Correlations measure the strength of a linear relationship between measurement variables and the purpose is to predict and understand the constructs. One useful function in the Pandas library is `.corr()`, which will find all relationships for each column that is a continuous variable in your data. It places these values in a tabular format and also automatically excludes blank values from the analysis.
 
@@ -515,7 +516,7 @@ When reviewing the data as a scatter plot on a graph, take notice to the outlier
 
 When reviewing the model results, the first number you can focus in on is R Square. R Square explains the goodness of fit - the closer to 1.00 the better!
 
-# Data Visualizations
+## Data Visualizations
 
 Within Python, the `matplotlib` library is popular for plotting data. There is also the `seaborn` library which uses functions from `matplotlib` as a foundation and tends to make much more visually appealing plots. Scatter plots, histograms, and count plots are all examples of found in `seaborn`.
 
