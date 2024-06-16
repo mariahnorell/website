@@ -1,5 +1,4 @@
 ---
-
 title: Python & Data Analysis
 toc: true
 type: book
@@ -33,7 +32,7 @@ Examples of IDEs include:
 - [Jupyter Notebook](https://jupyter.org/)
 
 ### Installing Anaconda
-Anaconda is an open-source environment for individuals to write code and is helpful to all data analysts. Go to [anaconda.com](https://www.anaconda.com/products/individual) to download Python 3.7 for your computer and follow all instruction prompts.
+Anaconda is an open-source (i.e., free) environment for individuals to write code and is helpful to all data analysts. Go to [anaconda.com](https://www.anaconda.com/products/individual) to download Python 3.7 for your computer and follow all instruction prompts.
 
 ### Jupyter Notebook Basics
 
