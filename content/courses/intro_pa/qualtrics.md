@@ -61,7 +61,7 @@ Here's a list of guiding principals to keep in mind when creating survey items:
 | Putting demographics at the front/top  | This often biases the survey taker to be less honest compared to putting them at the end. |
 | Ambiguity | Leads to ambiguous data analysis and less reliability in results. |
 | Double barreled questions | Survey taker can't respond to both items separately and reduces validity in the item. |
-| Too many questions | If the survey has too many questions, most often than not the employee will stop participating midway. |
+| Too many questions | If the survey has too many questions, most often than not the employee will stop participating midway. | 
 
 ### Survey Fatigue
  

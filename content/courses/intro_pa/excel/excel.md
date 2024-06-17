@@ -37,7 +37,7 @@ Before going into specific examples of using Excel in the People Analytics space
 *Once you feel comfortable with the above, you are ready to for a beginner-friendly analysis with people data!* 
 
 
-
+ 
 <!-- {{< table path="Cleaning-Data.csv" header="true" caption="Table 1: My results" >}}
 
 ![Step 1](/cleaning-data-step1.png) -->
