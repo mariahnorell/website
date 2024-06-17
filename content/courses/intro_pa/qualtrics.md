@@ -35,13 +35,13 @@ Surveys are a good tool to learn about your workforce. As a People Analytics pro
 - Qualitative vs. quantitative data from a survey
 - How to analyze results from the survey in a way that makes sense
 
-The following sections will dive into each of these themes so that you begin to feel more comfortable creating a survey in the future, if you are ever put in such a position.
+The following sections will dive into each of these themes so that you begin to feel more comfortable creating a survey in the future.
 
 ### Writing Good Survey Items 
 
-Have you ever taken a survey about your experience with a product or within an organization asking about your experience with the company? These are just two examples of many options that circulate business needs. If you have taken one before and have scratched your head, slightly confused at what the survey item was asking about, you are not alone! 
+Have you ever taken a survey about your experience with a product or within an organization asking about your experience with the company? These are just two examples of many options that circulate business needs. 
 
-What makes a survey item bad? Take a look at the three items listed below and see if you can identify if these are `good` vs. `bad` and why?
+If you have taken one before and have scratched your head, slightly confused as to what the survey item was asking about, you are not alone! So, what makes a survey item bad? Take a look at the three items below and see if you can identify why?
 
 ``` 
 1. Please rate the speed and accuracy of the help you received. 
@@ -54,14 +54,14 @@ If you thought these were ambiguous or worded in a confusing way, then you are c
 Here's a list of guiding principals to keep in mind when creating survey items: 
 | Avoid the use of:  | Why? |
 | ------------- | ------------- |
-| Yes/No questions  | Analyzing this down the line will provide less meaningful insights |
-| Using jargon  | If your survey taker cannot understand slang/jargon, they will not be able to answer the question to the best of their abilities |
-| Being inconsistent with scales  | Could confuse the survey taker if they thought "agree" was always on the right and taking the survey quickly |
-| Asking sensitive questions  | This starts to dissuade the survey taker for fear of being identified from results |
-| Putting demographics at the front/top  | This often biases the survey taker to be less honest compared to putting them at the end |
-| Ambiguity | Leads to ambiguous data analysis and less reliability in results |
-| Double barreled questions | Survey taker can't respond to both items separately and reduces validity in the item |
-| Too many questions | If the survey has too many questions, most often than not the employee will stop participating midway |
+| Yes/No questions  | Analyzing this down the line will provide less meaningful insights. |
+| Using jargon  | If your survey taker cannot understand slang/jargon, they will not be able to answer the question to the best of their abilities. |
+| Being inconsistent with scales  | Could confuse the survey taker if they thought "agree" was always on the right and taking the survey quickly. |
+| Asking sensitive questions  | This starts to dissuade the survey taker for fear of being identified from results. |
+| Putting demographics at the front/top  | This often biases the survey taker to be less honest compared to putting them at the end. |
+| Ambiguity | Leads to ambiguous data analysis and less reliability in results. |
+| Double barreled questions | Survey taker can't respond to both items separately and reduces validity in the item. |
+| Too many questions | If the survey has too many questions, most often than not the employee will stop participating midway. |
 
 ### Survey Fatigue
 
