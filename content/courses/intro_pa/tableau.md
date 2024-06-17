@@ -13,7 +13,7 @@ weight: 80
 ---
 
 # Introduction
-
+ 
 ## What is Tableau?
 
 Tableau is a visual platform for data analytics, also known as a business intelligence tool. If you have been following along in this book sequentially, you will have noticed that: 

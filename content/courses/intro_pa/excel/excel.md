@@ -34,7 +34,7 @@ Before going into specific examples of using Excel in the People Analytics space
 - [Find Duplicates](https://www.excel-easy.com/examples/find-duplicates.html)
 - [Additional Formulas and Functions](https://www.excel-easy.com)
 
-*Once you feel comfortable with the above, you are ready to for a beginner-friendly analysis with people data!*
+*Once you feel comfortable with the above, you are ready to for a beginner-friendly analysis with people data!* 
 
 
 

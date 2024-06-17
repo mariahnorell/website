@@ -64,7 +64,7 @@ Here's a list of guiding principals to keep in mind when creating survey items:
 | Too many questions | If the survey has too many questions, most often than not the employee will stop participating midway. |
 
 ### Survey Fatigue
-
+ 
 In most companies, an engagement survey may only happen once or twice a year as to not *overwhelm* the employees. The Covid-19 pandemic disrupted this as the world moved into a remote-first working model. Many companies started sending out monthly, if not weekly, surveys to their employees to make sure they could keep a good pulse on what they were feeling and experiencing. So, while there will always be exceptions to the rule, in general it is not advised to send out employee engagement surveys too frequently as the response rates will slowly decline over time with employees feeling bored or tired of answering.  
 
 If you think about the entire employee journey within a company however, there are numerous touch points that typically correspond to a survey item. For example, in onboarding survey items, you may be asked, "Did you speak with your manager on the first day?". Or perhaps after a large distribution of teams management may ask about your morale or something like, "I feel recognized for the work I do". Finally at the end of one's employment, an exit survey could ask, "What could the company do better?". 
