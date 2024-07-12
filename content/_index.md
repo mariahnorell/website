@@ -67,7 +67,7 @@ sections:
           company_url: ''
           company_logo: ''
           location: California
-          date_start: '2022-05-01'
+          date_start: '2021-11-01'
           date_end: ''
           description: Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action. Promoted from Senior People Insights Partner in October 2023.
         - title: Lecturer, Lucas Graduate School of Business
