@@ -27,23 +27,23 @@ date_format: Jan 2006
 
 
 experience:
+  - title: Senior Manager, Workforce Strategy Analytics
+    company: Adobe
+    company_url: ''
+    location: California
+    date_start: '2024-09-30'
+    date_end: ''
+    description: |2-
+     ''
+
   - title: Lead People Insights Partner
     company: Atlassian
     company_url: ''
     location: California
-    date_start: '2023-10-01'
-    date_end: ''
-    description: |2-
-      Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action.
-
-  - title: Senior People Insights Partner
-    company: Atlassian
-    company_url: ''
-    location: California
     date_start: '2021-11-01'
-    date_end: '2023-09-30'
+    date_end: '2024-09-30'
     description: |2-
-      test
+      ''
  
   - title: Lecturer, Lucas Graduate School of Business
     company: San Jose State University
