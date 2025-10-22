@@ -62,14 +62,25 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Senior Manager, Workforce Strategy Analytics
+          company: Adobe
+          company_url: ''
+          company_logo: ''
+          location: California
+          date_start: '2024-09-30'
+          date_end: ''
+          description: ''
+      
+      items:
         - title: Lead People Insights Partner
           company: Atlassian
           company_url: ''
           company_logo: ''
           location: California
           date_start: '2021-11-01'
-          date_end: ''
-          description: Deeply understanding the needs of my business stakeholders, translating those needs into analytical and research projects, and delivering science-backed insights and recommendations to drive action. Promoted from Senior People Insights Partner in October 2023.
+          date_end: '2024-09-13'
+          description: ''
+
         - title: Lecturer, Lucas Graduate School of Business
           company: San Jose State University
           company_url: ''
